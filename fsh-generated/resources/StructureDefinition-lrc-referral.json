@@ -1,0 +1,121 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lrc-referral",
+  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+  "name": "LrcReferral",
+  "title": "Lrc Lab Test Referral",
+  "status": "draft",
+  "description": "הפניה לבדיקת מעבדה, או לפאנל (סוללה) של בדיקות מעבדה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "quick",
+      "uri": "http://siframework.org/cqf",
+      "name": "Quality Improvement and Clinical Knowledge (QUICK)"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://fhir.health.gov.il/StructureDefinition/il-core-service-request",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest.identifier",
+        "path": "ServiceRequest.identifier",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.identifier.system",
+        "path": "ServiceRequest.identifier.system",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.identifier.value",
+        "path": "ServiceRequest.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.intent",
+        "path": "ServiceRequest.intent",
+        "fixedCode": "order"
+      },
+      {
+        "id": "ServiceRequest.category:il-core",
+        "path": "ServiceRequest.category",
+        "sliceName": "il-core",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "108252007",
+              "display": "Laboratory procedure"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",
+              "valueCanonical": "http://hl7.org/fhir/ValueSet/observation-codes"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ServiceRequest.code.coding.system",
+        "path": "ServiceRequest.code.coding.system",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.code.coding.code",
+        "path": "ServiceRequest.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.subject",
+        "path": "ServiceRequest.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ServiceRequest.requester",
+        "path": "ServiceRequest.requester",
+        "min": 1
+      }
+    ]
+  }
+}

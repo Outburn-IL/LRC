@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "meuhedet-lab-result-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>http://fhir.meuhedet.co.il/code/lab-result</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"meuhedet-lab-result-code-600\"> </a></td><td>CBC</td></tr><tr><td style=\"white-space:nowrap\">624<a name=\"meuhedet-lab-result-code-624\"> </a></td><td>PT</td></tr></table></div>"
+  },
+  "url" : "http://fhir.meuhedet.co.il/code/lab-result",
+  "version" : "0.1.0",
+  "name" : "MeuhedetLabResultCode",
+  "title" : "Meuhedet Lab Result Code",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-02-14T10:58:23+02:00",
+  "publisher" : "Outburn LTD.",
+  "contact" : [{
+    "name" : "Outburn LTD.",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://outburn.co.il"
+    }]
+  }],
+  "description" : "List of Lab result codes for Meuhadet HMO",
+  "caseSensitive" : false,
+  "content" : "fragment",
+  "count" : 2,
+  "concept" : [{
+    "code" : "600",
+    "display" : "CBC"
+  },
+  {
+    "code" : "624",
+    "display" : "PT"
+  }]
+}

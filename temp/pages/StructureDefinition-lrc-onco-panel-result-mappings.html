@@ -1,0 +1,27 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='lrc-onco-panel-result' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='lrc-onco-panel-result' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: LrcHospitalCommunityOncoPanelLabResult - Mappings</h2>
+{% include fragment-simpletable.html %}
+
+<p>Mappings for the lrc-onco-panel-result {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='lrc-onco-panel-result' %}
+
+  {%include StructureDefinition-lrc-onco-panel-result-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='lrc-onco-panel-result' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

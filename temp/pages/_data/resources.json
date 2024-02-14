@@ -1,0 +1,465 @@
+{
+  "ImplementationGuide/lab-referral-cycle" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "C:\\IG\\LRC\\fsh-generated\\resources\\ImplementationGuide-lab-referral-cycle.json",
+    "sourceTail" : "ImplementationGuide-lab-referral-cycle.json",
+    "path" : "ImplementationGuide-lab-referral-cycle.html",
+    "url" : "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle",
+    "version" : "0.1.0",
+    "name" : "LabReferralCycle",
+    "title" : "Hospital-Community Lab Referral Cycle",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/meuhedet-lab-result-code" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/CodeSystem-meuhedet-lab-result-code.json",
+    "sourceTail" : "CodeSystem-meuhedet-lab-result-code.json",
+    "path" : "CodeSystem-meuhedet-lab-result-code.html",
+    "url" : "http://fhir.meuhedet.co.il/code/lab-result",
+    "version" : "0.1.0",
+    "name" : "MeuhedetLabResultCode",
+    "title" : "Meuhedet Lab Result Code",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "List of Lab result codes for Meuhadet HMO",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "DiagnosticReport/3917" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/DiagnosticReport-3917.json",
+    "sourceTail" : "DiagnosticReport-3917.json",
+    "path" : "DiagnosticReport-3917.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/3913" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/Observation-3913.json",
+    "sourceTail" : "Observation-3913.json",
+    "path" : "Observation-3913.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/3914" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/Observation-3914.json",
+    "sourceTail" : "Observation-3914.json",
+    "path" : "Observation-3914.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/3915" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/Observation-3915.json",
+    "sourceTail" : "Observation-3915.json",
+    "path" : "Observation-3915.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/4015" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/Observation-4015.json",
+    "sourceTail" : "Observation-4015.json",
+    "path" : "Observation-4015.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "ServiceRequest/3906" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/ServiceRequest-3906.json",
+    "sourceTail" : "ServiceRequest-3906.json",
+    "path" : "ServiceRequest-3906.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "ServiceRequest/3907" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/ServiceRequest-3907.json",
+    "sourceTail" : "ServiceRequest-3907.json",
+    "path" : "ServiceRequest-3907.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "ServiceRequest/3908" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 9,
+    "source" : "fsh-generated/resources/ServiceRequest-3908.json",
+    "sourceTail" : "ServiceRequest-3908.json",
+    "path" : "ServiceRequest-3908.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "ServiceRequest/3909" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 10,
+    "source" : "fsh-generated/resources/ServiceRequest-3909.json",
+    "sourceTail" : "ServiceRequest-3909.json",
+    "path" : "ServiceRequest-3909.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "ServiceRequest/4014" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 11,
+    "source" : "fsh-generated/resources/ServiceRequest-4014.json",
+    "sourceTail" : "ServiceRequest-4014.json",
+    "path" : "ServiceRequest-4014.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/lrc-hospital-community-onco-lab-result" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 12,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-hospital-community-onco-lab-result.json",
+    "sourceTail" : "StructureDefinition-lrc-hospital-community-onco-lab-result.json",
+    "path" : "StructureDefinition-lrc-hospital-community-onco-lab-result.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoLabResult",
+    "title" : "Lrc Hospital Community Onco Lab Result",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-lab-report" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 13,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-lab-report.json",
+    "sourceTail" : "StructureDefinition-lrc-lab-report.json",
+    "path" : "StructureDefinition-lrc-lab-report.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report",
+    "version" : "0.1.0",
+    "name" : "LrcLabReport",
+    "title" : "Lrc Lab Test Report",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "דוח מסכם עבור תוצאות הפניה מרכזת.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-onco-panel-result" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 14,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-onco-panel-result.json",
+    "sourceTail" : "StructureDefinition-lrc-onco-panel-result.json",
+    "path" : "StructureDefinition-lrc-onco-panel-result.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoPanelLabResult",
+    "title" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה), במסגרת טיפול אונקולוגי.\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-onco-referral" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 15,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-onco-referral.json",
+    "sourceTail" : "StructureDefinition-lrc-onco-referral.json",
+    "path" : "StructureDefinition-lrc-onco-referral.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoLabReferral",
+    "title" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-panel-result" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 16,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-panel-result.json",
+    "sourceTail" : "StructureDefinition-lrc-panel-result.json",
+    "path" : "StructureDefinition-lrc-panel-result.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+    "version" : "0.1.0",
+    "name" : "LrcPanelResult",
+    "title" : "Lrc Panel Lab Test Result",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה).\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-referral-group" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 17,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-referral-group.json",
+    "sourceTail" : "StructureDefinition-lrc-referral-group.json",
+    "path" : "StructureDefinition-lrc-referral-group.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+    "version" : "0.1.0",
+    "name" : "LrcReferralGroup",
+    "title" : "Lrc Lab Test Referral Group",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "הפניה מרכזת. להפניה הזו אין קוד בדיקה, אלא היא כוללת קישורים לכל הבדיקות הספציפיות שיש לבצע.\r\nפרופיל זה מהווה טריגר לתחילת הטיפול בתהליך מצד הארגון המבצע.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-referral" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 18,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-referral.json",
+    "sourceTail" : "StructureDefinition-lrc-referral.json",
+    "path" : "StructureDefinition-lrc-referral.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+    "version" : "0.1.0",
+    "name" : "LrcReferral",
+    "title" : "Lrc Lab Test Referral",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "הפניה לבדיקת מעבדה, או לפאנל (סוללה) של בדיקות מעבדה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/lrc-result" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 19,
+    "source" : "fsh-generated/resources/StructureDefinition-lrc-result.json",
+    "sourceTail" : "StructureDefinition-lrc-result.json",
+    "path" : "StructureDefinition-lrc-result.html",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+    "version" : "0.1.0",
+    "name" : "LrcResult",
+    "title" : "Lrc Test Result",
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "תוצאת בדיקת מעבדה בודדת.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-onco-panel-result-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 20,
+    "source" : "fsh-generated/resources/ValueSet-lrc-onco-panel-result-codes.json",
+    "sourceTail" : "ValueSet-lrc-onco-panel-result-codes.json",
+    "path" : "ValueSet-lrc-onco-panel-result-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoPanelResultCodes",
+    "title" : "Lrc Onco Panel Result Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-onco-referral-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 21,
+    "source" : "fsh-generated/resources/ValueSet-lrc-onco-referral-codes.json",
+    "sourceTail" : "ValueSet-lrc-onco-referral-codes.json",
+    "path" : "ValueSet-lrc-onco-referral-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoReferralCodes",
+    "title" : "Lrc Oncology Related referral Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-onco-result-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 22,
+    "source" : "fsh-generated/resources/ValueSet-lrc-onco-result-codes.json",
+    "sourceTail" : "ValueSet-lrc-onco-result-codes.json",
+    "path" : "ValueSet-lrc-onco-result-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoResultCodes",
+    "title" : "Lrc Onco Result Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-panel-result-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 23,
+    "source" : "fsh-generated/resources/ValueSet-lrc-panel-result-codes.json",
+    "sourceTail" : "ValueSet-lrc-panel-result-codes.json",
+    "path" : "ValueSet-lrc-panel-result-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcPanelResultCodes",
+    "title" : "Lrc Panel Result Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-referral-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 24,
+    "source" : "fsh-generated/resources/ValueSet-lrc-referral-codes.json",
+    "sourceTail" : "ValueSet-lrc-referral-codes.json",
+    "path" : "ValueSet-lrc-referral-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
+    "version" : "0.1.0",
+    "name" : "LrcReferralCodes",
+    "title" : "Lrc Referral Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי הפניות.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/lrc-result-codes" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 25,
+    "source" : "fsh-generated/resources/ValueSet-lrc-result-codes.json",
+    "sourceTail" : "ValueSet-lrc-result-codes.json",
+    "path" : "ValueSet-lrc-result-codes.html",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcResultCodes",
+    "title" : "Lrc Result Codes",
+    "experimental" : false,
+    "date" : "2024-02-14T10:58:23+02:00",
+    "description" : "רשימת קודי Loinc לייצוג קודי התוצאות.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Outburn LTD.",
+      "link" : "http://outburn.co.il",
+      "status" : "Draft"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "fragment",
+  "name": "MeuhedetLabResultCode",
+  "id": "meuhedet-lab-result-code",
+  "title": "Meuhedet Lab Result Code",
+  "description": "List of Lab result codes for Meuhadet HMO",
+  "url": "http://fhir.meuhedet.co.il/code/lab-result",
+  "concept": [
+    {
+      "code": "600",
+      "display": "CBC"
+    },
+    {
+      "code": "624",
+      "display": "PT"
+    }
+  ],
+  "version": "0.12.1",
+  "caseSensitive": false,
+  "experimental": false,
+  "count": 2
+}

@@ -1,0 +1,74 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "3909",
+  "meta": {
+    "profile": [
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
+    }
+  ],
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/3906"
+    },
+    {
+      "reference": "ServiceRequest/3907"
+    },
+    {
+      "reference": "ServiceRequest/3908"
+    }
+  ],
+  "requisition": {
+    "value": "51ecd763-209e-4681-b19e-e3fcc1f1d1e4"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "108252007",
+          "display": "Laboratory procedure"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "identifier": {
+      "system": "http://fhir.health.gov.il/identifier/il-national-id",
+      "value": "123456789"
+    },
+    "reference": "Patient/90",
+    "type": "Patient"
+  },
+  "requester": {
+    "identifier": {
+      "system": "http://institutions.health.gov.il/Institutions",
+      "value": "01101"
+    },
+    "type": "Organization",
+    "display": "מרכז רפואי ע\"ש ד\"ר ח. שיבא, תל-השומר"
+  },
+  "note": [
+    {
+      "text": "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
+    }
+  ],
+  "intent": "order",
+  "priority": "urgent",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11502-2",
+        "display": "Laboratory Report"
+      }
+    ]
+  },
+  "status": "active",
+  "authoredOn": "2023-04-03T11:32:40+03:00"
+}

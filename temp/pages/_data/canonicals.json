@@ -1,0 +1,114 @@
+[
+  {
+    "id" : "meuhedet-lab-result-code",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.meuhedet.co.il/code/lab-result",
+    "version" : "0.1.0",
+    "name" : "MeuhedetLabResultCode"
+  },
+  {
+    "id" : "lab-referral-cycle",
+    "type" : "ImplementationGuide",
+    "url" : "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle",
+    "version" : "0.1.0",
+    "name" : "LabReferralCycle"
+  },
+  {
+    "id" : "lrc-lab-report",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report",
+    "version" : "0.1.0",
+    "name" : "LrcLabReport"
+  },
+  {
+    "id" : "lrc-onco-panel-result",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoPanelLabResult"
+  },
+  {
+    "id" : "lrc-onco-referral",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoLabReferral"
+  },
+  {
+    "id" : "lrc-result",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+    "version" : "0.1.0",
+    "name" : "LrcResult"
+  },
+  {
+    "id" : "lrc-panel-result",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+    "version" : "0.1.0",
+    "name" : "LrcPanelResult"
+  },
+  {
+    "id" : "lrc-referral",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+    "version" : "0.1.0",
+    "name" : "LrcReferral"
+  },
+  {
+    "id" : "lrc-referral-group",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+    "version" : "0.1.0",
+    "name" : "LrcReferralGroup"
+  },
+  {
+    "id" : "lrc-hospital-community-onco-lab-result",
+    "type" : "StructureDefinition",
+    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result",
+    "version" : "0.1.0",
+    "name" : "LrcHospitalCommunityOncoLabResult"
+  },
+  {
+    "id" : "lrc-onco-panel-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoPanelResultCodes"
+  },
+  {
+    "id" : "lrc-onco-referral-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoReferralCodes"
+  },
+  {
+    "id" : "lrc-onco-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcOncoResultCodes"
+  },
+  {
+    "id" : "lrc-panel-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcPanelResultCodes"
+  },
+  {
+    "id" : "lrc-referral-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
+    "version" : "0.1.0",
+    "name" : "LrcReferralCodes"
+  },
+  {
+    "id" : "lrc-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
+    "version" : "0.1.0",
+    "name" : "LrcResultCodes"
+  }
+]

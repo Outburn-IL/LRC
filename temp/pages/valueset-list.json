@@ -1,0 +1,58 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcOncoPanelResultCodes",
+      "title" : "Lrc Onco Panel Result Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcOncoReferralCodes",
+      "title" : "Lrc Oncology Related referral Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcOncoResultCodes",
+      "title" : "Lrc Onco Result Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcPanelResultCodes",
+      "title" : "Lrc Panel Result Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcReferralCodes",
+      "title" : "Lrc Referral Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי הפניות.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LrcResultCodes",
+      "title" : "Lrc Result Codes",
+      "description" : "רשימת קודי Loinc לייצוג קודי התוצאות.",
+      "systems" : ["http://loinc.org"]
+    }
+  ]
+}

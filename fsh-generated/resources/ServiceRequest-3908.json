@@ -1,0 +1,58 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "3908",
+  "identifier": [
+    {
+      "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
+      "value": "733-103"
+    }
+  ],
+  "requisition": {
+    "value": "51ecd763-209e-4681-b19e-e3fcc1f1d1e4"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "108252007",
+          "system": "http://snomed.info/sct",
+          "display": "Laboratory procedure"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "identifier": {
+      "system": "http://fhir.health.gov.il/identifier/il-national-id",
+      "value": "123456789"
+    },
+    "reference": "Patient/90",
+    "type": "Patient"
+  },
+  "requester": {
+    "identifier": {
+      "system": "http://institutions.health.gov.il/Institutions",
+      "value": "01101"
+    },
+    "type": "Organization",
+    "display": "מרכז רפואי ע\"ש ד\"ר ח. שיבא, תל-השומר"
+  },
+  "note": [
+    {
+      "text": "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
+    }
+  ],
+  "status": "active",
+  "intent": "order",
+  "priority": "urgent",
+  "code": {
+    "coding": [
+      {
+        "code": "17861-6",
+        "system": "http://loinc.org",
+        "display": "Calcium [Mass/volume] in Serum or Plasma"
+      }
+    ]
+  },
+  "authoredOn": "2023-04-03T11:32:38+03:00"
+}
