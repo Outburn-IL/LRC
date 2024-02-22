@@ -1,0 +1,77 @@
+{
+  "resourceType": "Observation",
+  "id": "3915",
+  "identifier": [
+    {
+      "system": "http://fhir.meuhedet.co.il/identifier/lab-result",
+      "value": "1121991-20230403-100-733-3"
+    }
+  ],
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/3908"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "laboratory",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "17861-6",
+        "system": "http://loinc.org",
+        "display": "Calcium [Mass/volume] in Serum or Plasma"
+      }
+    ],
+    "text": "Calcium-SERUM"
+  },
+  "subject": {
+    "identifier": {
+      "system": "http://fhir.health.gov.il/identifier/il-national-id",
+      "value": "123456789"
+    },
+    "reference": "Patient/90",
+    "type": "Patient"
+  },
+  "performer": [
+    {
+      "identifier": {
+        "system": "http://fhir.meuhedet.co.il/laboratories",
+        "value": "73D01"
+      },
+      "type": "Organization",
+      "display": "קופת חולים מאוחדת"
+    }
+  ],
+  "referenceRange": [
+    {
+      "low": {
+        "value": 8.8,
+        "code": "Mg/dl",
+        "system": "http://unitsofmeasure.org"
+      },
+      "high": {
+        "value": 10.4,
+        "code": "Mg/dl",
+        "system": "http://unitsofmeasure.org"
+      }
+    }
+  ],
+  "status": "final",
+  "effectiveDateTime": "2023-04-03T11:32:38+03:00",
+  "issued": "2023-04-03T11:37:58.54+03:00",
+  "valueQuantity": {
+    "value": 9,
+    "code": "Mg/dl",
+    "system": "http://unitsofmeasure.org",
+    "unit": "MG/DL"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "3907",
+  "meta": {
+    "profile": [
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
+      "value": "733-102"
+    }
+  ],
+  "requisition": {
+    "value": "51ecd763-209e-4681-b19e-e3fcc1f1d1e4"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "108252007",
+          "display": "Laboratory procedure"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "identifier": {
+      "system": "http://fhir.health.gov.il/identifier/il-national-id",
+      "value": "123456789"
+    },
+    "reference": "Patient/90",
+    "type": "Patient"
+  },
+  "requester": {
+    "identifier": {
+      "system": "http://institutions.health.gov.il/Institutions",
+      "value": "01101"
+    },
+    "type": "Organization",
+    "display": "מרכז רפואי ע\"ש ד\"ר ח. שיבא, תל-השומר"
+  },
+  "note": [
+    {
+      "text": "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
+    }
+  ],
+  "intent": "order",
+  "status": "active",
+  "priority": "urgent",
+  "code": {
+    "coding": [
+      {
+        "code": "3094-0",
+        "system": "http://loinc.org",
+        "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+      }
+    ]
+  },
+  "authoredOn": "2023-04-03T11:32:38+03:00"
+}

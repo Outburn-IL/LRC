@@ -1,0 +1,366 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lrc-result",
+  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+  "name": "LrcResult",
+  "title": "Lrc Test Result",
+  "status": "active",
+  "description": "תוצאת בדיקת מעבדה בודדת.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.identifier",
+        "path": "Observation.identifier",
+        "min": 1
+      },
+      {
+        "id": "Observation.identifier.system",
+        "path": "Observation.identifier.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.identifier.value",
+        "path": "Observation.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "coding"
+            }
+          ],
+          "rules": "open",
+          "description": "Slice for hl7 category codes"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.category:hl7-lab",
+        "path": "Observation.category",
+        "sliceName": "hl7-lab",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.category:hl7-lab.coding",
+        "path": "Observation.category.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "description": "Slice for hl7 code for laboratory result"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.category:hl7-lab.coding:hl7",
+        "path": "Observation.category.coding",
+        "sliceName": "hl7",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      },
+      {
+        "id": "Observation.category:hl7-lab.coding:hl7.system",
+        "path": "Observation.category.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Observation.category:hl7-lab.coding:hl7.code",
+        "path": "Observation.category.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",
+              "valueCanonical": "http://loinc.org"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "description": "Loinc Lab report",
+          "ordered": false
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding:loinc-lab",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc-lab",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.code.coding:loinc-lab.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Observation.code.coding:loinc-lab.code",
+        "path": "Observation.code.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.subject.reference",
+        "path": "Observation.subject.reference",
+        "min": 1
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "min": 1
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
+        "min": 1
+      },
+      {
+        "id": "Observation.referenceRange.low",
+        "path": "Observation.referenceRange.low",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/ucum-common"
+        }
+      },
+      {
+        "id": "Observation.referenceRange.low.system",
+        "path": "Observation.referenceRange.low.system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange.high",
+        "path": "Observation.referenceRange.high",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/ucum-common"
+        }
+      },
+      {
+        "id": "Observation.referenceRange.high.system",
+        "path": "Observation.referenceRange.high.system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "open",
+          "description": "Textual or Nominal",
+          "ordered": false
+        }
+      },
+      {
+        "id": "Observation.component:textual",
+        "path": "Observation.component",
+        "sliceName": "textual",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:textual.code.coding",
+        "path": "Observation.component.code.coding",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:textual.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:textual.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "117444000"
+      },
+      {
+        "id": "Observation.component:textual.code.coding.display",
+        "path": "Observation.component.code.coding.display",
+        "patternString": "Text value"
+      },
+      {
+        "id": "Observation.component:textual.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:textual.value[x]:valueString",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueString",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:nominal",
+        "path": "Observation.component",
+        "sliceName": "nominal",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:nominal.code.coding",
+        "path": "Observation.component.code.coding",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:nominal.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "fixedUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.component:nominal.code.coding.code",
+        "path": "Observation.component.code.coding.code",
+        "fixedCode": "117362005"
+      },
+      {
+        "id": "Observation.component:nominal.code.coding.display",
+        "path": "Observation.component.code.coding.display",
+        "patternString": "Nominal value"
+      },
+      {
+        "id": "Observation.component:nominal.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:nominal.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:nominal.value[x]:valueCodeableConcept.coding",
+        "path": "Observation.component.value[x].coding",
+        "min": 1
+      }
+    ]
+  }
+}

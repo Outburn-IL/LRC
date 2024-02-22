@@ -1,0 +1,202 @@
+[
+  {
+    "outputFile": "CodeSystem-meuhedet-lab-result-code.json",
+    "fshName": "MeuhedetLabResultCode",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystem-meuhedel-lab-result-code.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "DiagnosticReport-3917.json",
+    "fshName": "3917",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3917.fsh",
+    "startLine": 1,
+    "endLine": 50
+  },
+  {
+    "outputFile": "Observation-3913.json",
+    "fshName": "3913",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3913.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "Observation-3914.json",
+    "fshName": "3914",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3914.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "Observation-3915.json",
+    "fshName": "3915",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3915.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "Observation-4015.json",
+    "fshName": "4015",
+    "fshType": "Instance",
+    "fshFile": "Examples\\4015.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "ServiceRequest-3906.json",
+    "fshName": "3906",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3906.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ServiceRequest-3907.json",
+    "fshName": "3907",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3907.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ServiceRequest-3908.json",
+    "fshName": "3908",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3908.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ServiceRequest-3909.json",
+    "fshName": "3909",
+    "fshType": "Instance",
+    "fshFile": "Examples\\3909.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ServiceRequest-4014.json",
+    "fshName": "4014",
+    "fshType": "Instance",
+    "fshFile": "Examples\\4014.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-hospital-community-onco-lab-result.json",
+    "fshName": "LrcHospitalCommunityOncoLabResult",
+    "fshType": "Profile",
+    "fshFile": "Observation-Lrc-Onco-Result.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-lab-report.json",
+    "fshName": "LrcLabReport",
+    "fshType": "Profile",
+    "fshFile": "DiagnosticReport-Lrc-Panel-Result.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-onco-panel-result.json",
+    "fshName": "LrcHospitalCommunityOncoPanelLabResult",
+    "fshType": "Profile",
+    "fshFile": "Observation-Lrc-Panel-Hospital-Community-Onco-Result.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-onco-referral.json",
+    "fshName": "LrcHospitalCommunityOncoLabReferral",
+    "fshType": "Profile",
+    "fshFile": "ServiceRequest-Lrc-Onco-Referral.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-panel-result.json",
+    "fshName": "LrcPanelResult",
+    "fshType": "Profile",
+    "fshFile": "Observation-Lrc-Panel-Result.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-referral-group.json",
+    "fshName": "LrcReferralGroup",
+    "fshType": "Profile",
+    "fshFile": "ServiceRequest-Lrc-Referral-Group.fsh",
+    "startLine": 1,
+    "endLine": 47
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-referral.json",
+    "fshName": "LrcReferral",
+    "fshType": "Profile",
+    "fshFile": "ServiceRequest-Lrc-Referral.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-lrc-result.json",
+    "fshName": "LrcResult",
+    "fshType": "Profile",
+    "fshFile": "Observation-Lrc-Result.fsh",
+    "startLine": 1,
+    "endLine": 71
+  },
+  {
+    "outputFile": "ValueSet-lrc-onco-panel-result-codes.json",
+    "fshName": "LrcOncoPanelResultCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-onco-panel-result-codes.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-lrc-onco-referral-codes.json",
+    "fshName": "LrcOncoReferralCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-onco-referral-codes.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-lrc-onco-result-codes.json",
+    "fshName": "LrcOncoResultCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-onco-result-codes.fsh",
+    "startLine": 1,
+    "endLine": 121
+  },
+  {
+    "outputFile": "ValueSet-lrc-panel-result-codes.json",
+    "fshName": "LrcPanelResultCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-panel-result-codes.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-lrc-referral-codes.json",
+    "fshName": "LrcReferralCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-referral-codes.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-lrc-result-codes.json",
+    "fshName": "LrcResultCodes",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSet-lrc-result-codes.fsh",
+    "startLine": 1,
+    "endLine": 122
+  }
+]

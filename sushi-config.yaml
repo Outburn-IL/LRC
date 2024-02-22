@@ -8,10 +8,10 @@ canonical: http://oncology.fhir.outburn.co.il
 name: LabReferralCycle
 title: Hospital-Community Lab Referral Cycle
 description: הפניה לבדיקות מעבדה מביה"ח לקהילה, וקבלת התוצאות בחזרה.
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
+copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
@@ -44,40 +44,43 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
-#
-# The parameters property represents IG.definition.parameter. Rather
-# than a list of code/value pairs (as in the ImplementationGuide
-# resource), the code is the YAML key. If a parameter allows repeating
-# values, the value in the YAML should be a sequence/array.
-# For parameters defined by core FHIR see:
-# http://build.fhir.org/codesystem-guide-parameter-code.html
-# For parameters defined by the FHIR Tools IG see:
-# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-#
-# parameters:
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
-#
+pages:
+  index.md:
+    title: על הפרויקט
+  data-flow.md:  
+    title: DataFlow
+  profiles-and-extensions.md:
+    title: פרופילים והרחבות
+  client-hospital.md: 
+    title: Client - בית החולים
+  examples.md:
+    title: דוגמאות
+  downloads.md:
+    title: הורדות
+  search-interactions.md: 
+  server-community.md:
+  server-hospital.md:
+
+
+  
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
-# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
-# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
-# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
-# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
-# │ property below.                                                                                │
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  קישורים נוספים:
+    FHIR Spec: new-tab {{site.data.fhir.path}}index.html
+    Israel LCore : new-tab https://en.fhir-il-community.org/fhir-israel-core
+  הורדות : downloads.html
+  משאבי FHIR: 
+    פרופילים והרחבות : profiles-and-extensions.html
+    דוגמאות: examples.html
+  הנחיות: 
+    חיפושים ואינטראקציות: search-interactions.html
+    server - קהילה: server-community.html
+    server - בית החולים: server-hospital.html
+    client - בית החולים: client-hospital.html
+  Dataflow : data-flow.html
+  בית: index.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
