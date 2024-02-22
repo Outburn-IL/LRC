@@ -10,9 +10,9 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -25,9 +25,9 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -68,8 +68,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-service-category",
@@ -82,8 +82,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/age-units",
@@ -97,9 +97,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.19"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -114,13 +114,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
+      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -148,9 +148,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -193,14 +193,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
+      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -214,14 +214,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
+      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -235,14 +235,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
+      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -257,8 +257,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -272,9 +272,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -291,9 +291,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -308,9 +308,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -325,9 +325,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -343,8 +343,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -376,9 +376,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -395,9 +395,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -427,8 +427,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -443,8 +443,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -459,8 +459,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -474,11 +474,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
+      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
@@ -493,8 +493,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-common",
@@ -592,8 +592,8 @@
       "uses" : {
       },
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
+      "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
     }
   ]
 }

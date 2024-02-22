@@ -10,12 +10,12 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes",
-      "ValueSet-lrc-onco-panel-result-codes.html" : "Lrc Onco Panel Result Codes",
       "ValueSet-lrc-result-codes.html" : "Lrc Result Codes",
+      "ValueSet-lrc-onco-result-codes.html" : "Lrc Onco Result Codes",
       "ValueSet-lrc-panel-result-codes.html" : "Lrc Panel Result Codes",
       "ValueSet-lrc-onco-referral-codes.html" : "Lrc Oncology Related referral Codes",
-      "ValueSet-lrc-onco-result-codes.html" : "Lrc Onco Result Codes"
+      "ValueSet-lrc-onco-panel-result-codes.html" : "Lrc Onco Panel Result Codes",
+      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes"
     },
     {
       "url" : "http://unitsofmeasure.org",

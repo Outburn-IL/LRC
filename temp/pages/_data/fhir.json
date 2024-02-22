@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 26,
   "processedFiles" : 63,
-  "genDate" : "Thu, Feb 22, 2024 18:05+0200",
+  "genDate" : "Thu, Feb 22, 2024 18:39+0200",
   "genDay" : "22/02/2024",
   "resourceTypes" : [
     "Account",
@@ -247,7 +247,7 @@
         "telecom" : ["http://outburn.co.il"]
       }
     ],
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

@@ -73,4 +73,4 @@ LabReferralCycle : Validation Results
 
 err = 57, warn = 18, info = 8
 IG Publisher Version: 1.5.8 Out of date - current version is 1.5.16
-Generated Thu Feb 22 18:10:18 IST 2024. FHIR version 4.0.1 for lab-referral-cycle#0.1.0 (canonical = http://oncology.fhir.outburn.co.il)
+Generated Thu Feb 22 18:42:18 IST 2024. FHIR version 4.0.1 for lab-referral-cycle#0.1.0 (canonical = http://oncology.fhir.outburn.co.il)

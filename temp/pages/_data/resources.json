@@ -11,7 +11,7 @@
     "version" : "0.1.0",
     "name" : "LabReferralCycle",
     "title" : "Hospital-Community Lab Referral Cycle",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
     "status" : {
       "class" : "colsi",
@@ -33,7 +33,7 @@
     "name" : "MeuhedetLabResultCode",
     "title" : "Meuhedet Lab Result Code",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "List of Lab result codes for Meuhadet HMO",
     "status" : {
       "class" : "colsd",
@@ -174,7 +174,7 @@
     "version" : "0.1.0",
     "name" : "LrcHospitalCommunityOncoLabResult",
     "title" : "Lrc Hospital Community Onco Lab Result",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsi",
@@ -195,7 +195,7 @@
     "version" : "0.1.0",
     "name" : "LrcLabReport",
     "title" : "Lrc Lab Test Report",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "דוח מסכם עבור תוצאות הפניה מרכזת.",
     "status" : {
       "class" : "colsi",
@@ -216,7 +216,7 @@
     "version" : "0.1.0",
     "name" : "LrcHospitalCommunityOncoPanelLabResult",
     "title" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה), במסגרת טיפול אונקולוגי.\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
     "status" : {
       "class" : "colsi",
@@ -237,7 +237,7 @@
     "version" : "0.1.0",
     "name" : "LrcHospitalCommunityOncoLabReferral",
     "title" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
     "status" : {
       "class" : "colsi",
@@ -258,7 +258,7 @@
     "version" : "0.1.0",
     "name" : "LrcPanelResult",
     "title" : "Lrc Panel Lab Test Result",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה).\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
     "status" : {
       "class" : "colsi",
@@ -279,7 +279,7 @@
     "version" : "0.1.0",
     "name" : "LrcReferralGroup",
     "title" : "Lrc Lab Test Referral Group",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "הפניה מרכזת. להפניה הזו אין קוד בדיקה, אלא היא כוללת קישורים לכל הבדיקות הספציפיות שיש לבצע.\r\nפרופיל זה מהווה טריגר לתחילת הטיפול בתהליך מצד הארגון המבצע.",
     "status" : {
       "class" : "colsi",
@@ -300,7 +300,7 @@
     "version" : "0.1.0",
     "name" : "LrcReferral",
     "title" : "Lrc Lab Test Referral",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "הפניה לבדיקת מעבדה, או לפאנל (סוללה) של בדיקות מעבדה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
     "status" : {
       "class" : "colsi",
@@ -321,7 +321,7 @@
     "version" : "0.1.0",
     "name" : "LrcResult",
     "title" : "Lrc Test Result",
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "תוצאת בדיקת מעבדה בודדת.",
     "status" : {
       "class" : "colsi",
@@ -343,7 +343,7 @@
     "name" : "LrcOncoPanelResultCodes",
     "title" : "Lrc Onco Panel Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -365,7 +365,7 @@
     "name" : "LrcOncoReferralCodes",
     "title" : "Lrc Oncology Related referral Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -387,7 +387,7 @@
     "name" : "LrcOncoResultCodes",
     "title" : "Lrc Onco Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -409,7 +409,7 @@
     "name" : "LrcPanelResultCodes",
     "title" : "Lrc Panel Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
     "status" : {
       "class" : "colsd",
@@ -431,7 +431,7 @@
     "name" : "LrcReferralCodes",
     "title" : "Lrc Referral Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי הפניות.",
     "status" : {
       "class" : "colsd",
@@ -453,7 +453,7 @@
     "name" : "LrcResultCodes",
     "title" : "Lrc Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:05:24+02:00",
+    "date" : "2024-02-22T18:39:46+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי התוצאות.",
     "status" : {
       "class" : "colsd",
