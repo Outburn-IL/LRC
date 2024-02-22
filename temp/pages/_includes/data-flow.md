@@ -7,7 +7,7 @@
 
 להלן תרשים של ה- flow, בהתייחס לאינטראקציות, לפרופילים ולמשאבים, בחלוקה של Client/Server 
 
-![LRC - Technical flow](./LRC_Technical_flow.pdf)
+![LRC - Technical flow](./LRC_Technical_flow.jpg)
 
 ### הסבר נלווה לתרשים
 
