@@ -18,10 +18,10 @@ nav.navbar.navbar-inverse {
 }
 
 :root {
-  --ig-status-text-color: #0000ff; /* 1. IG Title and status text color */
-  --navbar-bg-color: #0000ff; /* 2. Header container color */
-  --footer-container-bg-color: #0000ff; /* 4. Footer container color */
-  --btn-hover-color: #0000ff;  /* 6. Menu button hover color */
+  --ig-status-text-color: #175125  ; /* 1. IG Title and status text color */
+  --navbar-bg-color: #175125; /* 2. Header container color */
+  --footer-container-bg-color: #175125; /* 4. Footer container color */
+  --btn-hover-color: #175125;  /* 6. Menu button hover color */
 }
 
 p, li {
