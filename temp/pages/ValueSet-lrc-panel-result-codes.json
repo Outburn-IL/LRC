@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lrc-panel-result-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/57021-8/\">57021-8</a></td><td>CBC W Auto Differential panel - Blood</td></tr><tr><td><a href=\"https://loinc.org/5894-1/\">5894-1</a></td><td>Prothrombin time (PT) actual/Normal</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
+  "version" : "0.1.0",
+  "name" : "LrcPanelResultCodes",
+  "title" : "Lrc Panel Result Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-02-22T18:05:24+02:00",
+  "publisher" : "Outburn LTD.",
+  "contact" : [{
+    "name" : "Outburn LTD.",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://outburn.co.il"
+    }]
+  }],
+  "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "57021-8",
+        "display" : "CBC W Auto Differential panel - Blood"
+      },
+      {
+        "code" : "5894-1",
+        "display" : "Prothrombin time (PT) actual/Normal"
+      }]
+    }]
+  }
+}

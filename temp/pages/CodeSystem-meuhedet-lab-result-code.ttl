@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "meuhedet-lab-result-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>http://fhir.meuhedet.co.il/code/lab-result</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"meuhedet-lab-result-code-600\"> </a></td><td>CBC</td></tr><tr><td style=\"white-space:nowrap\">624<a name=\"meuhedet-lab-result-code-624\"> </a></td><td>PT</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.meuhedet.co.il/code/lab-result"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MeuhedetLabResultCode"] ; # 
+  fhir:title [ fhir:v "Meuhedet Lab Result Code"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-02-22T18:05:24+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Outburn LTD."] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Outburn LTD." ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://outburn.co.il" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "List of Lab result codes for Meuhadet HMO"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "fragment"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "600" ] ;
+     fhir:display [ fhir:v "CBC" ]
+  ] [
+     fhir:code [ fhir:v "624" ] ;
+     fhir:display [ fhir:v "PT" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

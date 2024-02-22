@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes,0.1.0,draft,,LrcOncoPanelResultCodes,Lrc Onco Panel Result Codes,"רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי.",,"LOINC"
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes,0.1.0,draft,,LrcOncoReferralCodes,Lrc Oncology Related referral Codes,"רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",,"LOINC"
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes,0.1.0,draft,,LrcOncoResultCodes,Lrc Onco Result Codes,"רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",,"LOINC"
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes,0.1.0,draft,,LrcPanelResultCodes,Lrc Panel Result Codes,"רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",,"LOINC"
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes,0.1.0,draft,,LrcReferralCodes,Lrc Referral Codes,"רשימת קודי Loinc לייצוג קודי הפניות.",,"LOINC"
+http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes,0.1.0,draft,,LrcResultCodes,Lrc Result Codes,"רשימת קודי Loinc לייצוג קודי התוצאות.",,"LOINC"

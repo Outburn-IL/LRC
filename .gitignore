@@ -5,7 +5,6 @@ LRC/publisher.jar
 publisher.jar
 LRC/input-cache
 LRC/template
-LRC/output
 *.db
 full-ig.zip
 .index.json
