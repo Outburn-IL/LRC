@@ -26,8 +26,8 @@
   "dependsOn": [
     {
       "packageId": "il.core.fhir.r4",
+      "uri": "http://fhir.health.gov.il/ImplementationGuide/health.gov.il.fhir.core",
       "version": "0.13.2",
-      "uri": "http://fhir.org/packages/il.core.fhir.r4/ImplementationGuide/il.core.fhir.r4",
       "id": "il_core_fhir_r4"
     }
   ],

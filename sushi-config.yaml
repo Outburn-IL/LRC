@@ -25,7 +25,10 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  il.core.fhir.r4: latest
+  il.core.fhir.r4: 
+    uri:  http://fhir.health.gov.il/ImplementationGuide/health.gov.il.fhir.core
+    version: 0.13.2
+
 
 #   hl7.fhir.us.mcode:
 #     id: mcode
