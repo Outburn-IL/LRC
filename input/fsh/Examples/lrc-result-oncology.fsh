@@ -1,17 +1,19 @@
-Instance: 3915
-InstanceOf: Observation
+Instance: lrc-result-oncology-calcium
+InstanceOf: lrc-result
 Usage: #example
+* meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-result"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות בדיקת סידן בסרום של מטופל עבור אשפוז יום אונקולוגי</div>"
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/lab-result"
-* identifier.value = "1121991-20230403-100-733-3"
-* basedOn = Reference(3908)
+* identifier.value = "1304421043-20230802-1337-3231"
+* basedOn = Reference(ServiceRequest/3908)
 * status = #final
-* category = $hl7-obs-category-cs#laboratory "Laboratory"
+* category = $observation-category#laboratory "Laboratory"
 * code = $loinc#17861-6 "Calcium [Mass/volume] in Serum or Plasma"
 * code.text = "Calcium-SERUM"
 * subject = Reference(Patient/90)
 * subject.type = "Patient"
 * subject.identifier.system = "http://fhir.health.gov.il/identifier/il-national-id"
-* subject.identifier.value = "123456789"
+* subject.identifier.value = "000000018"
 * effectiveDateTime = "2023-04-03T11:32:38+03:00"
 * issued = "2023-04-03T11:37:58.54+03:00"
 * performer.type = "Organization"

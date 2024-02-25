@@ -42,6 +42,6 @@ ImplementationGuide זה מתייחס לתהליך העברת הפניות לב�
 #### תרשים Data Model
 
 
-![תרשים Data Model](Visualizer_LAB_IG_Bundle.png)
+![תרשים Data Model](./Visualizer_LAB_IG_Bundle.png)
 
 </div>

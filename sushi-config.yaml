@@ -49,20 +49,22 @@ dependencies:
 #
 pages:
   index.md:
-    title: על הפרויקט
+    title: אודות הפרויקט
   data-flow.md:  
     title: DataFlow
-  profiles-and-extensions.md:
-    title: פרופילים והרחבות
+  search-interactions.md: 
+  server-community.md:
+    title: Server - קהילה
+  server-hospital.md:
+    title: Server - בית החולים
   client-hospital.md: 
     title: Client - בית החולים
+  profiles-and-extensions.md:
+    title: פרופילים והרחבות
   examples.md:
     title: דוגמאות
   downloads.md:
     title: הורדות
-  search-interactions.md: 
-  server-community.md:
-  server-hospital.md:
 
 
   

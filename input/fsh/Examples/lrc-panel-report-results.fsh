@@ -1,18 +1,17 @@
-Instance: 3917
-InstanceOf: LrcLabReport
+Instance: lrc-panel-report-results
+InstanceOf: lrc-panel-report
 Usage: #example
-* meta.versionId = "2"
-* meta.lastUpdated = "2023-08-27T09:50:11.299+00:00"
-* meta.source = "#9LbzMuNoke2UKh9W"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">דוח מסכם של תוצאות המעבדה של מטופל</div>"
+* meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"
 * extension.url = "http://fhir.health.gov.il/StructureDefinition/ext-diagnostic-report-note"
 * extension.valueAnnotation.text = "טקסט שהוזן בכותרת המדבקה"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1c645996-698c-4dd6-8a56-8eba4810e6f7"
-* basedOn = Reference(3909)
+* basedOn = Reference(ServiceRequest/3909)
 * basedOn.identifier.system = "urn:ietf:rfc:3986"
 * basedOn.identifier.value = "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
 * status = #final
-// * category = $hl7-diag-category-cs#LAB "Laboratory"
+* category = $v2-0074#LAB "Laboratory"
 * code = $loinc#11502-2 "Laboratory report"
 * subject = Reference(Patient/90)
 * subject.type = "Patient"
