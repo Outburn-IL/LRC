@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/pdf"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -12,6 +12,7 @@ v: {
   "display" : "application/pdf",
   "code" : "application/pdf",
   "system" : "urn:ietf:bcp:13",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -23,7 +24,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "57021-8",
   "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://fhir.health.gov.il/ValueSet/il-core-observation-code", "version": "0.13.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://fhir.health.gov.il/ValueSet/il-core-observation-code", "version": "0.13.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -35,6 +36,7 @@ v: {
   "code" : "57021-8",
   "system" : "http://loinc.org",
   "version" : "2.74",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -46,7 +48,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "11502-2",
   "display" : "Laboratory Report"
-}, "url": "http://fhir.health.gov.il/ValueSet/il-core-procedure-code", "version": "0.13.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://fhir.health.gov.il/ValueSet/il-core-procedure-code", "version": "0.13.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -58,6 +60,7 @@ v: {
   "code" : "11502-2",
   "system" : "http://loinc.org",
   "version" : "2.74",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

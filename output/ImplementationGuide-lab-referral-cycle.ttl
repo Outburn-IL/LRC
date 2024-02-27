@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "LabReferralCycle"] ; # 
   fhir:title [ fhir:v "Hospital-Community Lab Referral Cycle"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-02-22T18:39:46+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-27T18:05:15+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;
@@ -291,7 +291,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -521,170 +521,6 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/3906> ;
-         fhir:reference [ fhir:v "ServiceRequest/3906" ]
-       ] ;
-       fhir:name [ fhir:v "3906" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/3907> ;
-         fhir:reference [ fhir:v "ServiceRequest/3907" ]
-       ] ;
-       fhir:name [ fhir:v "3907" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/3908> ;
-         fhir:reference [ fhir:v "ServiceRequest/3908" ]
-       ] ;
-       fhir:name [ fhir:v "3908" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/3909> ;
-         fhir:reference [ fhir:v "ServiceRequest/3909" ]
-       ] ;
-       fhir:name [ fhir:v "3909" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/3913> ;
-         fhir:reference [ fhir:v "Observation/3913" ]
-       ] ;
-       fhir:name [ fhir:v "3913" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/3914> ;
-         fhir:reference [ fhir:v "Observation/3914" ]
-       ] ;
-       fhir:name [ fhir:v "3914" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/3915> ;
-         fhir:reference [ fhir:v "Observation/3915" ]
-       ] ;
-       fhir:name [ fhir:v "3915" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "DiagnosticReport" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/DiagnosticReport/3917> ;
-         fhir:reference [ fhir:v "DiagnosticReport/3917" ]
-       ] ;
-       fhir:name [ fhir:v "3917" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ServiceRequest" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/4014> ;
-         fhir:reference [ fhir:v "ServiceRequest/4014" ]
-       ] ;
-       fhir:name [ fhir:v "4014" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/4015> ;
-         fhir:reference [ fhir:v "Observation/4015" ]
-       ] ;
-       fhir:name [ fhir:v "4015" ] ;
-       fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-hospital-community-onco-lab-result> ;
-         fhir:reference [ fhir:v "StructureDefinition/lrc-hospital-community-onco-lab-result" ]
-       ] ;
-       fhir:name [ fhir:v "Lrc Hospital Community Onco Lab Result" ] ;
-       fhir:description [ fhir:v "תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-referral> ;
-         fhir:reference [ fhir:v "StructureDefinition/lrc-onco-referral" ]
-       ] ;
-       fhir:name [ fhir:v "Lrc Hospital-Community Oncology Related Lab Test Referral" ] ;
-       fhir:description [ fhir:v "הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-panel-result> ;
-         fhir:reference [ fhir:v "StructureDefinition/lrc-onco-panel-result" ]
-       ] ;
-       fhir:name [ fhir:v "Lrc Hospital-Community Oncology Related Panel Lab Test Result" ] ;
-       fhir:description [ fhir:v "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה), במסגרת טיפול אונקולוגי.\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -817,6 +653,118 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DiagnosticReport" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/DiagnosticReport/lrc-lab-report-results> ;
+         fhir:reference [ fhir:v "DiagnosticReport/lrc-lab-report-results" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-lab-report-results" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-panel-result-cbc> ;
+         fhir:reference [ fhir:v "Observation/lrc-panel-result-cbc" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-panel-result-cbc" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-automated-crc> ;
+         fhir:reference [ fhir:v "ServiceRequest/lrc-referral-automated-crc" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-referral-automated-crc" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-glucose> ;
+         fhir:reference [ fhir:v "ServiceRequest/lrc-referral-glucose" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-referral-glucose" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-group-example> ;
+         fhir:reference [ fhir:v "ServiceRequest/lrc-referral-group-example" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-referral-group-example" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-result-oncology-calcium> ;
+         fhir:reference [ fhir:v "Observation/lrc-result-oncology-calcium" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-result-oncology-calcium" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-result-oncology-urea> ;
+         fhir:reference [ fhir:v "Observation/lrc-result-oncology-urea" ]
+       ] ;
+       fhir:name [ fhir:v "lrc-result-oncology-urea" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrec-referral-sheba-to-ambulatory-care> ;
+         fhir:reference [ fhir:v "ServiceRequest/lrec-referral-sheba-to-ambulatory-care" ]
+       ] ;
+       fhir:name [ fhir:v "lrec-referral-sheba-to-ambulatory-care" ] ;
+       fhir:example [
+         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -841,7 +789,7 @@
            fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "על הפרויקט" ] ;
+         fhir:title [ fhir:v "אודות הפרויקט" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -854,10 +802,26 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "profiles-and-extensions.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "search-interactions.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "profiles-and-extensions.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "פרופילים והרחבות" ] ;
+         fhir:name [ fhir:v "search-interactions.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Search Interactions" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "server-community.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "server-community.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Server - קהילה" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "server-hospital.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "server-hospital.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Server - בית החולים" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -866,6 +830,14 @@
          ] ) ;
          fhir:name [ fhir:v "client-hospital.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Client - בית החולים" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "profiles-and-extensions.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "profiles-and-extensions.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "פרופילים והרחבות" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -882,30 +854,6 @@
          ] ) ;
          fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "הורדות" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "search-interactions.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "search-interactions.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Search Interactions" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "server-community.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "server-community.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Server Community" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "server-hospital.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "server-hospital.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Server Hospital" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

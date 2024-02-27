@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='ServiceRequest' id='lrc-referral-glucose' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: ServiceRequest/lrc-referral-glucose - Change History</h2>
+  <p>History of changes for lrc-referral-glucose {{type | downcase}}.</p>
+
+  {%include ServiceRequest-lrc-referral-glucose-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

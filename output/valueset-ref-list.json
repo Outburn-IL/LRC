@@ -10,7 +10,6 @@
       "systems" : ["http://unitsofmeasure.org"],
       "uses" : {
       },
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result",
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
@@ -23,8 +22,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-onco-panel-result.html" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
@@ -33,10 +31,7 @@
       "name" : "LrcOncoReferralCodes",
       "title" : "Lrc Oncology Related referral Codes",
       "description" : "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
-      "systems" : ["http://loinc.org"],
-      "uses" : {
-      },
-      "StructureDefinition-lrc-onco-referral.html" : "Lrc Hospital-Community Oncology Related Lab Test Referral"
+      "systems" : ["http://loinc.org"]
     },
     {
       "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
@@ -45,10 +40,7 @@
       "name" : "LrcOncoResultCodes",
       "title" : "Lrc Onco Result Codes",
       "description" : "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
-      "systems" : ["http://loinc.org"],
-      "uses" : {
-      },
-      "StructureDefinition-lrc-hospital-community-onco-lab-result.html" : "Lrc Hospital Community Onco Lab Result"
+      "systems" : ["http://loinc.org"]
     },
     {
       "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",

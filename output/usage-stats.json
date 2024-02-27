@@ -12,8 +12,12 @@
     ],
     "Observation": [
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result",
-        "title": "Lrc Hospital Community Onco Lab Result"
+        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+        "title": "Lrc Test Result"
+      },
+      {
+        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+        "title": "Lrc Panel Lab Test Result"
       }
     ],
     "ServiceRequest": [

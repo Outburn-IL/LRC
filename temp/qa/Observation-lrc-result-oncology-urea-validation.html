@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Observation-lrc-result-oncology-urea-validation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>structure</td><td>Observation/lrc-result-oncology-urea: Observation.basedOn[0]</td><td>Unable to resolve resource with reference 'ServiceRequest/3907'</td><td></td></tr>
+<tr><td>error</td><td>processing</td><td>Observation/lrc-result-oncology-urea: Observation.code.coding[0]</td><td>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions</td><td></td></tr>
+<tr><td>error</td><td>structure</td><td>Observation/lrc-result-oncology-urea: Observation.subject</td><td>Unable to resolve resource with reference 'Patient/90'</td><td></td></tr>
+<tr><td>error</td><td>code-invalid</td><td>Observation/lrc-result-oncology-urea: Observation.referenceRange[0].low</td><td>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</td><td></td></tr>
+<tr><td>error</td><td>code-invalid</td><td>Observation/lrc-result-oncology-urea: Observation.referenceRange[0].high</td><td>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</td><td></td></tr>
+<tr><td>warning</td><td>structure</td><td>Observation/lrc-result-oncology-urea: Observation.meta.profile[1]</td><td>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Observation/lrc-result-oncology-urea: Observation</td><td>Validate resource against profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0</td><td></td></tr>
+<tr><td>information</td><td>not-supported</td><td>Observation/lrc-result-oncology-urea: Observation.code</td><td>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0)</td><td></td></tr>
+</table>
+</body>
+</html>

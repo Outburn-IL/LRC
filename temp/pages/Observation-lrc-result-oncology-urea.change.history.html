@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='Observation' id='lrc-result-oncology-urea' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: Observation/lrc-result-oncology-urea - Change History</h2>
+  <p>History of changes for lrc-result-oncology-urea {{type | downcase}}.</p>
+
+  {%include Observation-lrc-result-oncology-urea-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

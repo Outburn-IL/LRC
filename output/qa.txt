@@ -1,145 +1,136 @@
-﻿LabReferralCycle : Validation Results
+LabReferralCycle : Validation Results
 =========================================
 
-err = 57, warn = 18, info = 8
-IG Publisher Version: 1.5.8 Out of date - current version is 1.5.16
-Generated Thu Feb 22 18:42:18 IST 2024. FHIR version 4.0.1 for lab-referral-cycle#0.1.0 (canonical = http://oncology.fhir.outburn.co.il)
- Build Errors : 1 / 14 / 0
- C:\IG\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code : 2 / 1 / 1
- C:\IG\LRC\fsh-generated\resources\DiagnosticReport-3917 : 3 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\ImplementationGuide-lab-referral-cycle : 0 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\Observation-3913 : 9 / 1 / 3
- C:\IG\LRC\fsh-generated\resources\Observation-3914 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\Observation-3915 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\Observation-4015 : 1 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\ServiceRequest-3906 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ServiceRequest-3907 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ServiceRequest-3908 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ServiceRequest-3909 : 2 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\ServiceRequest-4014 : 1 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-hospital-community-onco-lab-result : 2 / 1 / 1
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report : 6 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-panel-result : 2 / 1 / 1
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-referral : 2 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral : 2 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group : 2 / 0 / 2
- C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-result : 4 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes : 2 / 0 / 1
- C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-result-codes : 2 / 0 / 1
+err = 51, warn = 21, info = 12
+IG Publisher Version: 1.5.16
+Generated Tue Feb 27 18:08:04 IST 2024. FHIR version 4.0.1 for lab-referral-cycle#0.1.0 (canonical = http://oncology.fhir.outburn.co.il)
+ Build Errors : 1 / 12 / 0
+ C:\outburn\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code : 2 / 1 / 1
+ C:\outburn\LRC\fsh-generated\resources\DiagnosticReport-lrc-lab-report-results : 3 / 1 / 2
+ C:\outburn\LRC\fsh-generated\resources\ImplementationGuide-lab-referral-cycle : 0 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\Observation-lrc-panel-result-cbc : 2 / 1 / 3
+ C:\outburn\LRC\fsh-generated\resources\Observation-lrc-result-oncology-calcium : 5 / 1 / 2
+ C:\outburn\LRC\fsh-generated\resources\Observation-lrc-result-oncology-urea : 5 / 1 / 2
+ C:\outburn\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc : 1 / 1 / 1
+ C:\outburn\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-glucose : 1 / 1 / 1
+ C:\outburn\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-group-example : 5 / 1 / 2
+ C:\outburn\LRC\fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care : 1 / 1 / 1
+ C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report : 4 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result : 2 / 0 / 3
+ C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral : 2 / 0 / 2
+ C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group : 2 / 0 / 2
+ C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-result : 4 / 0 / 3
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes : 2 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes : 2 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes : 2 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes : 2 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes : 2 / 0 / 1
+ C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-result-codes : 2 / 0 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/3906.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/3907.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/3908.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/3909.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/3913.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/3914.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/3915.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DiagnosticReport/3917.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/4014.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/4015.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: C:\IG\LRC\output\examples.html#/html/body/div/div/div/div/div/div/p/a at Line 193, column 63: The link 'downloads.html#examples' for "כאן" cannot be resolved (valid targets: [section-2, section-1, segment-header, publish-box, bottom, markdown-toc-section-1, segment-post-footer, markdown-toc-section-2, section, עותק-להורדה-של-המדריך-כולו, ig-status, הורדות, markdown-toc, דוגמאות, top, קובץ-חבילה, intro, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, markdown-toc-section])
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DiagnosticReport/lrc-lab-report-results.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/lrc-panel-result-cbc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/lrc-referral-automated-crc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/lrc-referral-glucose.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/lrc-referral-group-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/lrc-result-oncology-calcium.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/lrc-result-oncology-urea.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/lrec-referral-sheba-to-ambulatory-care.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\outburn\LRC\output\examples.html#/html/body/div/div/div/div/div/div/p/a at Line 193, column 63: The link 'downloads.html#examples' for "כאן" cannot be resolved (valid targets: [section-2, section-1, segment-header, publish-box, bottom, markdown-toc-section-1, segment-post-footer, markdown-toc-section-2, section, עותק-להורדה-של-המדריך-כולו, ig-status, הורדות, markdown-toc, דוגמאות, top, קובץ-חבילה, intro, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, markdown-toc-section])
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json ==
-ERROR: CodeSystem.where(url = 'http://fhir.meuhedet.co.il/code/lab-result'): Conformance resource C:\IG\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json - the canonical URL (http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code) does not match the URL (http://fhir.meuhedet.co.il/code/lab-result)
+ERROR: CodeSystem.where(url = 'http://fhir.meuhedet.co.il/code/lab-result'): Conformance resource C:\outburn\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json - the canonical URL (http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code) does not match the URL (http://fhir.meuhedet.co.il/code/lab-result)
 WARNING: CodeSystem/meuhedet-lab-result-code: CodeSystem.count: The code system is a fragment/example, but the number of concepts (2) exceeds or matches the stated total number (2)
-ERROR: C:\IG\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code: URL Mismatch http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code vs http://fhir.meuhedet.co.il/code/lab-result
-== fsh-generated\resources\DiagnosticReport-3917.json ==
-ERROR: DiagnosticReport/3917: DiagnosticReport.code.coding[0]: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')
-ERROR: DiagnosticReport/3917: DiagnosticReport.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/ValueSet/observation-codes'
-INFORMATION: DiagnosticReport/3917: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: DiagnosticReport/3917: DiagnosticReport.subject: Unable to resolve resource with reference 'Patient/90'
+ERROR: C:\outburn\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code: URL Mismatch http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code vs http://fhir.meuhedet.co.il/code/lab-result
+== fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json ==
+ERROR: DiagnosticReport/lrc-lab-report-results: DiagnosticReport.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/3909'
+ERROR: DiagnosticReport/lrc-lab-report-results: DiagnosticReport.code.coding[0].system: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')
+INFORMATION: DiagnosticReport/lrc-lab-report-results: DiagnosticReport.code.coding[1]: This element does not match any known slice defined in the profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: DiagnosticReport/lrc-lab-report-results: DiagnosticReport.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: DiagnosticReport/lrc-lab-report-results: DiagnosticReport.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-report' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\ImplementationGuide-lab-referral-cycle.json ==
-== fsh-generated\resources\Observation-3913.json ==
-ERROR: Observation/3913: Observation.component[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Observation.component:textual - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
-ERROR: Observation/3913: Observation.component[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Observation.component:textual - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
-ERROR: Observation/3913: Observation.component[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Observation.component:nominal - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
-ERROR: Observation/3913: Observation.component[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Observation.component:nominal - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
-ERROR: Observation/3913: Observation.code.coding[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
-INFORMATION: Observation/3913: Observation.code: Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0)
-ERROR: Observation/3913: Observation.subject: Unable to resolve resource with reference 'Patient/90'
-ERROR: Observation/3913: Observation.referenceRange[0].low: The Coding provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code is required from this value set.  (error message = The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1')
-ERROR: Observation/3913: Observation.referenceRange[0].high: The Coding provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code is required from this value set.  (error message = The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1')
-INFORMATION: Observation/3913: Observation.component[0].value.ofType(string): This element does not match any known slice defined in the profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Observation/3913: Observation.component[1].value.ofType(CodeableConcept): Problem processing expression 'coding.where(system='http://snomed.info/sct' and code.exists()).exists() OR coding.where(system='http://loinc.org' and code.startsWith('LA')).exists()' in profile 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0' at path 'Observation.component[1].value.ofType(CodeableConcept)': Error @1, 4: Premature ExpressionNode termination at unexpected token "OR"
-WARNING: Observation/3913: Observation.component[1].value.ofType(CodeableConcept).coding[0]: Unknown Code 'POS' in the system 'http://fhir.meuhedet.co.il/code/lab-result|0.1.0' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment (for 'http://fhir.meuhedet.co.il/code/lab-result#POS')
-== fsh-generated\resources\Observation-3914.json ==
-ERROR: Observation/3914: Observation.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\Observation-3915.json ==
-ERROR: Observation/3915: Observation.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\Observation-4015.json ==
-INFORMATION: Observation/4015: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Observation/4015: Observation.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\ServiceRequest-3906.json ==
-ERROR: ServiceRequest/3906: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/59095-11'
-== fsh-generated\resources\ServiceRequest-3907.json ==
-ERROR: ServiceRequest/3907: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\ServiceRequest-3908.json ==
-ERROR: ServiceRequest/3908: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\ServiceRequest-3909.json ==
-ERROR: ServiceRequest/3909: ServiceRequest.code.coding[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile ServiceRequest.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group|0.1.0 does not have fixed value, binding or existence assertions
-INFORMATION: ServiceRequest/3909: ServiceRequest.code: ServiceRequest.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (ServiceRequest.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group|0.1.0)
-ERROR: ServiceRequest/3909: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\ServiceRequest-4014.json ==
-ERROR: ServiceRequest/4014: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
-== fsh-generated\resources\StructureDefinition-lrc-hospital-community-onco-lab-result.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-hospital-community-onco-lab-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-hospital-community-onco-lab-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result)
-WARNING: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result'): The Implementation Guide contains no examples for this profile
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-hospital-community-onco-lab-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-hospital-community-onco-lab-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result
+== fsh-generated\resources\Observation-lrc-panel-result-cbc.json ==
+ERROR: Observation/lrc-panel-result-cbc: Observation.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/4014'
+INFORMATION: Observation/lrc-panel-result-cbc: Observation.code.coding[1].system: A definition for CodeSystem 'http://fhir.meuhedet.co.il/code/lab-result' could not be found, so the code cannot be validated
+INFORMATION: Observation/lrc-panel-result-cbc: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/lrc-panel-result-cbc: Observation.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: Observation/lrc-panel-result-cbc: Observation.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\Observation-lrc-result-oncology-calcium.json ==
+ERROR: Observation/lrc-result-oncology-calcium: Observation.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/3908'
+ERROR: Observation/lrc-result-oncology-calcium: Observation.code.coding[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Observation/lrc-result-oncology-calcium: Observation.code: Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0)
+ERROR: Observation/lrc-result-oncology-calcium: Observation.subject: Unable to resolve resource with reference 'Patient/90'
+ERROR: Observation/lrc-result-oncology-calcium: Observation.referenceRange[0].low: The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'
+ERROR: Observation/lrc-result-oncology-calcium: Observation.referenceRange[0].high: The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'
+WARNING: Observation/lrc-result-oncology-calcium: Observation.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\Observation-lrc-result-oncology-urea.json ==
+ERROR: Observation/lrc-result-oncology-urea: Observation.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/3907'
+ERROR: Observation/lrc-result-oncology-urea: Observation.code.coding[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Observation/lrc-result-oncology-urea: Observation.code: Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result|0.1.0)
+ERROR: Observation/lrc-result-oncology-urea: Observation.subject: Unable to resolve resource with reference 'Patient/90'
+ERROR: Observation/lrc-result-oncology-urea: Observation.referenceRange[0].low: The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'
+ERROR: Observation/lrc-result-oncology-urea: Observation.referenceRange[0].high: The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'
+WARNING: Observation/lrc-result-oncology-urea: Observation.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json ==
+ERROR: ServiceRequest/lrc-referral-automated-crc: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: ServiceRequest/lrc-referral-automated-crc: ServiceRequest.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json ==
+ERROR: ServiceRequest/lrc-referral-glucose: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: ServiceRequest/lrc-referral-glucose: ServiceRequest.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json ==
+ERROR: ServiceRequest/lrc-referral-group-example: ServiceRequest.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/3906'
+ERROR: ServiceRequest/lrc-referral-group-example: ServiceRequest.basedOn[1]: Unable to resolve resource with reference 'ServiceRequest/3907'
+ERROR: ServiceRequest/lrc-referral-group-example: ServiceRequest.basedOn[2]: Unable to resolve resource with reference 'ServiceRequest/3908'
+ERROR: ServiceRequest/lrc-referral-group-example: ServiceRequest.code.coding[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile ServiceRequest.code.coding:loinc-lab - the discriminator http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: ServiceRequest/lrc-referral-group-example: ServiceRequest.code: ServiceRequest.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (ServiceRequest.code.coding) due to lack of slicing validation (from http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group|0.1.0)
+ERROR: ServiceRequest/lrc-referral-group-example: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: ServiceRequest/lrc-referral-group-example: ServiceRequest.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral-group' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json ==
+ERROR: ServiceRequest/lrec-referral-sheba-to-ambulatory-care: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/90'
+WARNING: ServiceRequest/lrec-referral-sheba-to-ambulatory-care: ServiceRequest.meta.profile[1]: Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\StructureDefinition-lrc-lab-report.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report)
+ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report'): Conformance resource C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report)
 ERROR: StructureDefinition/lrc-lab-report: StructureDefinition.snapshot.element[33].pattern.ofType(Coding): The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')
-ERROR: StructureDefinition/lrc-lab-report: StructureDefinition.snapshot.element[33].pattern.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/ValueSet/observation-codes'
 ERROR: StructureDefinition/lrc-lab-report: StructureDefinition.differential.element[11].pattern.ofType(Coding): The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')
-ERROR: StructureDefinition/lrc-lab-report: StructureDefinition.differential.element[11].pattern.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/ValueSet/observation-codes'
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report
-== fsh-generated\resources\StructureDefinition-lrc-onco-panel-result.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-panel-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-panel-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result)
-WARNING: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result'): The Implementation Guide contains no examples for this profile
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-panel-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-panel-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result
-== fsh-generated\resources\StructureDefinition-lrc-onco-referral.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-referral.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-referral) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral)
-INFORMATION: StructureDefinition/lrc-onco-referral: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-onco-referral: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-onco-referral vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral
+ERROR: C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report
 == fsh-generated\resources\StructureDefinition-lrc-panel-result.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-panel-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result)
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-panel-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result
+ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result'): Conformance resource C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-panel-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result)
+INFORMATION: StructureDefinition/lrc-panel-result: StructureDefinition.snapshot.element[32].pattern.ofType(Coding): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+INFORMATION: StructureDefinition/lrc-panel-result: StructureDefinition.differential.element[9].pattern.ofType(Coding): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+ERROR: C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-panel-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result
 == fsh-generated\resources\StructureDefinition-lrc-referral.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral)
+ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral'): Conformance resource C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral)
 INFORMATION: StructureDefinition/lrc-referral: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral
+ERROR: C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral
 == fsh-generated\resources\StructureDefinition-lrc-referral-group.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral-group) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group)
+ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group'): Conformance resource C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral-group) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group)
 INFORMATION: StructureDefinition/lrc-referral-group: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral-group vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group
+ERROR: C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-referral-group: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral-group vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group
 == fsh-generated\resources\StructureDefinition-lrc-result.json ==
-ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result'): Conformance resource C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result)
+ERROR: StructureDefinition.where(url = 'http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result'): Conformance resource C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-result.json - the canonical URL (http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-result) does not match the URL (http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result)
+INFORMATION: StructureDefinition/lrc-result: StructureDefinition.snapshot.element[26].pattern.ofType(Coding): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 ERROR: StructureDefinition/lrc-result: StructureDefinition.snapshot.element[35].binding.extension[0].value.ofType(canonical): Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+INFORMATION: StructureDefinition/lrc-result: StructureDefinition.differential.element[8].pattern.ofType(Coding): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 ERROR: StructureDefinition/lrc-result: StructureDefinition.differential.element[11].binding.extension[0].value.ofType(canonical): Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: C:\IG\LRC\fsh-generated\resources\StructureDefinition-lrc-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result
+ERROR: C:\outburn\LRC\fsh-generated\resources\StructureDefinition-lrc-result: URL Mismatch http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-result vs http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result
 == fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-panel-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-panel-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-panel-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-panel-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-panel-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes
 == fsh-generated\resources\ValueSet-lrc-onco-referral-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-referral-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-referral-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-referral-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-referral-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-referral-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes
 == fsh-generated\resources\ValueSet-lrc-onco-result-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-onco-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes
 == fsh-generated\resources\ValueSet-lrc-panel-result-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-panel-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-panel-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-panel-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-panel-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-panel-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes
 == fsh-generated\resources\ValueSet-lrc-referral-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-referral-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-referral-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-referral-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-referral-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-referral-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes
 == fsh-generated\resources\ValueSet-lrc-result-codes.json ==
-ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes'): Conformance resource C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes)
-ERROR: C:\IG\LRC\fsh-generated\resources\ValueSet-lrc-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes
+ERROR: ValueSet.where(url = 'http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes'): Conformance resource C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-result-codes.json - the canonical URL (http://oncology.fhir.outburn.co.il/ValueSet/lrc-result-codes) does not match the URL (http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes)
+ERROR: C:\outburn\LRC\fsh-generated\resources\ValueSet-lrc-result-codes: URL Mismatch http://oncology.fhir.outburn.co.il/ValueSet/lrc-result-codes vs http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes

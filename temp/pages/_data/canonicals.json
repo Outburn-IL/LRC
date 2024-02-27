@@ -21,20 +21,6 @@
     "name" : "LrcLabReport"
   },
   {
-    "id" : "lrc-onco-panel-result",
-    "type" : "StructureDefinition",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoPanelLabResult"
-  },
-  {
-    "id" : "lrc-onco-referral",
-    "type" : "StructureDefinition",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoLabReferral"
-  },
-  {
     "id" : "lrc-result",
     "type" : "StructureDefinition",
     "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
@@ -61,13 +47,6 @@
     "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
     "version" : "0.1.0",
     "name" : "LrcReferralGroup"
-  },
-  {
-    "id" : "lrc-hospital-community-onco-lab-result",
-    "type" : "StructureDefinition",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoLabResult"
   },
   {
     "id" : "lrc-onco-panel-result-codes",

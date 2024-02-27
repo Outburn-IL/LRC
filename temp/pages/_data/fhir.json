@@ -5,17 +5,17 @@
   "igName" : "LabReferralCycle",
   "packageId" : "lab-referral-cycle",
   "igVer" : "0.1.0",
-  "errorCount" : 42,
+  "errorCount" : 39,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "totalFiles" : 26,
-  "processedFiles" : 63,
-  "genDate" : "Thu, Feb 22, 2024 18:39+0200",
-  "genDay" : "22/02/2024",
+  "totalFiles" : 21,
+  "processedFiles" : 58,
+  "genDate" : "Tue, Feb 27, 2024 18:05+0200",
+  "genDay" : "27/02/2024",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -247,7 +247,7 @@
         "telecom" : ["http://outburn.co.il"]
       }
     ],
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
@@ -266,7 +266,7 @@
     "hl7.fhir.uv.sdc_3.0.0" : "http://hl7.org/fhir/uv/sdc/STU3",
     "us.cdc.phinvads_0.12.0" : "http://fhir.org/packages/us.cdc.phinvads",
     "ihe.formatcode.fhir_1.1.0" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.0",
-    "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/"
+    "igtools" : "http://hl7.org/fhir/tools/0.1.0"
   },
   "hl7tx" : "http://terminology.hl7.org",
   "hl7ext" : "http://hl7.org/fhir/extensions",

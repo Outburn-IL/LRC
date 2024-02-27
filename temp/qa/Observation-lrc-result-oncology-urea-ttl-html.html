@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Observation-lrc-result-oncology-urea-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix loinc: &lt;https://loinc.org/rdf/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Observation ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;lrc-result-oncology-urea&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result&gt;     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://fhir.health.gov.il/StructureDefinition/lrc-result&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://fhir.health.gov.il/StructureDefinition/lrc-result&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;תוצאות בדיקת אוראה בסרום של מטופל עבור אשפוז יום אונקולוגי&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.meuhedet.co.il/identifier/lab-result&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1304421043-20230802-1336-3231&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.basedOn">fhir:basedOn</a> ( [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ServiceRequest/3907&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;final&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:category</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;laboratory&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Laboratory&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:code</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:3094-0 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3094-0&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Urea nitrogen [Mass/volume] in Serum or Plasma&quot; ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Urea-blood (BUN)&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:subject</a> [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/90&quot; ] ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;Patient&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.health.gov.il/identifier/il-national-id&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;000000018&quot; ]     ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:effective</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-04-03T11:32:38+03:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.issued">fhir:issued</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-04-03T11:37:58.54+03:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">fhir:performer</a> ( [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;Organization&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.meuhedet.co.il/laboratories&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;73D01&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;קופת חולים מאוחדת&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;92&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MG/DL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Mg/dl&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange">fhir:referenceRange</a> ( [
+<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.low">fhir:low</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;8&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Mg/dl&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.high">fhir:high</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;23.5&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Mg/dl&quot; ]     ]
+  ] ) . # 
+
+</code></pre>
+
+</body>
+</html>

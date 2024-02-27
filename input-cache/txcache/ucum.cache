@@ -2,7 +2,7 @@
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "Mg/dl"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -14,6 +14,7 @@ v: {
   "code" : "Mg/dl",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -24,7 +25,7 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "Mg/dl"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-common", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -34,32 +35,30 @@ v: {
 v: {
   "display" : "Mg/dl",
   "code" : "Mg/dl",
-  "system" : "http://unitsofmeasure.org",
-  "version" : "2.0.1",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "Mg/dl"
-}, "url": "http://hl7.org/fhir/ValueSet/ucum-common--0", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
   "severity" : "error",
-  "error" : "The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common--0|4.0.1' (from Tx-Server)",
+  "error" : "The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'",
   "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
 }
 
 }

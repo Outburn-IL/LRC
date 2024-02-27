@@ -16,7 +16,7 @@
    <name value="LabReferralCycle"/>
    <title value="Hospital-Community Lab Referral Cycle"/>
    <status value="active"/>
-   <date value="2024-02-22T18:39:46+02:00"/>
+   <date value="2024-02-27T18:05:15+02:00"/>
    <publisher value="Outburn LTD."/>
    <contact>
       <name value="Outburn LTD."/>
@@ -252,7 +252,7 @@
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-         <valueCode value="hl7.fhir.uv.tools#current"/>
+         <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
       </extension>
       
       
@@ -355,65 +355,6 @@
       
       
       
-      
-      
-      
-      
-      
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-lrc-hospital-community-onco-lab-result.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/lrc-hospital-community-onco-lab-result"/>
-         </reference>
-         <name value="Lrc Hospital Community Onco Lab Result"/>
-         <description value="תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-lrc-onco-referral.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/lrc-onco-referral"/>
-         </reference>
-         <name value="Lrc Hospital-Community Oncology Related Lab Test Referral"/>
-         <description value="הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.&#xD;&#xA;משאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-lrc-onco-panel-result.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/lrc-onco-panel-result"/>
-         </reference>
-         <name value="Lrc Hospital-Community Oncology Related Panel Lab Test Result"/>
-         <description value="פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\סוללה), במסגרת טיפול אונקולוגי.&#xD;&#xA;פרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
             <valueInteger value="999999999"/>
@@ -635,16 +576,33 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ServiceRequest"/>
+            <valueString value="DiagnosticReport"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ServiceRequest-3906.html"/>
+            <valueUri value="DiagnosticReport-lrc-lab-report-results.html"/>
          </extension>
          <reference>
-            <reference value="ServiceRequest/3906"/>
+            <reference value="DiagnosticReport/lrc-lab-report-results"/>
          </reference>
-         <name value="3906"/>
-         <exampleBoolean value="true"/>
+         <name value="lrc-lab-report-results"/>
+         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-lrc-panel-result-cbc.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/lrc-panel-result-cbc"/>
+         </reference>
+         <name value="lrc-panel-result-cbc"/>
+         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -655,12 +613,12 @@
             <valueString value="ServiceRequest"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ServiceRequest-3907.html"/>
+            <valueUri value="ServiceRequest-lrc-referral-automated-crc.html"/>
          </extension>
          <reference>
-            <reference value="ServiceRequest/3907"/>
+            <reference value="ServiceRequest/lrc-referral-automated-crc"/>
          </reference>
-         <name value="3907"/>
+         <name value="lrc-referral-automated-crc"/>
          <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -672,13 +630,13 @@
             <valueString value="ServiceRequest"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ServiceRequest-3908.html"/>
+            <valueUri value="ServiceRequest-lrc-referral-glucose.html"/>
          </extension>
          <reference>
-            <reference value="ServiceRequest/3908"/>
+            <reference value="ServiceRequest/lrc-referral-glucose"/>
          </reference>
-         <name value="3908"/>
-         <exampleBoolean value="true"/>
+         <name value="lrc-referral-glucose"/>
+         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -689,12 +647,12 @@
             <valueString value="ServiceRequest"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ServiceRequest-3909.html"/>
+            <valueUri value="ServiceRequest-lrc-referral-group-example.html"/>
          </extension>
          <reference>
-            <reference value="ServiceRequest/3909"/>
+            <reference value="ServiceRequest/lrc-referral-group-example"/>
          </reference>
-         <name value="3909"/>
+         <name value="lrc-referral-group-example"/>
          <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -706,12 +664,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-3913.html"/>
+            <valueUri value="Observation-lrc-result-oncology-calcium.html"/>
          </extension>
          <reference>
-            <reference value="Observation/3913"/>
+            <reference value="Observation/lrc-result-oncology-calcium"/>
          </reference>
-         <name value="3913"/>
+         <name value="lrc-result-oncology-calcium"/>
          <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -723,47 +681,13 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-3914.html"/>
+            <valueUri value="Observation-lrc-result-oncology-urea.html"/>
          </extension>
          <reference>
-            <reference value="Observation/3914"/>
+            <reference value="Observation/lrc-result-oncology-urea"/>
          </reference>
-         <name value="3914"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-3915.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/3915"/>
-         </reference>
-         <name value="3915"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DiagnosticReport"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DiagnosticReport-3917.html"/>
-         </extension>
-         <reference>
-            <reference value="DiagnosticReport/3917"/>
-         </reference>
-         <name value="3917"/>
-         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"/>
+         <name value="lrc-result-oncology-urea"/>
+         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -774,30 +698,13 @@
             <valueString value="ServiceRequest"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ServiceRequest-4014.html"/>
+            <valueUri value="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html"/>
          </extension>
          <reference>
-            <reference value="ServiceRequest/4014"/>
+            <reference value="ServiceRequest/lrec-referral-sheba-to-ambulatory-care"/>
          </reference>
-         <name value="4014"/>
-         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-4015.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/4015"/>
-         </reference>
-         <name value="4015"/>
-         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"/>
+         <name value="lrec-referral-sheba-to-ambulatory-care"/>
+         <exampleCanonical value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"/>
          <groupingId value="-ex-example"/>
       </resource>
       <page>
@@ -812,7 +719,7 @@
                <valueUrl value="index.html"/>
             </extension>
             <nameUrl value="index.html"/>
-            <title value="על הפרויקט"/>
+            <title value="אודות הפרויקט"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -825,10 +732,26 @@
          </page>
          <page>
             <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-               <valueUrl value="profiles-and-extensions.html"/>
+               <valueUrl value="search-interactions.html"/>
             </extension>
-            <nameUrl value="profiles-and-extensions.html"/>
-            <title value="פרופילים והרחבות"/>
+            <nameUrl value="search-interactions.html"/>
+            <title value="Search Interactions"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="server-community.html"/>
+            </extension>
+            <nameUrl value="server-community.html"/>
+            <title value="Server - קהילה"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="server-hospital.html"/>
+            </extension>
+            <nameUrl value="server-hospital.html"/>
+            <title value="Server - בית החולים"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -837,6 +760,14 @@
             </extension>
             <nameUrl value="client-hospital.html"/>
             <title value="Client - בית החולים"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="profiles-and-extensions.html"/>
+            </extension>
+            <nameUrl value="profiles-and-extensions.html"/>
+            <title value="פרופילים והרחבות"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -856,48 +787,9 @@
             <generation value="markdown"/>
          </page>
          <page>
-            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-               <valueUrl value="search-interactions.html"/>
-            </extension>
-            <nameUrl value="search-interactions.html"/>
-            <title value="Search Interactions"/>
-            <generation value="markdown"/>
-         </page>
-         <page>
-            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-               <valueUrl value="server-community.html"/>
-            </extension>
-            <nameUrl value="server-community.html"/>
-            <title value="Server Community"/>
-            <generation value="markdown"/>
-         </page>
-         <page>
-            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-               <valueUrl value="server-hospital.html"/>
-            </extension>
-            <nameUrl value="server-hospital.html"/>
-            <title value="Server Hospital"/>
-            <generation value="markdown"/>
-         </page>
-         <page>
             <nameUrl value="artifacts.html"/>
             <title value="Artifacts Summary"/>
             <generation value="html"/>
-            <page>
-               <nameUrl value="StructureDefinition-lrc-hospital-community-onco-lab-result.html"/>
-               <title value="Lrc Hospital Community Onco Lab Result"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-lrc-onco-referral.html"/>
-               <title value="Lrc Hospital-Community Oncology Related Lab Test Referral"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-lrc-onco-panel-result.html"/>
-               <title value="Lrc Hospital-Community Oncology Related Panel Lab Test Result"/>
-               <generation value="generated"/>
-            </page>
             <page>
                <nameUrl value="StructureDefinition-lrc-referral.html"/>
                <title value="Lrc Lab Test Referral"/>
@@ -959,53 +851,43 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="ServiceRequest-3906.html"/>
-               <title value="3906"/>
+               <nameUrl value="DiagnosticReport-lrc-lab-report-results.html"/>
+               <title value="lrc-lab-report-results"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="ServiceRequest-3907.html"/>
-               <title value="3907"/>
+               <nameUrl value="Observation-lrc-panel-result-cbc.html"/>
+               <title value="lrc-panel-result-cbc"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="ServiceRequest-3908.html"/>
-               <title value="3908"/>
+               <nameUrl value="ServiceRequest-lrc-referral-automated-crc.html"/>
+               <title value="lrc-referral-automated-crc"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="ServiceRequest-3909.html"/>
-               <title value="3909"/>
+               <nameUrl value="ServiceRequest-lrc-referral-glucose.html"/>
+               <title value="lrc-referral-glucose"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-3913.html"/>
-               <title value="3913"/>
+               <nameUrl value="ServiceRequest-lrc-referral-group-example.html"/>
+               <title value="lrc-referral-group-example"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-3914.html"/>
-               <title value="3914"/>
+               <nameUrl value="Observation-lrc-result-oncology-calcium.html"/>
+               <title value="lrc-result-oncology-calcium"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-3915.html"/>
-               <title value="3915"/>
+               <nameUrl value="Observation-lrc-result-oncology-urea.html"/>
+               <title value="lrc-result-oncology-urea"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="DiagnosticReport-3917.html"/>
-               <title value="3917"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="ServiceRequest-4014.html"/>
-               <title value="4014"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-4015.html"/>
-               <title value="4015"/>
+               <nameUrl value="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html"/>
+               <title value="lrec-referral-sheba-to-ambulatory-care"/>
                <generation value="generated"/>
             </page>
          </page>

@@ -29,32 +29,6 @@
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-lrc-hospital-community-onco-lab-result.html"
-                  title="StructureDefinition/lrc-hospital-community-onco-lab-result">Lrc Hospital Community Onco Lab Result</a>
-            </td>
-            <td>{% capture desc %}תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי.{% endcapture %}
-{{ desc | markdownify}}</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-lrc-onco-referral.html"
-                  title="StructureDefinition/lrc-onco-referral">Lrc Hospital-Community Oncology Related Lab Test Referral</a>
-            </td>
-            <td>{% capture desc %}הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.&#xD;
-משאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.{% endcapture %}
-{{ desc | markdownify}}</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-lrc-onco-panel-result.html"
-                  title="StructureDefinition/lrc-onco-panel-result">Lrc Hospital-Community Oncology Related Panel Lab Test Result</a>
-            </td>
-            <td>{% capture desc %}פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\סוללה), במסגרת טיפול אונקולוגי.&#xD;
-פרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.{% endcapture %}
-{{ desc | markdownify}}</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="StructureDefinition-lrc-referral.html"
                   title="StructureDefinition/lrc-referral">Lrc Lab Test Referral</a>
             </td>
@@ -174,52 +148,50 @@
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="ServiceRequest-3906.html" title="ServiceRequest/3906">3906</a>
+               <a href="DiagnosticReport-lrc-lab-report-results.html"
+                  title="DiagnosticReport/lrc-lab-report-results">lrc-lab-report-results</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ServiceRequest-3907.html" title="ServiceRequest/3907">3907</a>
+               <a href="Observation-lrc-panel-result-cbc.html"
+                  title="Observation/lrc-panel-result-cbc">lrc-panel-result-cbc</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ServiceRequest-3908.html" title="ServiceRequest/3908">3908</a>
+               <a href="ServiceRequest-lrc-referral-automated-crc.html"
+                  title="ServiceRequest/lrc-referral-automated-crc">lrc-referral-automated-crc</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ServiceRequest-3909.html" title="ServiceRequest/3909">3909</a>
+               <a href="ServiceRequest-lrc-referral-glucose.html"
+                  title="ServiceRequest/lrc-referral-glucose">lrc-referral-glucose</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-3913.html" title="Observation/3913">3913</a>
+               <a href="ServiceRequest-lrc-referral-group-example.html"
+                  title="ServiceRequest/lrc-referral-group-example">lrc-referral-group-example</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-3914.html" title="Observation/3914">3914</a>
+               <a href="Observation-lrc-result-oncology-calcium.html"
+                  title="Observation/lrc-result-oncology-calcium">lrc-result-oncology-calcium</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-3915.html" title="Observation/3915">3915</a>
+               <a href="Observation-lrc-result-oncology-urea.html"
+                  title="Observation/lrc-result-oncology-urea">lrc-result-oncology-urea</a>
             </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="DiagnosticReport-3917.html" title="DiagnosticReport/3917">3917</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ServiceRequest-4014.html" title="ServiceRequest/4014">4014</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Observation-4015.html" title="Observation/4015">4015</a>
+               <a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html"
+                  title="ServiceRequest/lrec-referral-sheba-to-ambulatory-care">lrec-referral-sheba-to-ambulatory-care</a>
             </td>
          </tr>
       </tbody>

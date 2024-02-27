@@ -4,14 +4,14 @@
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "C:\\IG\\LRC\\fsh-generated\\resources\\ImplementationGuide-lab-referral-cycle.json",
+    "source" : "C:\\outburn\\LRC\\fsh-generated\\resources\\ImplementationGuide-lab-referral-cycle.json",
     "sourceTail" : "ImplementationGuide-lab-referral-cycle.json",
     "path" : "ImplementationGuide-lab-referral-cycle.html",
     "url" : "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle",
     "version" : "0.1.0",
     "name" : "LabReferralCycle",
     "title" : "Hospital-Community Lab Referral Cycle",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
     "status" : {
       "class" : "colsi",
@@ -33,7 +33,7 @@
     "name" : "MeuhedetLabResultCode",
     "title" : "Meuhedet Lab Result Code",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "List of Lab result codes for Meuhadet HMO",
     "status" : {
       "class" : "colsd",
@@ -42,152 +42,107 @@
       "status" : "Draft"
     }
   },
-  "DiagnosticReport/3917" : {
+  "DiagnosticReport/lrc-lab-report-results" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 2,
-    "source" : "fsh-generated/resources/DiagnosticReport-3917.json",
-    "sourceTail" : "DiagnosticReport-3917.json",
-    "path" : "DiagnosticReport-3917.html",
+    "source" : "fsh-generated/resources/DiagnosticReport-lrc-lab-report-results.json",
+    "sourceTail" : "DiagnosticReport-lrc-lab-report-results.json",
+    "path" : "DiagnosticReport-lrc-lab-report-results.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Observation/3913" : {
+  "Observation/lrc-panel-result-cbc" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 3,
-    "source" : "fsh-generated/resources/Observation-3913.json",
-    "sourceTail" : "Observation-3913.json",
-    "path" : "Observation-3913.html",
+    "source" : "fsh-generated/resources/Observation-lrc-panel-result-cbc.json",
+    "sourceTail" : "Observation-lrc-panel-result-cbc.json",
+    "path" : "Observation-lrc-panel-result-cbc.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Observation/3914" : {
+  "Observation/lrc-result-oncology-calcium" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 4,
-    "source" : "fsh-generated/resources/Observation-3914.json",
-    "sourceTail" : "Observation-3914.json",
-    "path" : "Observation-3914.html",
+    "source" : "fsh-generated/resources/Observation-lrc-result-oncology-calcium.json",
+    "sourceTail" : "Observation-lrc-result-oncology-calcium.json",
+    "path" : "Observation-lrc-result-oncology-calcium.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Observation/3915" : {
+  "Observation/lrc-result-oncology-urea" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 5,
-    "source" : "fsh-generated/resources/Observation-3915.json",
-    "sourceTail" : "Observation-3915.json",
-    "path" : "Observation-3915.html",
+    "source" : "fsh-generated/resources/Observation-lrc-result-oncology-urea.json",
+    "sourceTail" : "Observation-lrc-result-oncology-urea.json",
+    "path" : "Observation-lrc-result-oncology-urea.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Observation/4015" : {
+  "ServiceRequest/lrc-referral-automated-crc" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 6,
-    "source" : "fsh-generated/resources/Observation-4015.json",
-    "sourceTail" : "Observation-4015.json",
-    "path" : "Observation-4015.html",
+    "source" : "fsh-generated/resources/ServiceRequest-lrc-referral-automated-crc.json",
+    "sourceTail" : "ServiceRequest-lrc-referral-automated-crc.json",
+    "path" : "ServiceRequest-lrc-referral-automated-crc.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "ServiceRequest/3906" : {
+  "ServiceRequest/lrc-referral-glucose" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 7,
-    "source" : "fsh-generated/resources/ServiceRequest-3906.json",
-    "sourceTail" : "ServiceRequest-3906.json",
-    "path" : "ServiceRequest-3906.html",
+    "source" : "fsh-generated/resources/ServiceRequest-lrc-referral-glucose.json",
+    "sourceTail" : "ServiceRequest-lrc-referral-glucose.json",
+    "path" : "ServiceRequest-lrc-referral-glucose.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "ServiceRequest/3907" : {
+  "ServiceRequest/lrc-referral-group-example" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 8,
-    "source" : "fsh-generated/resources/ServiceRequest-3907.json",
-    "sourceTail" : "ServiceRequest-3907.json",
-    "path" : "ServiceRequest-3907.html",
+    "source" : "fsh-generated/resources/ServiceRequest-lrc-referral-group-example.json",
+    "sourceTail" : "ServiceRequest-lrc-referral-group-example.json",
+    "path" : "ServiceRequest-lrc-referral-group-example.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "ServiceRequest/3908" : {
+  "ServiceRequest/lrec-referral-sheba-to-ambulatory-care" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 9,
-    "source" : "fsh-generated/resources/ServiceRequest-3908.json",
-    "sourceTail" : "ServiceRequest-3908.json",
-    "path" : "ServiceRequest-3908.html",
+    "source" : "fsh-generated/resources/ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",
+    "sourceTail" : "ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",
+    "path" : "ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html",
     "status" : {
       "class" : "colsi"
-    }
-  },
-  "ServiceRequest/3909" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 10,
-    "source" : "fsh-generated/resources/ServiceRequest-3909.json",
-    "sourceTail" : "ServiceRequest-3909.json",
-    "path" : "ServiceRequest-3909.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "ServiceRequest/4014" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 11,
-    "source" : "fsh-generated/resources/ServiceRequest-4014.json",
-    "sourceTail" : "ServiceRequest-4014.json",
-    "path" : "ServiceRequest-4014.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/lrc-hospital-community-onco-lab-result" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 12,
-    "source" : "fsh-generated/resources/StructureDefinition-lrc-hospital-community-onco-lab-result.json",
-    "sourceTail" : "StructureDefinition-lrc-hospital-community-onco-lab-result.json",
-    "path" : "StructureDefinition-lrc-hospital-community-onco-lab-result.html",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-test-result",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoLabResult",
-    "title" : "Lrc Hospital Community Onco Lab Result",
-    "date" : "2024-02-22T18:39:46+02:00",
-    "description" : "תוצאת בדיקת מעבדה בודדת, במסגרת טיפול אונקולוגי.",
-    "status" : {
-      "class" : "colsi",
-      "owner" : "Outburn LTD.",
-      "link" : "http://outburn.co.il",
-      "status" : "Active"
     }
   },
   "StructureDefinition/lrc-lab-report" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 13,
+    "index" : 10,
     "source" : "fsh-generated/resources/StructureDefinition-lrc-lab-report.json",
     "sourceTail" : "StructureDefinition-lrc-lab-report.json",
     "path" : "StructureDefinition-lrc-lab-report.html",
@@ -195,50 +150,8 @@
     "version" : "0.1.0",
     "name" : "LrcLabReport",
     "title" : "Lrc Lab Test Report",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "דוח מסכם עבור תוצאות הפניה מרכזת.",
-    "status" : {
-      "class" : "colsi",
-      "owner" : "Outburn LTD.",
-      "link" : "http://outburn.co.il",
-      "status" : "Active"
-    }
-  },
-  "StructureDefinition/lrc-onco-panel-result" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 14,
-    "source" : "fsh-generated/resources/StructureDefinition-lrc-onco-panel-result.json",
-    "sourceTail" : "StructureDefinition-lrc-onco-panel-result.json",
-    "path" : "StructureDefinition-lrc-onco-panel-result.html",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-panel-result",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoPanelLabResult",
-    "title" : "Lrc Hospital-Community Oncology Related Panel Lab Test Result",
-    "date" : "2024-02-22T18:39:46+02:00",
-    "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה), במסגרת טיפול אונקולוגי.\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
-    "status" : {
-      "class" : "colsi",
-      "owner" : "Outburn LTD.",
-      "link" : "http://outburn.co.il",
-      "status" : "Active"
-    }
-  },
-  "StructureDefinition/lrc-onco-referral" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 15,
-    "source" : "fsh-generated/resources/StructureDefinition-lrc-onco-referral.json",
-    "sourceTail" : "StructureDefinition-lrc-onco-referral.json",
-    "path" : "StructureDefinition-lrc-onco-referral.html",
-    "url" : "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-referral",
-    "version" : "0.1.0",
-    "name" : "LrcHospitalCommunityOncoLabReferral",
-    "title" : "Lrc Hospital-Community Oncology Related Lab Test Referral",
-    "date" : "2024-02-22T18:39:46+02:00",
-    "description" : "הפניה לבדיקת מעבדה, או לפאנל (קבוצה) של בדיקות מעבדה, במסגרת טיפול אונקולוגי, מבית החולים לקהילה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
     "status" : {
       "class" : "colsi",
       "owner" : "Outburn LTD.",
@@ -250,7 +163,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 16,
+    "index" : 11,
     "source" : "fsh-generated/resources/StructureDefinition-lrc-panel-result.json",
     "sourceTail" : "StructureDefinition-lrc-panel-result.json",
     "path" : "StructureDefinition-lrc-panel-result.html",
@@ -258,7 +171,7 @@
     "version" : "0.1.0",
     "name" : "LrcPanelResult",
     "title" : "Lrc Panel Lab Test Result",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "פאנל תוצאות, עבור מקרים בהם ServiceRequest אחד כולל בתוכו קוד אשר מייצג קבוצת בדיקות (פאנל\\סוללה).\r\nפרופיל זה אינו כולל את התוצאות עצמן אלא מצביע עליהן.",
     "status" : {
       "class" : "colsi",
@@ -271,7 +184,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 17,
+    "index" : 12,
     "source" : "fsh-generated/resources/StructureDefinition-lrc-referral-group.json",
     "sourceTail" : "StructureDefinition-lrc-referral-group.json",
     "path" : "StructureDefinition-lrc-referral-group.html",
@@ -279,7 +192,7 @@
     "version" : "0.1.0",
     "name" : "LrcReferralGroup",
     "title" : "Lrc Lab Test Referral Group",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "הפניה מרכזת. להפניה הזו אין קוד בדיקה, אלא היא כוללת קישורים לכל הבדיקות הספציפיות שיש לבצע.\r\nפרופיל זה מהווה טריגר לתחילת הטיפול בתהליך מצד הארגון המבצע.",
     "status" : {
       "class" : "colsi",
@@ -292,7 +205,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 18,
+    "index" : 13,
     "source" : "fsh-generated/resources/StructureDefinition-lrc-referral.json",
     "sourceTail" : "StructureDefinition-lrc-referral.json",
     "path" : "StructureDefinition-lrc-referral.html",
@@ -300,7 +213,7 @@
     "version" : "0.1.0",
     "name" : "LrcReferral",
     "title" : "Lrc Lab Test Referral",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "הפניה לבדיקת מעבדה, או לפאנל (סוללה) של בדיקות מעבדה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",
     "status" : {
       "class" : "colsi",
@@ -313,7 +226,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 19,
+    "index" : 14,
     "source" : "fsh-generated/resources/StructureDefinition-lrc-result.json",
     "sourceTail" : "StructureDefinition-lrc-result.json",
     "path" : "StructureDefinition-lrc-result.html",
@@ -321,7 +234,7 @@
     "version" : "0.1.0",
     "name" : "LrcResult",
     "title" : "Lrc Test Result",
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "תוצאת בדיקת מעבדה בודדת.",
     "status" : {
       "class" : "colsi",
@@ -334,7 +247,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 20,
+    "index" : 15,
     "source" : "fsh-generated/resources/ValueSet-lrc-onco-panel-result-codes.json",
     "sourceTail" : "ValueSet-lrc-onco-panel-result-codes.json",
     "path" : "ValueSet-lrc-onco-panel-result-codes.html",
@@ -343,7 +256,7 @@
     "name" : "LrcOncoPanelResultCodes",
     "title" : "Lrc Onco Panel Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -356,7 +269,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 21,
+    "index" : 16,
     "source" : "fsh-generated/resources/ValueSet-lrc-onco-referral-codes.json",
     "sourceTail" : "ValueSet-lrc-onco-referral-codes.json",
     "path" : "ValueSet-lrc-onco-referral-codes.html",
@@ -365,7 +278,7 @@
     "name" : "LrcOncoReferralCodes",
     "title" : "Lrc Oncology Related referral Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -378,7 +291,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 22,
+    "index" : 17,
     "source" : "fsh-generated/resources/ValueSet-lrc-onco-result-codes.json",
     "sourceTail" : "ValueSet-lrc-onco-result-codes.json",
     "path" : "ValueSet-lrc-onco-result-codes.html",
@@ -387,7 +300,7 @@
     "name" : "LrcOncoResultCodes",
     "title" : "Lrc Onco Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
     "status" : {
       "class" : "colsd",
@@ -400,7 +313,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 23,
+    "index" : 18,
     "source" : "fsh-generated/resources/ValueSet-lrc-panel-result-codes.json",
     "sourceTail" : "ValueSet-lrc-panel-result-codes.json",
     "path" : "ValueSet-lrc-panel-result-codes.html",
@@ -409,7 +322,7 @@
     "name" : "LrcPanelResultCodes",
     "title" : "Lrc Panel Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
     "status" : {
       "class" : "colsd",
@@ -422,7 +335,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 24,
+    "index" : 19,
     "source" : "fsh-generated/resources/ValueSet-lrc-referral-codes.json",
     "sourceTail" : "ValueSet-lrc-referral-codes.json",
     "path" : "ValueSet-lrc-referral-codes.html",
@@ -431,7 +344,7 @@
     "name" : "LrcReferralCodes",
     "title" : "Lrc Referral Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי הפניות.",
     "status" : {
       "class" : "colsd",
@@ -444,7 +357,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 25,
+    "index" : 20,
     "source" : "fsh-generated/resources/ValueSet-lrc-result-codes.json",
     "sourceTail" : "ValueSet-lrc-result-codes.json",
     "path" : "ValueSet-lrc-result-codes.html",
@@ -453,7 +366,7 @@
     "name" : "LrcResultCodes",
     "title" : "Lrc Result Codes",
     "experimental" : false,
-    "date" : "2024-02-22T18:39:46+02:00",
+    "date" : "2024-02-27T18:05:15+02:00",
     "description" : "רשימת קודי Loinc לייצוג קודי התוצאות.",
     "status" : {
       "class" : "colsd",
