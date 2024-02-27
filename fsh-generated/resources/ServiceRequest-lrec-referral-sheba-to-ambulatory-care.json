@@ -1,12 +1,21 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "3907",
+  "id": "lrec-referral-sheba-to-ambulatory-care",
   "meta": {
     "profile": [
-      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+      "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
     ]
   },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
+  },
   "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:uuid:8b241910-061d-495b-b44e-43f8639c7433"
+    },
     {
       "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
       "value": "733-102"
@@ -19,8 +28,8 @@
     {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
           "code": "108252007",
+          "system": "http://snomed.info/sct",
           "display": "Laboratory procedure"
         }
       ]
@@ -29,7 +38,7 @@
   "subject": {
     "identifier": {
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
-      "value": "123456789"
+      "value": "000000018"
     },
     "reference": "Patient/90",
     "type": "Patient"

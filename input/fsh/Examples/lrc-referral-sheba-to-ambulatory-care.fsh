@@ -1,6 +1,7 @@
 Instance: lrec-referral-sheba-to-ambulatory-care
 InstanceOf: lrc-referral
 Usage: #example
+* text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
 * identifier[0].system = "urn:ietf:rfc:3986"

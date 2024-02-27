@@ -2,12 +2,13 @@ Instance: lrc-result-oncology-calcium
 InstanceOf: lrc-result
 Usage: #example
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-result"
+* text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות בדיקת סידן בסרום של מטופל עבור אשפוז יום אונקולוגי</div>"
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/lab-result"
 * identifier.value = "1304421043-20230802-1337-3231"
 * basedOn = Reference(ServiceRequest/3908)
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
+* category[hl7-lab] = $hl7-obs-category-cs#laboratory "Laboratory"
 * code = $loinc#17861-6 "Calcium [Mass/volume] in Serum or Plasma"
 * code.text = "Calcium-SERUM"
 * subject = Reference(Patient/90)

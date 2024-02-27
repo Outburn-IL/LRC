@@ -1,6 +1,7 @@
-Instance: lrc-panel-report-results
-InstanceOf: lrc-panel-report
+Instance: lrc-lab-report-results
+InstanceOf: lrc-lab-report
 Usage: #example
+* text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">דוח מסכם של תוצאות המעבדה של מטופל</div>"
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"
 * extension.url = "http://fhir.health.gov.il/StructureDefinition/ext-diagnostic-report-note"
@@ -11,7 +12,7 @@ Usage: #example
 * basedOn.identifier.system = "urn:ietf:rfc:3986"
 * basedOn.identifier.value = "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
 * status = #final
-* category = $v2-0074#LAB "Laboratory"
+* category[hl7-lab] = $hl7-diag-category-cs#LAB "Laboratory"
 * code = $loinc#11502-2 "Laboratory report"
 * subject = Reference(Patient/90)
 * subject.type = "Patient"

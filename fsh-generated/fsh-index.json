@@ -8,116 +8,76 @@
     "endLine": 14
   },
   {
-    "outputFile": "DiagnosticReport-3917.json",
-    "fshName": "3917",
+    "outputFile": "DiagnosticReport-lrc-lab-report-results.json",
+    "fshName": "lrc-lab-report-results",
     "fshType": "Instance",
-    "fshFile": "Examples\\3917.fsh",
+    "fshFile": "Examples\\lrc-panel-report-results.fsh",
     "startLine": 1,
     "endLine": 50
   },
   {
-    "outputFile": "Observation-3913.json",
-    "fshName": "3913",
+    "outputFile": "Observation-lrc-panel-result-cbc.json",
+    "fshName": "lrc-panel-result-cbc",
     "fshType": "Instance",
-    "fshFile": "Examples\\3913.fsh",
-    "startLine": 1,
-    "endLine": 33
-  },
-  {
-    "outputFile": "Observation-3914.json",
-    "fshName": "3914",
-    "fshType": "Instance",
-    "fshFile": "Examples\\3914.fsh",
-    "startLine": 1,
-    "endLine": 23
-  },
-  {
-    "outputFile": "Observation-3915.json",
-    "fshName": "3915",
-    "fshType": "Instance",
-    "fshFile": "Examples\\3915.fsh",
-    "startLine": 1,
-    "endLine": 23
-  },
-  {
-    "outputFile": "Observation-4015.json",
-    "fshName": "4015",
-    "fshType": "Instance",
-    "fshFile": "Examples\\4015.fsh",
+    "fshFile": "Examples\\lrc-panel-result-cbc.fsh",
     "startLine": 1,
     "endLine": 37
   },
   {
-    "outputFile": "ServiceRequest-3906.json",
-    "fshName": "3906",
+    "outputFile": "Observation-lrc-result-oncology-calcium.json",
+    "fshName": "lrc-result-oncology-calcium",
     "fshType": "Instance",
-    "fshFile": "Examples\\3906.fsh",
+    "fshFile": "Examples\\lrc-result-oncology.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 26
   },
   {
-    "outputFile": "ServiceRequest-3907.json",
-    "fshName": "3907",
+    "outputFile": "Observation-lrc-result-oncology-urea.json",
+    "fshName": "lrc-result-oncology-urea",
     "fshType": "Instance",
-    "fshFile": "Examples\\3907.fsh",
+    "fshFile": "Examples\\lrc-result-oncology-urea.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 26
   },
   {
-    "outputFile": "ServiceRequest-3908.json",
-    "fshName": "3908",
+    "outputFile": "ServiceRequest-lrc-referral-automated-crc.json",
+    "fshName": "lrc-referral-automated-crc",
     "fshType": "Instance",
-    "fshFile": "Examples\\3908.fsh",
-    "startLine": 1,
-    "endLine": 21
-  },
-  {
-    "outputFile": "ServiceRequest-3909.json",
-    "fshName": "3909",
-    "fshType": "Instance",
-    "fshFile": "Examples\\3909.fsh",
+    "fshFile": "Examples\\lrc-referral-automated-crc.fsh",
     "startLine": 1,
     "endLine": 24
   },
   {
-    "outputFile": "ServiceRequest-4014.json",
-    "fshName": "4014",
+    "outputFile": "ServiceRequest-lrc-referral-glucose.json",
+    "fshName": "lrc-referral-glucose",
     "fshType": "Instance",
-    "fshFile": "Examples\\4014.fsh",
+    "fshFile": "Examples\\lrc-referral-glucose.fsh",
     "startLine": 1,
-    "endLine": 23
+    "endLine": 26
   },
   {
-    "outputFile": "StructureDefinition-lrc-hospital-community-onco-lab-result.json",
-    "fshName": "LrcHospitalCommunityOncoLabResult",
-    "fshType": "Profile",
-    "fshFile": "Observation-Lrc-Onco-Result.fsh",
+    "outputFile": "ServiceRequest-lrc-referral-group-example.json",
+    "fshName": "lrc-referral-group-example",
+    "fshType": "Instance",
+    "fshFile": "Examples\\lrc-referral-group-example.fsh",
     "startLine": 1,
-    "endLine": 10
+    "endLine": 25
+  },
+  {
+    "outputFile": "ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",
+    "fshName": "lrec-referral-sheba-to-ambulatory-care",
+    "fshType": "Instance",
+    "fshFile": "Examples\\lrc-referral-sheba-to-ambulatory-care.fsh",
+    "startLine": 1,
+    "endLine": 26
   },
   {
     "outputFile": "StructureDefinition-lrc-lab-report.json",
     "fshName": "LrcLabReport",
     "fshType": "Profile",
-    "fshFile": "DiagnosticReport-Lrc-Panel-Result.fsh",
+    "fshFile": "DiagnosticReport-Lrc-Panel-Report.fsh",
     "startLine": 1,
     "endLine": 36
-  },
-  {
-    "outputFile": "StructureDefinition-lrc-onco-panel-result.json",
-    "fshName": "LrcHospitalCommunityOncoPanelLabResult",
-    "fshType": "Profile",
-    "fshFile": "Observation-Lrc-Panel-Hospital-Community-Onco-Result.fsh",
-    "startLine": 1,
-    "endLine": 8
-  },
-  {
-    "outputFile": "StructureDefinition-lrc-onco-referral.json",
-    "fshName": "LrcHospitalCommunityOncoLabReferral",
-    "fshType": "Profile",
-    "fshFile": "ServiceRequest-Lrc-Onco-Referral.fsh",
-    "startLine": 1,
-    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-lrc-panel-result.json",

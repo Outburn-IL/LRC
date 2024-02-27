@@ -1,14 +1,24 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "3906",
+  "id": "lrc-referral-automated-crc",
+  "meta": {
+    "profile": [
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+      "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית לפאנל ספירת דם CBC משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
+  },
   "identifier": [
     {
       "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
-      "value": "733-101"
+      "value": "733-201"
     }
   ],
   "requisition": {
-    "value": "51ecd763-209e-4681-b19e-e3fcc1f1d1e4"
+    "value": "21e40433-dec3-43d2-8183-c0badc5d2116"
   },
   "category": [
     {
@@ -24,9 +34,9 @@
   "subject": {
     "identifier": {
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
-      "value": "123456789"
+      "value": "000000018"
     },
-    "reference": "Patient/59095-11",
+    "reference": "Patient/90",
     "type": "Patient"
   },
   "requester": {
@@ -42,15 +52,15 @@
       "text": "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
     }
   ],
-  "status": "active",
   "intent": "order",
+  "status": "active",
   "priority": "urgent",
   "code": {
     "coding": [
       {
-        "code": "2345-7",
+        "code": "57021-8",
         "system": "http://loinc.org",
-        "display": "Glucose [Mass/volume] in Serum or Plasma"
+        "display": "CBC W Auto Differential panel - Blood"
       }
     ]
   },

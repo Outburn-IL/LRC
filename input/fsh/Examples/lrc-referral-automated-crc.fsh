@@ -1,6 +1,7 @@
 Instance: lrc-referral-automated-crc
 InstanceOf: lrc-referral
 Usage: #example
+* text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית לפאנל ספירת דם CBC משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/referral-id"

@@ -1,26 +1,24 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "3909",
+  "id": "lrc-referral-glucose",
   "meta": {
     "profile": [
-      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+      "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
     ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
   },
   "identifier": [
     {
       "system": "urn:ietf:rfc:3986",
-      "value": "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
-    }
-  ],
-  "basedOn": [
-    {
-      "reference": "ServiceRequest/3906"
+      "value": "urn:uuid:2690a9b7-7339-4022-b06b-fcceaa1ac11d"
     },
     {
-      "reference": "ServiceRequest/3907"
-    },
-    {
-      "reference": "ServiceRequest/3908"
+      "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
+      "value": "733-101"
     }
   ],
   "requisition": {
@@ -30,8 +28,8 @@
     {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
           "code": "108252007",
+          "system": "http://snomed.info/sct",
           "display": "Laboratory procedure"
         }
       ]
@@ -40,7 +38,7 @@
   "subject": {
     "identifier": {
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
-      "value": "123456789"
+      "value": "000000018"
     },
     "reference": "Patient/90",
     "type": "Patient"
@@ -59,16 +57,16 @@
     }
   ],
   "intent": "order",
+  "status": "active",
   "priority": "urgent",
   "code": {
     "coding": [
       {
+        "code": "2345-7",
         "system": "http://loinc.org",
-        "code": "11502-2",
-        "display": "Laboratory Report"
+        "display": "Glucose [Mass/volume] in Serum or Plasma"
       }
     ]
   },
-  "status": "active",
-  "authoredOn": "2023-04-03T11:32:40+03:00"
+  "authoredOn": "2023-04-03T11:32:38+03:00"
 }

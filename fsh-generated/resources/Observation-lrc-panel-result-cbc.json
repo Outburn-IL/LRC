@@ -1,13 +1,15 @@
 {
   "resourceType": "Observation",
-  "id": "4015",
+  "id": "lrc-panel-result-cbc",
   "meta": {
-    "versionId": "2",
-    "lastUpdated": "2023-08-27T09:39:46.233+00:00",
-    "source": "#tnJ7qa6sjx4e7A1m",
     "profile": [
-      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+      "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"
     ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות מעבדה מאגדת של פאנל CBC של מטופל עבור אשפוז יום אונקולוגי</div>"
   },
   "identifier": [
     {

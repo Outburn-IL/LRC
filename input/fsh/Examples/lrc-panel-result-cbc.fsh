@@ -1,6 +1,7 @@
 Instance: lrc-panel-result-cbc
 InstanceOf: lrc-panel-result
 Usage: #example
+* text.status = #generated
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"> תוצאות מעבדה מאגדת של פאנל CBC של מטופל עבור אשפוז יום אונקולוגי</div>"
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/profile-lab-result"
@@ -8,9 +9,9 @@ Usage: #example
 * basedOn = Reference(ServiceRequest/4014)
 * basedOn.type = "ServiceRequest"
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
+* category[hl7-lab] = $hl7-obs-category-cs#laboratory "Laboratory"
 * code.coding[0] = $loinc#57021-8 "CBC W Auto Differential panel - Blood"
-* code.coding[+] = $lab-result_1#600 "CBC"
+* code.coding[+] = $meuhedet-lab-result-code#600 "CBC"
 * code.text = "CBC"
 * subject = Reference(Patient/90)
 * subject.type = "Patient"

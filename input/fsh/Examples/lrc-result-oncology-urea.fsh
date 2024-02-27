@@ -3,11 +3,12 @@ InstanceOf: lrc-result
 Usage: #example
 * meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-result"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות בדיקת אוראה בסרום של מטופל עבור אשפוז יום אונקולוגי</div>"
+* text.status = #generated
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/lab-result"
 * identifier.value = "1304421043-20230802-1336-3231"
 * basedOn = Reference(ServiceRequest/3907)
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
+* category[hl7-lab] = $hl7-obs-category-cs#laboratory "Laboratory"
 * code = $loinc#3094-0 "Urea nitrogen [Mass/volume] in Serum or Plasma"
 * code.text = "Urea-blood (BUN)"
 * subject = Reference(Patient/90)

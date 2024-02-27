@@ -1,10 +1,27 @@
 {
   "resourceType": "ServiceRequest",
-  "id": "3908",
+  "id": "lrc-referral-group-example",
+  "meta": {
+    "profile": [
+      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+      "http://fhir.health.gov.il/StructureDefinition/lrc-referral-group"
+    ]
+  },
   "identifier": [
     {
-      "system": "http://fhir.meuhedet.co.il/identifier/referral-id",
-      "value": "733-103"
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
+    }
+  ],
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/3906"
+    },
+    {
+      "reference": "ServiceRequest/3907"
+    },
+    {
+      "reference": "ServiceRequest/3908"
     }
   ],
   "requisition": {
@@ -24,7 +41,7 @@
   "subject": {
     "identifier": {
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
-      "value": "123456789"
+      "value": "000000018"
     },
     "reference": "Patient/90",
     "type": "Patient"
@@ -42,17 +59,17 @@
       "text": "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
     }
   ],
-  "status": "active",
   "intent": "order",
   "priority": "urgent",
   "code": {
     "coding": [
       {
-        "code": "17861-6",
         "system": "http://loinc.org",
-        "display": "Calcium [Mass/volume] in Serum or Plasma"
+        "code": "11502-2",
+        "display": "Laboratory Report"
       }
     ]
   },
-  "authoredOn": "2023-04-03T11:32:38+03:00"
+  "status": "active",
+  "authoredOn": "2023-04-03T11:32:40+03:00"
 }
