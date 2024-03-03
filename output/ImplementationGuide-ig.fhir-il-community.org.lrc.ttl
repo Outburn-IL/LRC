@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle> a fhir:ImplementationGuide ;
+<http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "lab-referral-cycle"] ; # 
+  fhir:id [ fhir:v "ig.fhir-il-community.org.lrc"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LabReferralCycle</h2><p>The official URL for this implementation guide is: </p><pre>http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle</pre><div><p>הפניה לבדיקות מעבדה מביה&quot;ח לקהילה, וקבלת התוצאות בחזרה.</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LabReferralCycle</h2><p>The official URL for this implementation guide is: </p><pre>http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc</pre><div><p>הפניה לבדיקות מעבדה מביה&quot;ח לקהילה, וקבלת התוצאות בחזרה.</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:url [ fhir:v "http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "LabReferralCycle"] ; # 
   fhir:title [ fhir:v "Hospital-Community Lab Referral Cycle"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T10:40:33+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;
@@ -27,7 +27,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה."] ; # 
-  fhir:packageId [ fhir:v "lab-referral-cycle"] ; # 
+  fhir:packageId [ fhir:v "ig.fhir-il-community.org.lrc"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -661,8 +661,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-lab-report-results" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report>
        ]
      ] [
        fhir:extension ( [
@@ -675,8 +675,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-panel-result-cbc" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result>
        ]
      ] [
        fhir:extension ( [
@@ -689,8 +689,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-referral-automated-crc" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral>
        ]
      ] [
        fhir:extension ( [
@@ -703,8 +703,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-referral-glucose" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral>
        ]
      ] [
        fhir:extension ( [
@@ -717,8 +717,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-referral-group-example" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group>
        ]
      ] [
        fhir:extension ( [
@@ -731,8 +731,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-result-oncology-calcium" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result>
        ]
      ] [
        fhir:extension ( [
@@ -745,8 +745,8 @@
        ] ;
        fhir:name [ fhir:v "lrc-result-oncology-urea" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result>
        ]
      ] [
        fhir:extension ( [
@@ -759,8 +759,8 @@
        ] ;
        fhir:name [ fhir:v "lrec-referral-sheba-to-ambulatory-care" ] ;
        fhir:example [
-         fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-         fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+         fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral>
        ]
      ] [
        fhir:extension ( [

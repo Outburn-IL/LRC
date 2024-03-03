@@ -1,55 +1,60 @@
 {
-  "date" : "Sun, 03 Mar, 2024 08:59:15 +0200",
+  "date" : "Sun, 03 Mar, 2024 10:40:33 +0200",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
-      "name" : "\\fsh-generated\\resources\\ImplementationGuide-lab-referral-cycle.json",
-      "size" : 8665,
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-ig.fhir-il-community.org.lrc.json",
+      "size" : 8703,
       "processes" : [
         {
-          "activity" : "loadDepInfo",
-          "start" : 132,
-          "length" : 1
-        },
-        {
           "activity" : "load",
-          "start" : 133,
-          "length" : 298
+          "start" : 94,
+          "length" : 340
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 5
+          "start" : 100,
+          "length" : 14
         },
         {
           "activity" : "generateNarratives",
-          "start" : 141,
-          "length" : 419
+          "start" : 100,
+          "length" : 352
         },
         {
           "activity" : "validate",
-          "start" : 168,
-          "length" : 1453
+          "start" : 130,
+          "length" : 3765
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 134,
+          "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 171,
-          "length" : 253
+          "start" : 140,
+          "length" : 620
         },
         {
           "activity" : "generate2",
-          "start" : 181,
-          "length" : 1139
+          "start" : 165,
+          "length" : 823
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 354,
+          "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 6
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 351,
-          "length" : 1
+          "start" : 355,
+          "length" : 8
         }
       ]
     },
@@ -59,882 +64,902 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 130,
-          "length" : 28
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 132,
-          "length" : 1
-        },
-        {
-          "activity" : "loadInfo",
-          "start" : 132,
-          "length" : 2
+          "start" : 90,
+          "length" : 81
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 84
+          "start" : 93,
+          "length" : 717
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 100,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 141,
-          "length" : 42
+          "start" : 101,
+          "length" : 57
         },
         {
           "activity" : "validate",
-          "start" : 150,
-          "length" : 209
+          "start" : 111,
+          "length" : 200
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 134,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
+          "length" : 5
         },
         {
           "activity" : "generate1",
-          "start" : 171,
-          "length" : 31
+          "start" : 141,
+          "length" : 70
         },
         {
           "activity" : "generate2",
-          "start" : 182,
-          "length" : 65366
+          "start" : 166,
+          "length" : 73450
         },
         {
-          "activity" : "generateExampleZip",
-          "start" : 333,
+          "activity" : "generateValidationPack",
+          "start" : 355,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/DiagnosticReport-lrc-lab-report-results.json",
-      "size" : 8629,
+      "size" : 8630,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 130,
-          "length" : 330
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 169,
-          "length" : 179
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 78
-        },
-        {
-          "activity" : "generate2",
-          "start" : 247,
-          "length" : 152
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 302,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/Observation-lrc-panel-result-cbc.json",
-      "size" : 2557,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 93
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 141,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 471
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 32
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 122
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/Observation-lrc-result-oncology-calcium.json",
-      "size" : 2082,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 44
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 63
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 38
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 104
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/Observation-lrc-result-oncology-urea.json",
-      "size" : 2088,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 70
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 141,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 47
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 72
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 85
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-automated-crc.json",
-      "size" : 1783,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
+          "start" : 90,
           "length" : 61
         },
         {
           "activity" : "validate",
-          "start" : 170,
-          "length" : 20
+          "start" : 134,
+          "length" : 734
         },
         {
           "activity" : "generate1",
-          "start" : 171,
-          "length" : 47
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 98
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-glucose.json",
-      "size" : 1861,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 40
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
           "start" : 141,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 33
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 48
+          "length" : 162
         },
         {
           "activity" : "generate2",
-          "start" : 248,
-          "length" : 82
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-group-example.json",
-      "size" : 1726,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 34
+          "start" : 239,
+          "length" : 197
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 141,
-          "length" : 2685
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 47
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 63
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 130
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",
-      "size" : 1885,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 29
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 144,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 170,
-          "length" : 20
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 70
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 70
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/StructureDefinition-lrc-lab-report.json",
-      "size" : 4604,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 130,
-          "length" : 89
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 132,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 132,
-          "length" : 103
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 133,
-          "length" : 827
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 144,
-          "length" : 684
-        },
-        {
-          "activity" : "validate",
-          "start" : 151,
-          "length" : 2555
-        },
-        {
-          "activity" : "generate1",
-          "start" : 171,
-          "length" : 530
-        },
-        {
-          "activity" : "generate2",
-          "start" : 248,
-          "length" : 3956
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 11
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 351,
+          "activity" : "generateExampleZip",
+          "start" : 353,
           "length" : 2
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-lrc-panel-result.json",
-      "size" : 5222,
+      "name" : "fsh-generated/resources/Observation-lrc-panel-result-cbc.json",
+      "size" : 2558,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 130,
-          "length" : 92
-        },
-        {
-          "activity" : "load",
-          "start" : 132,
-          "length" : 102
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 134,
-          "length" : 2091
+          "start" : 90,
+          "length" : 190
         },
         {
           "activity" : "generateNarratives",
-          "start" : 145,
-          "length" : 1011
+          "start" : 101,
+          "length" : 2
         },
         {
           "activity" : "validate",
-          "start" : 151,
+          "start" : 135,
+          "length" : 1876
+        },
+        {
+          "activity" : "generate1",
+          "start" : 141,
+          "length" : 71
+        },
+        {
+          "activity" : "generate2",
+          "start" : 239,
+          "length" : 144
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-lrc-result-oncology-calcium.json",
+      "size" : 2083,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 90,
+          "length" : 156
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 100,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
           "length" : 1
         },
         {
           "activity" : "validate",
-          "start" : 154,
-          "length" : 3823
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 169,
-          "length" : 9
+          "start" : 136,
+          "length" : 944
         },
         {
           "activity" : "generate1",
-          "start" : 172,
-          "length" : 1061
+          "start" : 141,
+          "length" : 73
         },
         {
           "activity" : "generate2",
-          "start" : 252,
-          "length" : 5158
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 21
+          "start" : 240,
+          "length" : 126
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 351,
+          "start" : 388,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-lrc-result-oncology-urea.json",
+      "size" : 2089,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 90,
+          "length" : 142
+        },
+        {
+          "activity" : "validate",
+          "start" : 137,
+          "length" : 452
+        },
+        {
+          "activity" : "generate1",
+          "start" : 141,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 240,
+          "length" : 110
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-automated-crc.json",
+      "size" : 1784,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 90,
+          "length" : 299
+        },
+        {
+          "activity" : "validate",
+          "start" : 138,
+          "length" : 436
+        },
+        {
+          "activity" : "generate1",
+          "start" : 141,
+          "length" : 61
+        },
+        {
+          "activity" : "generate2",
+          "start" : 240,
+          "length" : 119
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-glucose.json",
+      "size" : 1862,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 90,
+          "length" : 172
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 100,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 101,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 138,
+          "length" : 641
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 74
+        },
+        {
+          "activity" : "generate2",
+          "start" : 240,
+          "length" : 153
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-lrc-referral-group-example.json",
+      "size" : 1727,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 91,
+          "length" : 129
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 101,
+          "length" : 2172
+        },
+        {
+          "activity" : "validate",
+          "start" : 139,
+          "length" : 127
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 120
+        },
+        {
+          "activity" : "generate2",
+          "start" : 240,
+          "length" : 441
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",
+      "size" : 1886,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 91,
+          "length" : 266
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 100,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 103,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 139,
+          "length" : 504
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 77
+        },
+        {
+          "activity" : "generate2",
+          "start" : 240,
+          "length" : 252
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lrc-lab-report.json",
+      "size" : 4606,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 91,
+          "length" : 140
+        },
+        {
+          "activity" : "load",
+          "start" : 94,
+          "length" : 64
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 94,
+          "length" : 760
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 103,
+          "length" : 716
+        },
+        {
+          "activity" : "validate",
+          "start" : 112,
+          "length" : 3643
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 134,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 1731
+        },
+        {
+          "activity" : "generate2",
+          "start" : 241,
+          "length" : 7536
+        },
+        {
+          "activity" : "generateLogicals",
+          "start" : 304,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 355,
+          "length" : 25
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 388,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 388,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lrc-panel-result.json",
+      "size" : 5225,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 91,
+          "length" : 338
+        },
+        {
+          "activity" : "load",
+          "start" : 94,
+          "length" : 31
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 95,
+          "length" : 2014
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 104,
+          "length" : 1043
+        },
+        {
+          "activity" : "validate",
+          "start" : 116,
+          "length" : 3731
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 3157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 248,
+          "length" : 9010
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 308,
+          "length" : 2
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 354,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 355,
+          "length" : 62
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 388,
           "length" : 5
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-lrc-referral-group.json",
-      "size" : 4340,
+      "size" : 4341,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 67
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
+          "start" : 91,
+          "length" : 85
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 56
+          "start" : 94,
+          "length" : 32
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 136,
-          "length" : 901
+          "start" : 97,
+          "length" : 718
         },
         {
           "activity" : "generateNarratives",
-          "start" : 146,
-          "length" : 865
+          "start" : 105,
+          "length" : 754
         },
         {
           "activity" : "validate",
-          "start" : 157,
-          "length" : 2822
+          "start" : 120,
+          "length" : 2203
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 169,
-          "length" : 1
+          "start" : 134,
+          "length" : 4
         },
         {
           "activity" : "generate1",
-          "start" : 173,
-          "length" : 819
+          "start" : 147,
+          "length" : 3760
         },
         {
           "activity" : "generate2",
           "start" : 257,
-          "length" : 2950
+          "length" : 4283
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 15
+          "start" : 355,
+          "length" : 40
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 388,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-lrc-referral.json",
-      "size" : 3469,
+      "size" : 3471,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 55
+          "start" : 92,
+          "length" : 213
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 47
+          "start" : 94,
+          "length" : 42
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 137,
-          "length" : 1094
+          "start" : 98,
+          "length" : 588
         },
         {
           "activity" : "generateNarratives",
-          "start" : 147,
-          "length" : 760
+          "start" : 106,
+          "length" : 817
         },
         {
           "activity" : "validate",
-          "start" : 160,
-          "length" : 2198
+          "start" : 122,
+          "length" : 2193
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 134,
+          "length" : 1
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 169,
+          "start" : 134,
           "length" : 3
         },
         {
+          "activity" : "validate",
+          "start" : 140,
+          "length" : 44
+        },
+        {
           "activity" : "generate1",
-          "start" : 174,
-          "length" : 646
+          "start" : 150,
+          "length" : 1002
         },
         {
           "activity" : "generate2",
-          "start" : 260,
-          "length" : 3318
+          "start" : 262,
+          "length" : 3272
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 16
+          "start" : 355,
+          "length" : 43
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 351,
+          "start" : 388,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-lrc-result.json",
-      "size" : 9994,
+      "size" : 9997,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 155
+          "start" : 92,
+          "length" : 78
         },
         {
           "activity" : "load",
-          "start" : 133,
-          "length" : 105
+          "start" : 94,
+          "length" : 69
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 138,
-          "length" : 2972
+          "start" : 98,
+          "length" : 2009
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 141,
+          "start" : 100,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 147,
-          "length" : 2288
+          "start" : 106,
+          "length" : 3505
         },
         {
           "activity" : "validate",
-          "start" : 162,
-          "length" : 5457
+          "start" : 124,
+          "length" : 6039
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 169,
-          "length" : 4
+          "start" : 134,
+          "length" : 14
         },
         {
           "activity" : "generate1",
-          "start" : 174,
-          "length" : 1526
+          "start" : 151,
+          "length" : 2987
         },
         {
           "activity" : "generate2",
-          "start" : 264,
-          "length" : 4548
+          "start" : 265,
+          "length" : 8666
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 41
+          "start" : 355,
+          "length" : 107
         },
         {
           "activity" : "scanProfilesForR5",
-          "start" : 351,
+          "start" : 388,
           "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 388,
+          "length" : 4
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-onco-panel-result-codes.json",
-      "size" : 810,
+      "size" : 811,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 20
-        },
-        {
-          "activity" : "scan",
-          "start" : 132,
-          "length" : 1
+          "start" : 92,
+          "length" : 105
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 32
+          "start" : 93,
+          "length" : 11
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 277
+          "start" : 110,
+          "length" : 417
         },
         {
           "activity" : "validate",
-          "start" : 150,
-          "length" : 59
+          "start" : 111,
+          "length" : 49
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 24
+          "start" : 154,
+          "length" : 55
         },
         {
           "activity" : "generate2",
-          "start" : 268,
-          "length" : 15960
+          "start" : 273,
+          "length" : 15815
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 1
+          "start" : 355,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-onco-referral-codes.json",
-      "size" : 2908,
+      "size" : 2909,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 49
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
+          "start" : 92,
+          "length" : 10
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 48
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 1
+          "start" : 93,
+          "length" : 27
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 63
+          "start" : 110,
+          "length" : 150
         },
         {
           "activity" : "validate",
-          "start" : 151,
-          "length" : 39
+          "start" : 111,
+          "length" : 84
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 42
+          "start" : 154,
+          "length" : 107
         },
         {
           "activity" : "generate2",
-          "start" : 284,
-          "length" : 559
+          "start" : 289,
+          "length" : 719
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 1
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 351,
+          "start" : 355,
           "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-onco-result-codes.json",
-      "size" : 15094,
+      "size" : 15095,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 187
+          "start" : 92,
+          "length" : 297
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 259
+          "start" : 93,
+          "length" : 111
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 141,
-          "length" : 2
+          "start" : 100,
+          "length" : 99
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 157
+          "start" : 110,
+          "length" : 226
         },
         {
           "activity" : "validate",
-          "start" : 151,
-          "length" : 176
+          "start" : 111,
+          "length" : 300
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 168
+          "start" : 155,
+          "length" : 242
         },
         {
           "activity" : "generate2",
-          "start" : 285,
-          "length" : 1037
+          "start" : 290,
+          "length" : 1458
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 1
+          "start" : 355,
+          "length" : 4
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-panel-result-codes.json",
-      "size" : 749,
+      "size" : 750,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 17
+          "start" : 92,
+          "length" : 22
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 21
+          "start" : 94,
+          "length" : 15
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 11
+          "start" : 111,
+          "length" : 50
         },
         {
           "activity" : "validate",
-          "start" : 151,
-          "length" : 24
+          "start" : 112,
+          "length" : 33
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 16
+          "start" : 155,
+          "length" : 56
         },
         {
           "activity" : "generate2",
-          "start" : 286,
-          "length" : 386
+          "start" : 291,
+          "length" : 542
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 2
+          "start" : 355,
+          "length" : 3
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-referral-codes.json",
-      "size" : 2833,
+      "size" : 2834,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 35
+          "start" : 92,
+          "length" : 9
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 30
+          "start" : 94,
+          "length" : 32
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 33
+          "start" : 111,
+          "length" : 81
         },
         {
           "activity" : "validate",
-          "start" : 151,
-          "length" : 44
+          "start" : 112,
+          "length" : 103
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 57
+          "start" : 155,
+          "length" : 60
         },
         {
           "activity" : "generate2",
-          "start" : 286,
-          "length" : 558
+          "start" : 292,
+          "length" : 573
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 355,
+          "length" : 2
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/ValueSet-lrc-result-codes.json",
-      "size" : 15143,
+      "size" : 15144,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 131,
-          "length" : 126
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 132,
-          "length" : 1
+          "start" : 92,
+          "length" : 78
         },
         {
           "activity" : "load",
-          "start" : 132,
-          "length" : 146
+          "start" : 94,
+          "length" : 109
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 100,
+          "length" : 3
         },
         {
           "activity" : "generateNarratives",
-          "start" : 150,
-          "length" : 92
+          "start" : 111,
+          "length" : 216
         },
         {
           "activity" : "validate",
-          "start" : 151,
-          "length" : 229
+          "start" : 112,
+          "length" : 394
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 134,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 176,
-          "length" : 100
+          "start" : 155,
+          "length" : 245
         },
         {
           "activity" : "generate2",
-          "start" : 287,
-          "length" : 1142
+          "start" : 293,
+          "length" : 1296
         },
         {
           "activity" : "generateExampleZip",
-          "start" : 334,
+          "start" : 353,
           "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 334,
-          "length" : 2
+          "start" : 355,
+          "length" : 4
         }
       ]
     }

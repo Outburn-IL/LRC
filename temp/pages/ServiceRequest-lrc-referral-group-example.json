@@ -2,7 +2,7 @@
   "resourceType" : "ServiceRequest",
   "id" : "lrc-referral-group-example",
   "meta" : {
-    "profile" : ["http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
     "http://fhir.health.gov.il/StructureDefinition/lrc-referral-group"]
   },
   "text" : {

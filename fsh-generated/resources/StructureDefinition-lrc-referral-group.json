@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-referral-group",
-  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
   "name": "LrcReferralGroup",
   "title": "Lrc Lab Test Referral Group",
   "status": "active",

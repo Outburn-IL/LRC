@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.0",
-  "date" : "20240303085702",
+  "version" : "1.0.0",
+  "date" : "20240303103858",
   "notForPublication" : true,
-  "name" : "lab-referral-cycle.r4"
+  "name" : "ig.fhir-il-community.org.lrc.r4"
 }

@@ -12,13 +12,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/57021-8/\">57021-8</a></td><td>CBC W Auto Differential panel - Blood</td></tr><tr><td><a href=\"https://loinc.org/5894-1/\">5894-1</a></td><td>Prothrombin time (PT) actual/Normal</td></tr></table></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:url [ fhir:v "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "LrcPanelResultCodes"] ; # 
   fhir:title [ fhir:v "Lrc Panel Result Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T10:40:33+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;

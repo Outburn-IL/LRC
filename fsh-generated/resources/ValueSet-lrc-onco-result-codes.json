@@ -5,7 +5,7 @@
   "id": "lrc-onco-result-codes",
   "title": "Lrc Onco Result Codes",
   "description": "רשימת קודי Loinc לייצוג קודי התוצאות, במסגרת טיפול אונקולוגי.",
-  "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
+  "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes",
   "version": "0.1.0",
   "experimental": false,
   "compose": {

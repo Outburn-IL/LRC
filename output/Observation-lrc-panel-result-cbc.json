@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "lrc-panel-result-cbc",
   "meta" : {
-    "profile" : ["http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
     "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"]
   },
   "text" : {

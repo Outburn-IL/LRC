@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "lrc-result-oncology-calcium"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
-       fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result>
+       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
+       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result>
      ] [
        fhir:v "http://fhir.health.gov.il/StructureDefinition/lrc-result"^^xsd:anyURI ;
        fhir:link <http://fhir.health.gov.il/StructureDefinition/lrc-result>

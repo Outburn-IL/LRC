@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="12f56a8e-c967-46a5-bf5b-701fa0402a19"/>
+  <id value="93cbe577-e432-4911-b615-eddd2083f61b"/>
   <meta>
-    <lastUpdated value="2024-03-03T08:59:15.668+02:00"/>
+    <lastUpdated value="2024-03-03T10:40:33.850+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -46,16 +46,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcOncoPanelResultCodes"/>
         <title value="Lrc Onco Panel Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:0dd57cd3-c7e4-4551-8f7c-21b8d39cd79f"/>
-          <timestamp value="2024-03-03T09:01:48+02:00"/>
+          <identifier value="urn:uuid:2f38c7a1-1f65-4c98-afb8-47643c719d1b"/>
+          <timestamp value="2024-03-03T10:43:50+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -97,7 +97,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -264,16 +264,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcOncoReferralCodes"/>
         <title value="Lrc Oncology Related referral Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:9a8ca256-2825-43e3-af0a-1ef0d65ee7f4"/>
-          <timestamp value="2024-03-03T09:01:48+02:00"/>
+          <identifier value="urn:uuid:d22a3eea-2683-4702-8a9c-07ffc91feb7c"/>
+          <timestamp value="2024-03-03T10:43:51+02:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -395,7 +395,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -1314,16 +1314,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcOncoResultCodes"/>
         <title value="Lrc Onco Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:534cf670-1b41-44b4-b80d-0b963fe2225d"/>
-          <timestamp value="2024-03-03T09:01:49+02:00"/>
+          <identifier value="urn:uuid:98034c29-3e8e-4d1d-8b0b-154c28849e9c"/>
+          <timestamp value="2024-03-03T10:43:51+02:00"/>
           <total value="112"/>
           <offset value="0"/>
           <parameter>
@@ -1915,7 +1915,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -1954,16 +1954,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcPanelResultCodes"/>
         <title value="Lrc Panel Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:8f5bd2f4-a6dc-4ee9-90ae-794d7a19766a"/>
-          <timestamp value="2024-03-03T09:01:50+02:00"/>
+          <identifier value="urn:uuid:949fc5fa-9d74-411a-b838-ba0a775ae551"/>
+          <timestamp value="2024-03-03T10:43:53+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -2005,7 +2005,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -2172,16 +2172,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcReferralCodes"/>
         <title value="Lrc Referral Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:0fd74bbd-048d-4730-9da6-172b5f9272a7"/>
-          <timestamp value="2024-03-03T09:01:50+02:00"/>
+          <identifier value="urn:uuid:2e7de392-ef5c-4a70-974d-f1183e7cfc48"/>
+          <timestamp value="2024-03-03T10:43:53+02:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -2303,7 +2303,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes"/>
+    <fullUrl value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes"/>
     <resource>
       <ValueSet>
         <text>
@@ -3230,16 +3230,16 @@
             </table>
           </div>
         </text>
-        <url value="http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes"/>
-        <version value="0.1.0"/>
+        <url value="http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes"/>
+        <version value="1.0.0"/>
         <name value="LrcResultCodes"/>
         <title value="Lrc Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T08:59:15+02:00"/>
+        <date value="2024-03-03T10:40:33+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:88cd460d-bf34-4206-81cb-2149c5d8bfd2"/>
-          <timestamp value="2024-03-03T09:01:51+02:00"/>
+          <identifier value="urn:uuid:6827022e-ce13-4527-98d7-23ece0e6b286"/>
+          <timestamp value="2024-03-03T10:43:54+02:00"/>
           <total value="113"/>
           <offset value="0"/>
           <parameter>

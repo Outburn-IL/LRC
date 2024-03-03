@@ -1,16 +1,16 @@
 {
-  "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle",
+  "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc",
   "name" : "LabReferralCycle",
   "title" : "Hospital-Community Lab Referral Cycle",
   "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
   "status" : "active",
-  "package-id" : "lab-referral-cycle",
-  "ig-ver" : "0.1.0",
-  "date" : "Sun, 03 Mar, 2024 08:59:15 +0200",
-  "errs" : 51,
+  "package-id" : "ig.fhir-il-community.org.lrc",
+  "ig-ver" : "1.0.0",
+  "date" : "Sun, 03 Mar, 2024 10:40:33 +0200",
+  "errs" : 35,
   "warnings" : 21,
   "hints" : 12,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 4314775768
+  "maxMemory" : 6761222312
 }

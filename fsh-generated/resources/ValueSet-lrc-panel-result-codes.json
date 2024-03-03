@@ -5,7 +5,7 @@
   "id": "lrc-panel-result-codes",
   "title": "Lrc Panel Result Codes",
   "description": "רשימת קודי Loinc לייצוג קודי פאנל, עבור התוצאות.",
-  "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
+  "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes",
   "version": "0.1.0",
   "experimental": false,
   "compose": {

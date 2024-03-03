@@ -1,11 +1,11 @@
 {
   "path" : "http://hl7.org/fhir/R4/",
   "canonical" : "http://ig.fhir-il-community.org/LRC",
-  "igId" : "lab-referral-cycle",
+  "igId" : "ig.fhir-il-community.org.lrc",
   "igName" : "LabReferralCycle",
-  "packageId" : "lab-referral-cycle",
-  "igVer" : "0.1.0",
-  "errorCount" : 39,
+  "packageId" : "ig.fhir-il-community.org.lrc",
+  "igVer" : "1.0.0",
+  "errorCount" : 32,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 21,
   "processedFiles" : 58,
-  "genDate" : "Sun, Mar 3, 2024 08:59+0200",
+  "genDate" : "Sun, Mar 3, 2024 10:40+0200",
   "genDay" : "03/03/2024",
   "resourceTypes" : [
     "Account",
@@ -232,11 +232,11 @@
     "xhtml"
   ],
   "ig" : {
-    "id" : "lab-referral-cycle",
+    "id" : "ig.fhir-il-community.org.lrc",
     "name" : "LabReferralCycle",
     "title" : "Hospital-Community Lab Referral Cycle",
-    "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle",
-    "version" : "0.1.0",
+    "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc",
+    "version" : "1.0.0",
     "status" : "active",
     "experimental" : false,
     "publisher" : "Outburn LTD.",
@@ -247,7 +247,7 @@
         "telecom" : ["http://outburn.co.il"]
       }
     ],
-    "date" : "2024-03-03T08:59:15+02:00",
+    "date" : "2024-03-03T10:40:33+02:00",
     "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

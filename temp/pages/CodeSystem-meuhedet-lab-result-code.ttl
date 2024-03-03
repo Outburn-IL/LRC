@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>http://fhir.meuhedet.co.il/code/lab-result</code> provides <b>a fragment</b> that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"meuhedet-lab-result-code-600\"> </a></td><td>CBC</td></tr><tr><td style=\"white-space:nowrap\">624<a name=\"meuhedet-lab-result-code-624\"> </a></td><td>PT</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.meuhedet.co.il/code/lab-result"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "MeuhedetLabResultCode"] ; # 
   fhir:title [ fhir:v "Meuhedet Lab Result Code"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T10:40:33+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;

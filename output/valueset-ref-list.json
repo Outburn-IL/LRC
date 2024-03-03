@@ -13,8 +13,8 @@
       "StructureDefinition-lrc-result.html" : "Lrc Test Result"
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcOncoPanelResultCodes",
       "title" : "Lrc Onco Panel Result Codes",
@@ -25,8 +25,8 @@
       "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcOncoReferralCodes",
       "title" : "Lrc Oncology Related referral Codes",
@@ -34,8 +34,8 @@
       "systems" : ["http://loinc.org"]
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-result-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcOncoResultCodes",
       "title" : "Lrc Onco Result Codes",
@@ -43,8 +43,8 @@
       "systems" : ["http://loinc.org"]
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-panel-result-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcPanelResultCodes",
       "title" : "Lrc Panel Result Codes",
@@ -52,8 +52,8 @@
       "systems" : ["http://loinc.org"]
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcReferralCodes",
       "title" : "Lrc Referral Codes",
@@ -64,8 +64,8 @@
       "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral"
     },
     {
-      "url" : "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
-      "version" : "0.1.0",
+      "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "LrcResultCodes",
       "title" : "Lrc Result Codes",

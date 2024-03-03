@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-insensitive code system <code>http://fhir.meuhedet.co.il/code/lab-result</code> provides <b>a fragment</b> that includes following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">600<a name="meuhedet-lab-result-code-600"> </a></td><td>CBC</td></tr><tr><td style="white-space:nowrap">624<a name="meuhedet-lab-result-code-624"> </a></td><td>PT</td></tr></table></div>
   </text>
   <url value="http://fhir.meuhedet.co.il/code/lab-result"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="MeuhedetLabResultCode"/>
   <title value="Meuhedet Lab Result Code"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2024-03-03T08:59:15+02:00"/>
+  <date value="2024-03-03T10:40:33+02:00"/>
   <publisher value="Outburn LTD."/>
   <contact>
     <name value="Outburn LTD."/>

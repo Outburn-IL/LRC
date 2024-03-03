@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-lab-report",
-  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report",
   "name": "LrcLabReport",
   "title": "Lrc Lab Test Report",
   "status": "active",
@@ -89,7 +89,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group"
+              "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group"
             ]
           }
         ]

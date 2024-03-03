@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-referral",
-  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
   "name": "LrcReferral",
   "title": "Lrc Lab Test Referral",
   "status": "active",
@@ -80,7 +80,7 @@
         "path": "ServiceRequest.code",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes",
+          "valueSet": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",

@@ -3,7 +3,7 @@
   "id": "lrc-referral-glucose",
   "meta": {
     "profile": [
-      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
       "http://fhir.health.gov.il/StructureDefinition/lrc-referral"
     ]
   },

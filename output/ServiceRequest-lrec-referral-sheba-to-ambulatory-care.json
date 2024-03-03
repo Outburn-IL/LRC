@@ -2,7 +2,7 @@
   "resourceType" : "ServiceRequest",
   "id" : "lrec-referral-sheba-to-ambulatory-care",
   "meta" : {
-    "profile" : ["http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
     "http://fhir.health.gov.il/StructureDefinition/lrc-referral"]
   },
   "text" : {

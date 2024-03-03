@@ -5,7 +5,7 @@
   "id": "lrc-onco-referral-codes",
   "title": "Lrc Oncology Related referral Codes",
   "description": "רשימת קודי Loinc לייצוג קודי הפניות, במסגרת טיפול אונקולוגי.",
-  "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-referral-codes",
+  "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes",
   "version": "0.1.0",
   "experimental": false,
   "compose": {

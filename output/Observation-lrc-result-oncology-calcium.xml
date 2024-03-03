@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="lrc-result-oncology-calcium"/>
   <meta>
-    <profile value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"/>
     <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-result"/>
   </meta>
   <text>

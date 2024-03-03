@@ -3,7 +3,7 @@
 <ServiceRequest xmlns="http://hl7.org/fhir">
   <id value="lrc-referral-glucose"/>
   <meta>
-    <profile value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"/>
     <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-referral"/>
   </meta>
   <text>

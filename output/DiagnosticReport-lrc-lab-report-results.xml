@@ -3,7 +3,7 @@
 <DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="lrc-lab-report-results"/>
   <meta>
-    <profile value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report"/>
     <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"/>
   </meta>
   <text>

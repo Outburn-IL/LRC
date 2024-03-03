@@ -3,7 +3,7 @@
   "id": "lrc-result-oncology-urea",
   "meta": {
     "profile": [
-      "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
       "http://fhir.health.gov.il/StructureDefinition/lrc-result"
     ]
   },

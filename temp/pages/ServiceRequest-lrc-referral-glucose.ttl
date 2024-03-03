@@ -12,8 +12,8 @@
   fhir:id [ fhir:v "lrc-referral-glucose"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-       fhir:link <http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral>
+       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"^^xsd:anyURI ;
+       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral>
      ] [
        fhir:v "http://fhir.health.gov.il/StructureDefinition/lrc-referral"^^xsd:anyURI ;
        fhir:link <http://fhir.health.gov.il/StructureDefinition/lrc-referral>

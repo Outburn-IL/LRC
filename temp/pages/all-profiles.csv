@@ -65,7 +65,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-lab-report","DiagnosticReport.basedOn","DiagnosticReport.basedOn","","Request
-","",1,1,"","","","Reference {[]} {[CanonicalType[http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group]]}
+","",1,1,"","","","Reference {[]} {[CanonicalType[http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group]]}
 ","What was requested","Details concerning a service requested.","Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.","This allows tracing of authorization for the report and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"DiagnosticReport.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-lab-report","DiagnosticReport.basedOn.id","DiagnosticReport.basedOn.id","","","",0,1,"","","","string {[]} {[]}
@@ -264,7 +264,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-panel-result","Observation.basedOn","Observation.basedOn","","Fulfills
-","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral]]}
+","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral]]}
 ","Fulfills plan, proposal or order","A plan, proposal or order that is fulfilled in whole or in part by this event.  For example, a MedicationRequest may require a patient to have laboratory test performed before  it is dispensed.","","Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"Observation.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-panel-result","Observation.basedOn.id","Observation.basedOn.id","","","",0,1,"","","","string {[]} {[]}
@@ -346,7 +346,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Loinc Lab report",,"open","CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-panel-result","Observation.code.coding:loinc-lab","Observation.code.coding","loinc-lab","","",1,1,"","","Y","Coding {[]} {[]}
-","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,"required","","http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-panel-result","Observation.code.coding:loinc-lab.id","Observation.code.coding.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
@@ -1028,7 +1028,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "lrc-referral","ServiceRequest.code","ServiceRequest.code","","service requested
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","What is being requested/ordered","A code that identifies a particular service (i.e., procedure, diagnostic investigation, or panel of investigations) that have been requested.","Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code.","","","","","","","","",,"extensible","","http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes","",,,,"ServiceRequest.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","What is being requested/ordered","A code that identifies a particular service (i.e., procedure, diagnostic investigation, or panel of investigations) that have been requested.","Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code.","","","","","","","","",,"extensible","","http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes","",,,,"ServiceRequest.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-referral","ServiceRequest.code.id","ServiceRequest.code.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
@@ -1221,7 +1221,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-result","Observation.basedOn","Observation.basedOn","","Fulfills
-","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral]]}
+","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral]]}
 ","Fulfills plan, proposal or order","A plan, proposal or order that is fulfilled in whole or in part by this event.  For example, a MedicationRequest may require a patient to have laboratory test performed before  it is dispensed.","","Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"Observation.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-result","Observation.partOf","Observation.partOf","","Container
@@ -1283,7 +1283,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "lrc-result","Observation.code","Observation.code","","Name
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"extensible","","http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes","",,,,"Observation.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"extensible","","http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes","",,,,"Observation.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "lrc-result","Observation.code.id","Observation.code.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""

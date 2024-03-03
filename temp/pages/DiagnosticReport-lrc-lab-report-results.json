@@ -2,7 +2,7 @@
   "resourceType" : "DiagnosticReport",
   "id" : "lrc-lab-report-results",
   "meta" : {
-    "profile" : ["http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report",
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report",
     "http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"]
   },
   "text" : {

@@ -65,7 +65,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","CX.4 / (CX.4,CX.9,CX.10)","II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper"
 "DiagnosticReport.basedOn","DiagnosticReport.basedOn","","Request
-","",1,1,"","","","Reference {[]} {[CanonicalType[http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group]]}
+","",1,1,"","","","Reference {[]} {[CanonicalType[http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group]]}
 ","What was requested","Details concerning a service requested.","Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.","This allows tracing of authorization for the report and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"DiagnosticReport.basedOn",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.basedOn","ORC? OBR-2/3?","outboundRelationship[typeCode=FLFS].target"
 "DiagnosticReport.basedOn.id","DiagnosticReport.basedOn.id","","","",0,1,"","","","string {[]} {[]}

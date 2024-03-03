@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="lrc-panel-result-cbc"/>
   <meta>
-    <profile value="http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result"/>
     <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"/>
   </meta>
   <text>

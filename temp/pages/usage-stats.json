@@ -1,32 +1,32 @@
 {
-  "package": "lab-referral-cycle",
-  "version": "0.1.0",
+  "package": "ig.fhir-il-community.org.lrc",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
     "DiagnosticReport": [
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-lab-report",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report",
         "title": "Lrc Lab Test Report"
       }
     ],
     "Observation": [
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
         "title": "Lrc Test Result"
       },
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-panel-lab-test-result",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
         "title": "Lrc Panel Lab Test Result"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
         "title": "Lrc Lab Test Referral"
       },
       {
-        "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral-group",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
         "title": "Lrc Lab Test Referral Group"
       }
     ]

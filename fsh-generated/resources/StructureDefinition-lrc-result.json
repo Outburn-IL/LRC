@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-result",
-  "url": "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-onco-result",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
   "name": "LrcResult",
   "title": "Lrc Test Result",
   "status": "active",
@@ -69,7 +69,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://outburn.co.il/fhir/oncology/StructureDefinition/lrc-referral"
+              "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"
             ]
           }
         ]
@@ -138,7 +138,7 @@
         "path": "Observation.code",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes",
+          "valueSet": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",
