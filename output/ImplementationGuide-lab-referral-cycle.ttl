@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle> a fhir:ImplementationGuide ;
+<http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "lab-referral-cycle"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LabReferralCycle</h2><p>The official URL for this implementation guide is: </p><pre>http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle</pre><div><p>הפניה לבדיקות מעבדה מביה&quot;ח לקהילה, וקבלת התוצאות בחזרה.</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LabReferralCycle</h2><p>The official URL for this implementation guide is: </p><pre>http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle</pre><div><p>הפניה לבדיקות מעבדה מביה&quot;ח לקהילה, וקבלת התוצאות בחזרה.</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "LabReferralCycle"] ; # 
   fhir:title [ fhir:v "Hospital-Community Lab Referral Cycle"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-02-27T18:05:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;
@@ -151,7 +151,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://oncology.fhir.outburn.co.il/history.html" ]
+         fhir:value [ fhir:v "http://ig.fhir-il-community.org/LRC/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -379,7 +379,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://oncology.fhir.outburn.co.il/history.html" ]
+         fhir:value [ fhir:v "http://ig.fhir-il-community.org/LRC/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -524,7 +524,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral> ;
          fhir:reference [ fhir:v "StructureDefinition/lrc-referral" ]
        ] ;
        fhir:name [ fhir:v "Lrc Lab Test Referral" ] ;
@@ -536,7 +536,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-referral-group> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group> ;
          fhir:reference [ fhir:v "StructureDefinition/lrc-referral-group" ]
        ] ;
        fhir:name [ fhir:v "Lrc Lab Test Referral Group" ] ;
@@ -548,7 +548,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report> ;
          fhir:reference [ fhir:v "StructureDefinition/lrc-lab-report" ]
        ] ;
        fhir:name [ fhir:v "Lrc Lab Test Report" ] ;
@@ -560,7 +560,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-panel-result-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-onco-panel-result-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Onco Panel Result Codes" ] ;
@@ -572,7 +572,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-result-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-onco-result-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Onco Result Codes" ] ;
@@ -584,7 +584,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-onco-referral-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-onco-referral-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Oncology Related referral Codes" ] ;
@@ -596,7 +596,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-panel-result> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result> ;
          fhir:reference [ fhir:v "StructureDefinition/lrc-panel-result" ]
        ] ;
        fhir:name [ fhir:v "Lrc Panel Lab Test Result" ] ;
@@ -608,7 +608,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-panel-result-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-panel-result-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Panel Result Codes" ] ;
@@ -620,7 +620,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-referral-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-referral-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Referral Codes" ] ;
@@ -632,7 +632,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ValueSet/lrc-result-codes> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes> ;
          fhir:reference [ fhir:v "ValueSet/lrc-result-codes" ]
        ] ;
        fhir:name [ fhir:v "Lrc Result Codes" ] ;
@@ -644,7 +644,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-result> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result> ;
          fhir:reference [ fhir:v "StructureDefinition/lrc-result" ]
        ] ;
        fhir:name [ fhir:v "Lrc Test Result" ] ;
@@ -656,7 +656,7 @@
          fhir:value [ fhir:v "DiagnosticReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/DiagnosticReport/lrc-lab-report-results> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/DiagnosticReport/lrc-lab-report-results> ;
          fhir:reference [ fhir:v "DiagnosticReport/lrc-lab-report-results" ]
        ] ;
        fhir:name [ fhir:v "lrc-lab-report-results" ] ;
@@ -670,7 +670,7 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-panel-result-cbc> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/Observation/lrc-panel-result-cbc> ;
          fhir:reference [ fhir:v "Observation/lrc-panel-result-cbc" ]
        ] ;
        fhir:name [ fhir:v "lrc-panel-result-cbc" ] ;
@@ -684,7 +684,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-automated-crc> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-automated-crc> ;
          fhir:reference [ fhir:v "ServiceRequest/lrc-referral-automated-crc" ]
        ] ;
        fhir:name [ fhir:v "lrc-referral-automated-crc" ] ;
@@ -698,7 +698,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-glucose> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-glucose> ;
          fhir:reference [ fhir:v "ServiceRequest/lrc-referral-glucose" ]
        ] ;
        fhir:name [ fhir:v "lrc-referral-glucose" ] ;
@@ -712,7 +712,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrc-referral-group-example> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-group-example> ;
          fhir:reference [ fhir:v "ServiceRequest/lrc-referral-group-example" ]
        ] ;
        fhir:name [ fhir:v "lrc-referral-group-example" ] ;
@@ -726,7 +726,7 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-result-oncology-calcium> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/Observation/lrc-result-oncology-calcium> ;
          fhir:reference [ fhir:v "Observation/lrc-result-oncology-calcium" ]
        ] ;
        fhir:name [ fhir:v "lrc-result-oncology-calcium" ] ;
@@ -740,7 +740,7 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/Observation/lrc-result-oncology-urea> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/Observation/lrc-result-oncology-urea> ;
          fhir:reference [ fhir:v "Observation/lrc-result-oncology-urea" ]
        ] ;
        fhir:name [ fhir:v "lrc-result-oncology-urea" ] ;
@@ -754,7 +754,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/lrec-referral-sheba-to-ambulatory-care> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrec-referral-sheba-to-ambulatory-care> ;
          fhir:reference [ fhir:v "ServiceRequest/lrec-referral-sheba-to-ambulatory-care" ]
        ] ;
        fhir:name [ fhir:v "lrec-referral-sheba-to-ambulatory-care" ] ;
@@ -768,7 +768,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code> ;
+         fhir:link <http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code> ;
          fhir:reference [ fhir:v "CodeSystem/meuhedet-lab-result-code" ]
        ] ;
        fhir:name [ fhir:v "Meuhedet Lab Result Code" ] ;

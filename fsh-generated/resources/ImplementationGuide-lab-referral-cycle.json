@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "lab-referral-cycle",
-  "url": "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle",
+  "url": "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle",
   "version": "0.1.0",
   "name": "LabReferralCycle",
   "title": "Hospital-Community Lab Referral Cycle",

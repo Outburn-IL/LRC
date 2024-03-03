@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/Observation/lrc-result-oncology-calcium> a fhir:Observation ;
+<http://ig.fhir-il-community.org/LRC/Observation/lrc-result-oncology-calcium> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "lrc-result-oncology-calcium"] ; # 
   fhir:meta [
@@ -27,7 +27,7 @@
      fhir:value [ fhir:v "1304421043-20230802-1337-3231" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/3908> ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/3908> ;
      fhir:reference [ fhir:v "ServiceRequest/3908" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -48,7 +48,7 @@
      fhir:text [ fhir:v "Calcium-SERUM" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://oncology.fhir.outburn.co.il/Patient/90> ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
      fhir:reference [ fhir:v "Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [

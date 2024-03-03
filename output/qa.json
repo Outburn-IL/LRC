@@ -1,16 +1,16 @@
 {
-  "url" : "http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle",
+  "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle",
   "name" : "LabReferralCycle",
   "title" : "Hospital-Community Lab Referral Cycle",
   "description" : "הפניה לבדיקות מעבדה מביה\"ח לקהילה, וקבלת התוצאות בחזרה.",
   "status" : "active",
   "package-id" : "lab-referral-cycle",
   "ig-ver" : "0.1.0",
-  "date" : "Tue, 27 Feb, 2024 18:05:15 +0200",
+  "date" : "Sun, 03 Mar, 2024 08:59:15 +0200",
   "errs" : 51,
   "warnings" : 21,
   "hints" : 12,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 5184021896
+  "maxMemory" : 4314775768
 }

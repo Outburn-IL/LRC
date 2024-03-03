@@ -11,10 +11,10 @@
       "uses" : {
       },
       "ValueSet-lrc-panel-result-codes.html" : "Lrc Panel Result Codes",
+      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes",
       "ValueSet-lrc-onco-result-codes.html" : "Lrc Onco Result Codes",
       "ValueSet-lrc-result-codes.html" : "Lrc Result Codes",
       "ValueSet-lrc-onco-panel-result-codes.html" : "Lrc Onco Panel Result Codes",
-      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes",
       "ValueSet-lrc-onco-referral-codes.html" : "Lrc Oncology Related referral Codes"
     },
     {

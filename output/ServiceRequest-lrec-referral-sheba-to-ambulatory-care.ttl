@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/ServiceRequest/lrec-referral-sheba-to-ambulatory-care> a fhir:ServiceRequest ;
+<http://ig.fhir-il-community.org/LRC/ServiceRequest/lrec-referral-sheba-to-ambulatory-care> a fhir:ServiceRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "lrec-referral-sheba-to-ambulatory-care"] ; # 
   fhir:meta [
@@ -53,7 +53,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://oncology.fhir.outburn.co.il/Patient/90> ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
      fhir:reference [ fhir:v "Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [

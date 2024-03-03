@@ -5,18 +5,18 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>LabReferralCycle</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle</pre>
+         <pre>http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle</pre>
          <div>
             <p>הפניה לבדיקות מעבדה מביה"ח לקהילה, וקבלת התוצאות בחזרה.</p>
          </div>
       </div>
    </text>
-   <url value="http://oncology.fhir.outburn.co.il/ImplementationGuide/lab-referral-cycle"/>
+   <url value="http://ig.fhir-il-community.org/LRC/ImplementationGuide/lab-referral-cycle"/>
    <version value="0.1.0"/>
    <name value="LabReferralCycle"/>
    <title value="Hospital-Community Lab Referral Cycle"/>
    <status value="active"/>
-   <date value="2024-02-27T18:05:15+02:00"/>
+   <date value="2024-03-03T08:59:15+02:00"/>
    <publisher value="Outburn LTD."/>
    <contact>
       <name value="Outburn LTD."/>
@@ -128,7 +128,7 @@
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="http://oncology.fhir.outburn.co.il/history.html"/>
+            <valueString value="http://ig.fhir-il-community.org/LRC/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -990,7 +990,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="http://oncology.fhir.outburn.co.il/history.html"/>
+         <value value="http://ig.fhir-il-community.org/LRC/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

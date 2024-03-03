@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/StructureDefinition/lrc-lab-report> a fhir:StructureDefinition ;
+<http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "lrc-lab-report"] ; # 
   fhir:text [
@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "LrcLabReport"] ; # 
   fhir:title [ fhir:v "Lrc Lab Test Report"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-02-27T18:05:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;

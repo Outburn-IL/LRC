@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Mon, Feb 26, 2024 20:36+0000 for FHIR v6.0.0-cibuild 
+  Generated on Sat, Mar 2, 2024 19:19+0000 for FHIR v6.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -56768,6 +56768,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">A duration in the lifecycle of the ResearchSubject within a ResearchStudy.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="subjectMilestone" type="ResearchSubject.SubjectMilestone" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A significant event in the progress of a ResearchSubject.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="assignedComparisonGroup" minOccurs="0" maxOccurs="1" type="id">
             <xs:annotation>
               <xs:documentation xml:lang="en">The name of the arm in the study the subject is expected to follow as part of this study.</xs:documentation>
@@ -56812,6 +56817,32 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="reason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
               <xs:documentation xml:lang="en">The reason for the state change. If coded it should follow the formal subject state model.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ResearchSubject.SubjectMilestone">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A ResearchSubject is a participant or object which is the recipient of investigative activities in a research study.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="milestone" minOccurs="1" maxOccurs="unbounded" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A specific event in the research subjects journey through a research study.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="date" minOccurs="0" maxOccurs="1" type="dateTime">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The date/time when this milestone event was completed.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="reason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A rationale that provides additional clarification for the milestone that was captured or documented.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

@@ -10,8 +10,8 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-observation-value",
@@ -23,8 +23,8 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://fhir.health.gov.il/ValueSet/il-core-procedure-code",
@@ -91,8 +91,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.19"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -106,10 +106,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
       "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -137,8 +137,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
@@ -180,11 +180,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -198,11 +198,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -216,11 +216,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral.html" : "Lrc Lab Test Referral",
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
       "StructureDefinition-lrc-referral-group.html" : "Lrc Lab Test Referral Group",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -249,8 +249,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -266,8 +266,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -281,8 +281,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -296,8 +296,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/participant-role",
@@ -343,8 +343,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -360,8 +360,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/report-codes",
@@ -434,9 +434,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result",
+      "StructureDefinition-lrc-result.html" : "Lrc Test Result",
       "StructureDefinition-lrc-lab-report.html" : "Lrc Lab Test Report",
-      "StructureDefinition-lrc-result.html" : "Lrc Test Result"
+      "StructureDefinition-lrc-panel-result.html" : "Lrc Panel Lab Test Result"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",

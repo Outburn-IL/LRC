@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/Observation/lrc-panel-result-cbc> a fhir:Observation ;
+<http://ig.fhir-il-community.org/LRC/Observation/lrc-panel-result-cbc> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "lrc-panel-result-cbc"] ; # 
   fhir:meta [
@@ -27,7 +27,7 @@
      fhir:value [ fhir:v "1304421043-20230517-600-3231" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://oncology.fhir.outburn.co.il/ServiceRequest/4014> ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/4014> ;
      fhir:reference [ fhir:v "ServiceRequest/4014" ] ;
      fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ]
   ] ) ; # 
@@ -53,7 +53,7 @@
      fhir:text [ fhir:v "CBC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://oncology.fhir.outburn.co.il/Patient/90> ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
      fhir:reference [ fhir:v "Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://oncology.fhir.outburn.co.il/CodeSystem/meuhedet-lab-result-code> a fhir:CodeSystem ;
+<http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "meuhedet-lab-result-code"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Meuhedet Lab Result Code"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-02-27T18:05:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-03T08:59:15+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Outburn LTD."] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Outburn LTD." ] ;
