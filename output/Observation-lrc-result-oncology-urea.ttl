@@ -11,11 +11,8 @@
   fhir:id [ fhir:v "lrc-result-oncology-urea"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"^^xsd:anyURI ;
-       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result>
-     ] [
-       fhir:v "http://fhir.health.gov.il/StructureDefinition/lrc-result"^^xsd:anyURI ;
-       fhir:link <http://fhir.health.gov.il/StructureDefinition/lrc-result>
+       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"^^xsd:anyURI ;
+       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result>
      ] )
   ] ; # 
   fhir:text [
@@ -27,8 +24,8 @@
      fhir:value [ fhir:v "1304421043-20230802-1336-3231" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/3907> ;
-     fhir:reference [ fhir:v "ServiceRequest/3907" ]
+     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-glucose> ;
+     fhir:reference [ fhir:v "ServiceRequest/lrc-referral-glucose" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
@@ -48,8 +45,8 @@
      fhir:text [ fhir:v "Urea-blood (BUN)" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
-     fhir:reference [ fhir:v "Patient/90" ] ;
+     fhir:link <http://hapi-fhir.outburn.co.il/fhir/Patient/90> ;
+     fhir:reference [ fhir:v "http://hapi-fhir.outburn.co.il/fhir/Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [
        fhir:system [ fhir:v "http://fhir.health.gov.il/identifier/il-national-id"^^xsd:anyURI ] ;
@@ -71,18 +68,18 @@
      fhir:value [ fhir:v "92"^^xsd:decimal ] ;
      fhir:unit [ fhir:v "MG/DL" ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-     fhir:code [ fhir:v "Mg/dl" ]
+     fhir:code [ fhir:v "mg/dl" ]
   ] ; # 
   fhir:referenceRange ( [
      fhir:low [
        fhir:value [ fhir:v "8"^^xsd:decimal ] ;
        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "Mg/dl" ]
+       fhir:code [ fhir:v "mg/dl" ]
      ] ;
      fhir:high [
        fhir:value [ fhir:v "23.5"^^xsd:decimal ] ;
        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "Mg/dl" ]
+       fhir:code [ fhir:v "mg/dl" ]
      ]
   ] ) . # 
 

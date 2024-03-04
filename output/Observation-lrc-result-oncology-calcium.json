@@ -2,8 +2,7 @@
   "resourceType" : "Observation",
   "id" : "lrc-result-oncology-calcium",
   "meta" : {
-    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
-    "http://fhir.health.gov.il/StructureDefinition/lrc-result"]
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"]
   },
   "text" : {
     "status" : "generated",
@@ -33,7 +32,7 @@
     "text" : "Calcium-SERUM"
   },
   "subject" : {
-    "reference" : "Patient/90",
+    "reference" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type" : "Patient",
     "identifier" : {
       "system" : "http://fhir.health.gov.il/identifier/il-national-id",
@@ -54,18 +53,18 @@
     "value" : 9,
     "unit" : "MG/DL",
     "system" : "http://unitsofmeasure.org",
-    "code" : "Mg/dl"
+    "code" : "mg/dl"
   },
   "referenceRange" : [{
     "low" : {
       "value" : 8.8,
       "system" : "http://unitsofmeasure.org",
-      "code" : "Mg/dl"
+      "code" : "mg/dl"
     },
     "high" : {
       "value" : 10.4,
       "system" : "http://unitsofmeasure.org",
-      "code" : "Mg/dl"
+      "code" : "mg/dl"
     }
   }]
 }

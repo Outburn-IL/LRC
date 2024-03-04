@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="93cbe577-e432-4911-b615-eddd2083f61b"/>
+  <id value="66394646-491a-4318-b40e-0e12bb2e5f0b"/>
   <meta>
-    <lastUpdated value="2024-03-03T10:40:33.850+02:00"/>
+    <lastUpdated value="2024-03-04T15:01:53.837+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,7 +13,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 2 concepts.</p>
             <table class="codes">
               <tr>
@@ -52,10 +52,10 @@
         <title value="Lrc Onco Panel Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:2f38c7a1-1f65-4c98-afb8-47643c719d1b"/>
-          <timestamp value="2024-03-03T10:43:50+02:00"/>
+          <identifier value="urn:uuid:90acd168-2836-45aa-9bc8-021df1197f6b"/>
+          <timestamp value="2024-03-04T15:02:51+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -76,11 +76,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -103,7 +103,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 18 concepts.</p>
             <table class="codes">
               <tr>
@@ -270,10 +270,10 @@
         <title value="Lrc Oncology Related referral Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:d22a3eea-2683-4702-8a9c-07ffc91feb7c"/>
-          <timestamp value="2024-03-03T10:43:51+02:00"/>
+          <identifier value="urn:uuid:f2309e6b-ecf5-4dde-b8c1-d9729d6b8b59"/>
+          <timestamp value="2024-03-04T15:02:51+02:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -294,11 +294,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -401,7 +401,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 112 concepts.</p>
             <table class="codes">
               <tr>
@@ -1320,10 +1320,10 @@
         <title value="Lrc Onco Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:98034c29-3e8e-4d1d-8b0b-154c28849e9c"/>
-          <timestamp value="2024-03-03T10:43:51+02:00"/>
+          <identifier value="urn:uuid:80c03073-2d9e-461f-9f7f-e62929137e82"/>
+          <timestamp value="2024-03-04T15:02:52+02:00"/>
           <total value="112"/>
           <offset value="0"/>
           <parameter>
@@ -1344,11 +1344,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -1921,7 +1921,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 2 concepts.</p>
             <table class="codes">
               <tr>
@@ -1960,10 +1960,10 @@
         <title value="Lrc Panel Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:949fc5fa-9d74-411a-b838-ba0a775ae551"/>
-          <timestamp value="2024-03-03T10:43:53+02:00"/>
+          <identifier value="urn:uuid:66c64fb3-db5b-4502-824e-81985444b8a4"/>
+          <timestamp value="2024-03-04T15:02:53+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1984,11 +1984,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -2011,7 +2011,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 18 concepts.</p>
             <table class="codes">
               <tr>
@@ -2178,10 +2178,10 @@
         <title value="Lrc Referral Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:2e7de392-ef5c-4a70-974d-f1183e7cfc48"/>
-          <timestamp value="2024-03-03T10:43:53+02:00"/>
+          <identifier value="urn:uuid:ce393939-08b6-4ae0-8455-bd2811c863c9"/>
+          <timestamp value="2024-03-04T15:02:54+02:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -2202,11 +2202,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -2309,7 +2309,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p>This value set contains 113 concepts.</p>
             <table class="codes">
               <tr>
@@ -3236,10 +3236,10 @@
         <title value="Lrc Result Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-03T10:40:33+02:00"/>
+        <date value="2024-03-04T15:01:53+02:00"/>
         <expansion>
-          <identifier value="urn:uuid:6827022e-ce13-4527-98d7-23ece0e6b286"/>
-          <timestamp value="2024-03-03T10:43:54+02:00"/>
+          <identifier value="urn:uuid:16966737-3a75-4e7a-85ae-c5f930cb8b61"/>
+          <timestamp value="2024-03-04T15:02:54+02:00"/>
           <total value="113"/>
           <offset value="0"/>
           <parameter>
@@ -3260,11 +3260,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>

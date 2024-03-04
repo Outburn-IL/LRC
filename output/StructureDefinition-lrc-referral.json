@@ -10,13 +10,13 @@
   "name" : "LrcReferral",
   "title" : "Lrc Lab Test Referral",
   "status" : "active",
-  "date" : "2024-03-03T10:40:33+02:00",
-  "publisher" : "Outburn LTD.",
+  "date" : "2024-03-04T15:01:53+02:00",
+  "publisher" : "FHIR-il community",
   "contact" : [{
-    "name" : "Outburn LTD.",
+    "name" : "FHIR-il community",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://outburn.co.il"
+      "value" : "http://ig.fhir-il-community.org"
     }]
   }],
   "description" : "הפניה לבדיקת מעבדה, או לפאנל (סוללה) של בדיקות מעבדה.\r\nמשאב זה בפני עצמו אינו מהווה טריגר לתחילת הטיפול בהפניה, אלא יטופל רק במסגרת referral group.",

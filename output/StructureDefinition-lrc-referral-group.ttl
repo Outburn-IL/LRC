@@ -18,13 +18,13 @@
   fhir:name [ fhir:v "LrcReferralGroup"] ; # 
   fhir:title [ fhir:v "Lrc Lab Test Referral Group"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-03-03T10:40:33+02:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Outburn LTD."] ; # 
+  fhir:date [ fhir:v "2024-03-04T15:01:53+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR-il community"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Outburn LTD." ] ;
+     fhir:name [ fhir:v "FHIR-il community" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://outburn.co.il" ]
+       fhir:value [ fhir:v "http://ig.fhir-il-community.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "הפניה מרכזת. להפניה הזו אין קוד בדיקה, אלא היא כוללת קישורים לכל הבדיקות הספציפיות שיש לבצע.\r\nפרופיל זה מהווה טריגר לתחילת הטיפול בתהליך מצד הארגון המבצע."] ; # 

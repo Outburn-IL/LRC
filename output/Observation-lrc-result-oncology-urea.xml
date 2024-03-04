@@ -3,8 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="lrc-result-oncology-urea"/>
   <meta>
-    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result"/>
-    <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-result"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">תוצאות בדיקת אוראה בסרום של מטופל עבור אשפוז יום אונקולוגי</div>
@@ -14,7 +13,7 @@
     <value value="1304421043-20230802-1336-3231"/>
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/3907"/>
+    <reference value="ServiceRequest/lrc-referral-glucose"/>
   </basedOn>
   <status value="final"/>
   <category>
@@ -33,7 +32,7 @@
     <text value="Urea-blood (BUN)"/>
   </code>
   <subject>
-    <reference value="Patient/90"/>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
     <type value="Patient"/>
     <identifier>
       <system value="http://fhir.health.gov.il/identifier/il-national-id"/>
@@ -54,18 +53,18 @@
     <value value="92"/>
     <unit value="MG/DL"/>
     <system value="http://unitsofmeasure.org"/>
-    <code value="Mg/dl"/>
+    <code value="mg/dl"/>
   </valueQuantity>
   <referenceRange>
     <low>
       <value value="8"/>
       <system value="http://unitsofmeasure.org"/>
-      <code value="Mg/dl"/>
+      <code value="mg/dl"/>
     </low>
     <high>
       <value value="23.5"/>
       <system value="http://unitsofmeasure.org"/>
-      <code value="Mg/dl"/>
+      <code value="mg/dl"/>
     </high>
   </referenceRange>
 </Observation>

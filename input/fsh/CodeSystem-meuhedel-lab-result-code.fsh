@@ -5,7 +5,7 @@ Description: "List of Lab result codes for Meuhadet HMO"
 * ^status = #draft
 * ^url = $meuhedet-lab-result-code
 * ^version = "0.12.1"
-* ^content = #fragment
+* ^content = #complete
 * ^caseSensitive = false
 * ^experimental = false
 * ^count = 2

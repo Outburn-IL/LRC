@@ -46,4 +46,3 @@ Description: "פאנל תוצאות, עבור מקרים בהם ServiceRequest �
 // * component ^slicing.rules = #open
 // * component ^slicing.description = "Text"
 // * component ^slicing.ordered = false
-

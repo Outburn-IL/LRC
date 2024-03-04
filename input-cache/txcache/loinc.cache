@@ -21,8 +21,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:56932448-58f1-43c8-858c-ae4159bc8cc4",
-    "timestamp" : "2024-02-27T16:05:27.199Z",
+    "identifier" : "urn:uuid:d5e347c8-9572-4e11-acdf-d982f85b0c40",
+    "timestamp" : "2024-03-04T13:01:57.104Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -39,11 +39,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -146,8 +146,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:152fde30-19b1-4038-a78d-5fe70dcc5a1b",
-    "timestamp" : "2024-02-27T16:05:27.403Z",
+    "identifier" : "urn:uuid:e3728f49-fb8d-4d66-b56d-999da4932dbd",
+    "timestamp" : "2024-03-04T13:01:57.275Z",
     "total" : 18,
     "offset" : 0,
     "parameter" : [{
@@ -164,11 +164,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -727,8 +727,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:50eeb69b-c7e2-4492-b2d7-16f90cac82a8",
-    "timestamp" : "2024-02-27T16:05:27.746Z",
+    "identifier" : "urn:uuid:7edddbf3-6190-49f5-b5ba-eff1e1924d8b",
+    "timestamp" : "2024-03-04T13:01:57.604Z",
     "total" : 112,
     "offset" : 0,
     "parameter" : [{
@@ -745,11 +745,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -1782,8 +1782,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:108f3041-e057-477f-8aec-a3fd21a2fffd",
-    "timestamp" : "2024-02-27T16:05:28.387Z",
+    "identifier" : "urn:uuid:c7cd21bf-ab55-40e3-ae2f-11c1cd68c70f",
+    "timestamp" : "2024-03-04T13:01:58.150Z",
     "total" : 113,
     "offset" : 0,
     "parameter" : [{
@@ -1800,11 +1800,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -2390,8 +2390,9 @@ v: {
   "display" : "CBC W Auto Diff Bld",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2412,8 +2413,9 @@ v: {
   "display" : "Prothrombin time/nomal",
   "code" : "5894-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2434,8 +2436,9 @@ v: {
   "display" : "Creat SerPl-mCnc",
   "code" : "2160-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2456,8 +2459,9 @@ v: {
   "display" : "BUN SerPl-mCnc",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2478,8 +2482,9 @@ v: {
   "display" : "Sodium SerPl-sCnc",
   "code" : "2951-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2500,8 +2505,9 @@ v: {
   "display" : "Potassium SerPl-sCnc",
   "code" : "2823-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2522,8 +2528,9 @@ v: {
   "display" : "Calcium SerPl-mCnc",
   "code" : "17861-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2544,8 +2551,9 @@ v: {
   "display" : "Magnesium SerPl-mCnc",
   "code" : "19123-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2566,8 +2574,9 @@ v: {
   "display" : "Glucose SerPl-mCnc",
   "code" : "2345-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2588,8 +2597,9 @@ v: {
   "display" : "Albumin SerPl-mCnc",
   "code" : "1751-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2610,8 +2620,9 @@ v: {
   "display" : "Bilirub SerPl-mCnc",
   "code" : "1975-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2632,8 +2643,9 @@ v: {
   "display" : "AST SerPl-cCnc",
   "code" : "1920-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2654,8 +2666,9 @@ v: {
   "display" : "ALT SerPl-cCnc",
   "code" : "1742-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2676,8 +2689,9 @@ v: {
   "display" : "LDH1 SerPl-cCnc",
   "code" : "2537-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2698,8 +2712,9 @@ v: {
   "display" : "ALP SerPl-cCnc",
   "code" : "6768-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2720,8 +2735,9 @@ v: {
   "display" : "TSH SerPl-aCnc",
   "code" : "3016-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2742,8 +2758,9 @@ v: {
   "display" : "T4 Free SerPl-sCnc",
   "code" : "14920-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2764,8 +2781,9 @@ v: {
   "display" : "T3Free SerPl-sCnc",
   "code" : "14928-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2786,8 +2804,9 @@ v: {
   "display" : "aPTT Bld",
   "code" : "3173-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2808,8 +2827,9 @@ v: {
   "display" : "Prothrombin time",
   "code" : "5902-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2830,8 +2850,9 @@ v: {
   "display" : "WBC # Bld Auto",
   "code" : "6690-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2852,8 +2873,9 @@ v: {
   "display" : "Granulocytes # Bld",
   "code" : "30394-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2874,8 +2896,9 @@ v: {
   "display" : "Granulocytes/leuk NFr Bld",
   "code" : "30395-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2896,8 +2919,9 @@ v: {
   "display" : "Imm Granulocytes # Bld",
   "code" : "51584-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2918,8 +2942,9 @@ v: {
   "display" : "Imm Granulocytes/leuk NFr Bld",
   "code" : "38518-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2940,8 +2965,9 @@ v: {
   "display" : "Neutrophils # Bld Auto",
   "code" : "751-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2962,8 +2988,9 @@ v: {
   "display" : "Neutrophils/leuk NFr Bld Auto",
   "code" : "770-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2984,8 +3011,9 @@ v: {
   "display" : "Lymphocytes # Bld Auto",
   "code" : "731-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3006,8 +3034,9 @@ v: {
   "display" : "Lymphocytes/leuk NFr Bld Auto",
   "code" : "736-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3028,8 +3057,9 @@ v: {
   "display" : "Monocytes # Bld Auto",
   "code" : "742-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3050,8 +3080,9 @@ v: {
   "display" : "Monocytes/leuk NFr Bld Manual",
   "code" : "744-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3072,8 +3103,9 @@ v: {
   "display" : "Eosinophil # Bld Auto",
   "code" : "711-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3094,8 +3126,9 @@ v: {
   "display" : "Eosinophil/leuk NFr Bld Manual",
   "code" : "714-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3116,8 +3149,9 @@ v: {
   "display" : "Basophils # Bld Auto",
   "code" : "704-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3138,8 +3172,9 @@ v: {
   "display" : "Basophils/leuk NFr Bld Auto",
   "code" : "706-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3160,8 +3195,9 @@ v: {
   "display" : "RBC # Bld Auto",
   "code" : "789-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3182,8 +3218,9 @@ v: {
   "display" : "Hgb Bld-mCnc",
   "code" : "718-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3204,8 +3241,9 @@ v: {
   "display" : "Hct VFr Bld Auto",
   "code" : "4544-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3226,8 +3264,9 @@ v: {
   "display" : "MCV RBC Auto",
   "code" : "787-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3248,8 +3287,9 @@ v: {
   "display" : "MCH RBC Qn Auto",
   "code" : "785-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3270,8 +3310,9 @@ v: {
   "display" : "MCHC RBC Auto-mCnc",
   "code" : "786-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3292,8 +3333,9 @@ v: {
   "display" : "RDW RBC Auto-Rto",
   "code" : "788-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3314,8 +3356,9 @@ v: {
   "display" : "nRBC # Bld",
   "code" : "30392-5",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3336,8 +3379,9 @@ v: {
   "display" : "Lg Platelets/Platelet NFr Bld Auto",
   "code" : "48386-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3358,8 +3402,9 @@ v: {
   "display" : "PDW Bld Auto",
   "code" : "32207-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3380,8 +3425,9 @@ v: {
   "display" : "PMV Bld Auto",
   "code" : "32623-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3402,8 +3448,9 @@ v: {
   "display" : "Platelet # Bld Auto",
   "code" : "777-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3424,8 +3471,9 @@ v: {
   "display" : "Retics/100 RBC NFr Auto",
   "code" : "17849-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3446,8 +3494,9 @@ v: {
   "display" : "Retics # Auto",
   "code" : "60474-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3468,8 +3517,9 @@ v: {
   "display" : "Imm Retics NFr",
   "code" : "33516-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3490,8 +3540,9 @@ v: {
   "display" : "Hgb Retic Qn",
   "code" : "42810-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3512,8 +3563,9 @@ v: {
   "display" : "Bld Smear Interp",
   "code" : "5909-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3534,8 +3586,9 @@ v: {
   "display" : "Blasts # Bld",
   "code" : "30376-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3556,8 +3609,9 @@ v: {
   "display" : "Blasts/leuk NFr Bld",
   "code" : "26446-5",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3578,8 +3632,9 @@ v: {
   "display" : "Prolymphocytes # Bld",
   "code" : "30464-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3600,8 +3655,9 @@ v: {
   "display" : "Myelocytes/leuk NFr Bld",
   "code" : "26498-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3622,8 +3678,9 @@ v: {
   "display" : "Metamyelocytes # Bld Manual",
   "code" : "739-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3644,8 +3701,9 @@ v: {
   "display" : "Metamyelocytes/leuk NFr Bld Manual",
   "code" : "740-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3666,8 +3724,9 @@ v: {
   "display" : "Neuts Band # Bld",
   "code" : "26507-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3688,8 +3747,9 @@ v: {
   "display" : "Neuts Band/leuk NFr Bld Manual",
   "code" : "764-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3710,8 +3770,9 @@ v: {
   "display" : "Neuts Seg # Bld",
   "code" : "30451-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3732,8 +3793,9 @@ v: {
   "display" : "Neuts Seg/leuk NFr Bld",
   "code" : "26505-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3754,8 +3816,9 @@ v: {
   "display" : "Lg Gran Lymphs # Bld",
   "code" : "35082-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3776,8 +3839,9 @@ v: {
   "display" : "Lg Gran Lymphs/leuk NFr Bld",
   "code" : "30420-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3798,8 +3862,9 @@ v: {
   "display" : "Prolymphocytes/leuk NFr Bld",
   "code" : "30465-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3820,8 +3885,9 @@ v: {
   "display" : "Variant Lymphs # Bld",
   "code" : "26477-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3842,8 +3908,9 @@ v: {
   "display" : "Variant Lymphs/leuk NFr Bld Manual",
   "code" : "735-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3864,8 +3931,9 @@ v: {
   "display" : "Lymph Abn # Bld",
   "code" : "30412-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3886,8 +3954,9 @@ v: {
   "display" : "Lymph Abn/leuk NFr Bld",
   "code" : "30413-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3908,8 +3977,9 @@ v: {
   "display" : "Atypical Mononuc # Bld Manual",
   "code" : "40548-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3930,8 +4000,9 @@ v: {
   "display" : "Atypical Mononuc/leuk NFr Bld Manual",
   "code" : "69003-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3952,8 +4023,9 @@ v: {
   "display" : "Lymphocytes/leuk NFr Bld Manual",
   "code" : "737-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3974,8 +4046,9 @@ v: {
   "display" : "Plasma Cells # Bld",
   "code" : "30458-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3996,8 +4069,9 @@ v: {
   "display" : "Plasma Cells/leuk NFr Bld",
   "code" : "13047-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4018,8 +4092,9 @@ v: {
   "display" : "Promonycytes # Bld",
   "code" : "34926-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4040,8 +4115,9 @@ v: {
   "display" : "Promonycytes/leuk NFr Bld",
   "code" : "30466-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4062,8 +4138,9 @@ v: {
   "display" : "Monocytes/leuk NFr Bld Auto",
   "code" : "5905-5",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4084,8 +4161,9 @@ v: {
   "display" : "Eosinophil/leuk NFr Bld Auto",
   "code" : "713-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4106,8 +4184,9 @@ v: {
   "display" : "Basophils/leuk NFr Bld Manual",
   "code" : "707-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4128,8 +4207,9 @@ v: {
   "display" : "Hairy Cells # Bld",
   "code" : "30397-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4150,8 +4230,9 @@ v: {
   "display" : "Hairy Cells/leuk NFr Bld",
   "code" : "35058-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4172,8 +4253,9 @@ v: {
   "display" : "Sezary Cells # Bld",
   "code" : "34918-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4194,8 +4276,9 @@ v: {
   "display" : "Sezary Cells/leuk NFr Bld",
   "code" : "34919-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4216,8 +4299,9 @@ v: {
   "display" : "Other cells # Bld Manual",
   "code" : "51585-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4238,8 +4322,9 @@ v: {
   "display" : "Other cells/leuk NFr Bld Manual",
   "code" : "51586-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4260,8 +4345,9 @@ v: {
   "display" : "Abn Monocytes # Bld",
   "code" : "30440-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4282,8 +4368,9 @@ v: {
   "display" : "Abn Monocytes/leuk NFr Bld",
   "code" : "30441-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4304,8 +4391,9 @@ v: {
   "display" : "nRBC/100 RBC NFr Bld",
   "code" : "26461-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4326,8 +4414,9 @@ v: {
   "display" : "Smudge Cells/leuk NFr Bld",
   "code" : "34992-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4348,8 +4437,9 @@ v: {
   "display" : "Poly Normoblasts NFr Bld Micro",
   "code" : "51718-5",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4370,8 +4460,9 @@ v: {
   "display" : "Hypochromia Bld Ql Smear",
   "code" : "728-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4392,8 +4483,9 @@ v: {
   "display" : "Anisocytosis Bld Ql Smear",
   "code" : "702-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4414,8 +4506,9 @@ v: {
   "display" : "Microcytes Bld Ql Auto",
   "code" : "15199-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4436,8 +4529,9 @@ v: {
   "display" : "Macrocytes Bld Ql Auto",
   "code" : "15198-5",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4458,8 +4552,9 @@ v: {
   "display" : "Poikilocytosis Bld Ql Smear",
   "code" : "779-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4480,8 +4575,9 @@ v: {
   "display" : "Targets Bld Ql Smear",
   "code" : "10381-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4502,8 +4598,9 @@ v: {
   "display" : "Schistocytes Bld Ql Smear",
   "code" : "800-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4524,8 +4621,9 @@ v: {
   "display" : "Helmet Cells Bld Ql Smear",
   "code" : "10374-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4546,8 +4644,9 @@ v: {
   "display" : "Sickle Cells Bld Ql Smear",
   "code" : "801-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4568,8 +4667,9 @@ v: {
   "display" : "Spherocytes Bld Ql Smear",
   "code" : "802-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4590,8 +4690,9 @@ v: {
   "display" : "Elliptocytes Bld Ql Smear",
   "code" : "11274-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4612,8 +4713,9 @@ v: {
   "display" : "Ovalocytes Bld Ql Smear",
   "code" : "774-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4634,8 +4736,9 @@ v: {
   "display" : "Dacryocytes Bld Ql Smear",
   "code" : "7791-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4656,8 +4759,9 @@ v: {
   "display" : "Stomatocytes Bld Ql Smear",
   "code" : "10380-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4678,8 +4782,9 @@ v: {
   "display" : "Acanthocytes Bld Ql Smear",
   "code" : "7789-1",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4700,8 +4805,9 @@ v: {
   "display" : "Burr Cells Bld Ql Smear",
   "code" : "7790-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4722,8 +4828,9 @@ v: {
   "display" : "Howell-Jolly Bod Bld Ql Smear",
   "code" : "7793-3",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4744,8 +4851,9 @@ v: {
   "display" : "Pappenheimer Bod Bld Ql Smear",
   "code" : "7795-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4766,8 +4874,9 @@ v: {
   "display" : "Baso Stipl Bld Ql Smear",
   "code" : "703-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4788,8 +4897,9 @@ v: {
   "display" : "Rouleaux Bld Ql Smear",
   "code" : "7797-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4810,8 +4920,9 @@ v: {
   "display" : "Megakaryocytes Mar Ql Micro",
   "code" : "40688-4",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4832,8 +4943,9 @@ v: {
   "display" : "Giant Platelets Bld Ql Smear",
   "code" : "5908-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4854,8 +4966,9 @@ v: {
   "display" : "Platelet Clump Bld Ql Smear",
   "code" : "7796-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4876,8 +4989,9 @@ v: {
   "display" : "Megakaryocytes/leuk NFr Bld",
   "code" : "19252-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4898,8 +5012,32 @@ v: {
   "display" : "Myelocytes # Bld",
   "code" : "30446-9",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11502-2"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Laboratory report",
+  "code" : "11502-2",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4921,8 +5059,9 @@ v: {
   "display" : "Laboratory report",
   "code" : "11502-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4943,8 +5082,33 @@ v: {
   "display" : "Laboratory report",
   "code" : "11502-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11502-2",
+  "display" : "Laboratory report"
+}, "url": "http://hl7.org/fhir/ValueSet/report-codes", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Laboratory report",
+  "code" : "11502-2",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4966,8 +5130,9 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4988,8 +5153,9 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5000,7 +5166,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "57021-8",
   "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-onco-panel-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5011,8 +5177,9 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5034,8 +5201,9 @@ v: {
   "display" : "Calcium [Mass/volume] in Serum or Plasma",
   "code" : "17861-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5045,7 +5213,7 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "17861-6"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5056,8 +5224,9 @@ v: {
   "display" : "Calcium [Mass/volume] in Serum or Plasma",
   "code" : "17861-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5068,7 +5237,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "17861-6",
   "display" : "Calcium [Mass/volume] in Serum or Plasma"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5079,8 +5248,9 @@ v: {
   "display" : "Calcium [Mass/volume] in Serum or Plasma",
   "code" : "17861-6",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5102,8 +5272,9 @@ v: {
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5113,7 +5284,7 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "3094-0"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5124,8 +5295,9 @@ v: {
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5136,7 +5308,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "3094-0",
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5147,8 +5319,9 @@ v: {
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5158,7 +5331,7 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "57021-8"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5169,8 +5342,9 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5181,7 +5355,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "57021-8",
   "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5192,8 +5366,9 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5215,8 +5390,9 @@ v: {
   "display" : "Glucose [Mass/volume] in Serum or Plasma",
   "code" : "2345-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5226,7 +5402,7 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2345-7"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5237,8 +5413,9 @@ v: {
   "display" : "Glucose [Mass/volume] in Serum or Plasma",
   "code" : "2345-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5249,7 +5426,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "2345-7",
   "display" : "Glucose [Mass/volume] in Serum or Plasma"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5260,8 +5437,9 @@ v: {
   "display" : "Glucose [Mass/volume] in Serum or Plasma",
   "code" : "2345-7",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5283,8 +5461,9 @@ v: {
   "display" : "Laboratory report",
   "code" : "11502-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5305,8 +5484,9 @@ v: {
   "display" : "Laboratory report",
   "code" : "11502-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5316,7 +5496,7 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "3094-0"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5327,8 +5507,9 @@ v: {
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5339,7 +5520,7 @@ v: {
   "system" : "http://loinc.org",
   "code" : "3094-0",
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://outburn.co.il/fhir/oncology/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -5350,8 +5531,9 @@ v: {
   "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
   "code" : "3094-0",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5380,8 +5562,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bba45975-a223-462d-a088-174dfbe00765",
-    "timestamp" : "2024-02-27T16:06:27.402Z",
+    "identifier" : "urn:uuid:01e31f61-af75-4f38-99d4-77b135f24270",
+    "timestamp" : "2024-03-04T13:02:52.353Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -5398,11 +5580,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -5505,8 +5687,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e5d0b09b-4681-4427-b1b1-6fc575efbfd5",
-    "timestamp" : "2024-02-27T16:06:27.809Z",
+    "identifier" : "urn:uuid:2e952283-2119-488d-923a-0805376b5e22",
+    "timestamp" : "2024-03-04T13:02:52.713Z",
     "total" : 18,
     "offset" : 0,
     "parameter" : [{
@@ -5523,11 +5705,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -6086,8 +6268,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:17e1301b-f572-4d05-9da2-81a1deb3ab40",
-    "timestamp" : "2024-02-27T16:06:28.340Z",
+    "identifier" : "urn:uuid:d439216b-f9de-4085-9cf8-ebb3adabb1a7",
+    "timestamp" : "2024-03-04T13:02:53.353Z",
     "total" : 112,
     "offset" : 0,
     "parameter" : [{
@@ -6104,11 +6286,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -7141,8 +7323,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c540fee3-64d3-4931-8753-ce838149a1c2",
-    "timestamp" : "2024-02-27T16:06:29.481Z",
+    "identifier" : "urn:uuid:242bc238-e74d-4863-aca4-f0ae4cbc8586",
+    "timestamp" : "2024-03-04T13:02:55.291Z",
     "total" : 113,
     "offset" : 0,
     "parameter" : [{
@@ -7159,11 +7341,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     },
     {
       "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
+      "valueUri" : "http://loinc.org|2.77"
     }],
     "contains" : [{
       "system" : "http://loinc.org",
@@ -7733,512 +7915,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8",
-  "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "17861-6"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Calcium [Mass/volume] in Serum or Plasma",
-  "code" : "17861-6",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "17861-6",
-  "display" : "Calcium [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Calcium [Mass/volume] in Serum or Plasma",
-  "code" : "17861-6",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0",
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8",
-  "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "2345-7"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Glucose [Mass/volume] in Serum or Plasma",
-  "code" : "2345-7",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "2345-7",
-  "display" : "Glucose [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Glucose [Mass/volume] in Serum or Plasma",
-  "code" : "2345-7",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0",
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8",
-  "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "17861-6"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Calcium [Mass/volume] in Serum or Plasma",
-  "code" : "17861-6",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "17861-6",
-  "display" : "Calcium [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Calcium [Mass/volume] in Serum or Plasma",
-  "code" : "17861-6",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0",
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "57021-8",
-  "display" : "CBC W Auto Differential panel - Blood"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "CBC W Auto Differential panel - Blood",
-  "code" : "57021-8",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "2345-7"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Glucose [Mass/volume] in Serum or Plasma",
-  "code" : "2345-7",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "2345-7",
-  "display" : "Glucose [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Glucose [Mass/volume] in Serum or Plasma",
-  "code" : "2345-7",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes--0", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "3094-0",
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma"
-}, "url": "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes", "version": "1.0.0", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
-  "code" : "3094-0",
-  "system" : "http://loinc.org",
-  "version" : "2.77",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
 }
 -------------------------------------------------------------------------------------

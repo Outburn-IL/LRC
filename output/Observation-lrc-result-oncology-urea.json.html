@@ -221,8 +221,7 @@
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a>" : "lrc-result-oncology-urea",
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="StructureDefinition-lrc-result.html" style="color: Maroon">&#x1F517;</a> "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
-      "http://fhir.health.gov.il/StructureDefinition/lrc-result"
+      <a href="StructureDefinition-lrc-result.html" style="color: Maroon">&#x1F517;</a> "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"
     ]
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
@@ -237,7 +236,7 @@
   ],
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.basedOn">basedOn</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "ServiceRequest/3907"
+      <a href="ServiceRequest-lrc-referral-glucose.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "ServiceRequest/lrc-referral-glucose"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
@@ -263,7 +262,7 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Urea-blood (BUN)"
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>" : {
-    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/90",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Patient",
     "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fhir.health.gov.il/identifier/il-national-id",
@@ -286,19 +285,19 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 92,
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a>" : "MG/DL",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "Mg/dl"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "mg/dl"
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange">referenceRange</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.low">low</a>" : {
         "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a>" : 8,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "Mg/dl"
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "mg/dl"
       },
       "<a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.high">high</a>" : {
         "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">value</a>" : 23.5,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "Mg/dl"
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.code">code</a>" : "mg/dl"
       }
     }
   ]
@@ -332,7 +331,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://outburn.co.il">Outburn LTD.</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Mar 3, 2024 10:40+0200">2024-03-03</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ig.fhir-il-community.org">FHIR-il community</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 4, 2024 15:01+0200">2024-03-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -3,8 +3,7 @@
   "id": "lrc-referral-group-example",
   "meta": {
     "profile": [
-      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
-      "http://fhir.health.gov.il/StructureDefinition/lrc-referral-group"
+      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group"
     ]
   },
   "identifier": [
@@ -15,13 +14,10 @@
   ],
   "basedOn": [
     {
-      "reference": "ServiceRequest/3906"
+      "reference": "ServiceRequest/lrc-referral-automated-crc"
     },
     {
-      "reference": "ServiceRequest/3907"
-    },
-    {
-      "reference": "ServiceRequest/3908"
+      "reference": "ServiceRequest/lrc-referral-glucose"
     }
   ],
   "requisition": {
@@ -43,7 +39,7 @@
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
       "value": "000000018"
     },
-    "reference": "Patient/90",
+    "reference": "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type": "Patient"
   },
   "requester": {

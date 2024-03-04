@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-panel-result",
-  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result",
   "name": "LrcPanelResult",
   "title": "Lrc Panel Lab Test Result",
   "status": "active",

@@ -24,18 +24,6 @@
       "http://hl7.org/fhir/R4/valueset-diagnostic-report-status.html" : "DiagnosticReportStatus"
     },
     {
-      "url" : "http://hl7.org/fhir/fhir-types",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "FHIRTypes",
-      "title" : "All FHIR Types",
-      "description" : "One of the types defined as part of this version of FHIR.",
-      "oids" : ["2.16.840.1.113883.4.642.4.1802"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R5/valueset-resource-types.html" : "Resource Types"
-    },
-    {
       "url" : "http://hl7.org/fhir/identifier-use",
       "version" : "4.0.1",
       "status" : "active",
@@ -108,6 +96,17 @@
       "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
     },
     {
+      "url" : "http://hl7.org/fhir/resource-types",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ResourceType",
+      "title" : "ResourceType",
+      "description" : "One of the resource types defined as part of this version of FHIR.",
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+    },
+    {
       "url" : "http://loinc.org",
       "version" : "3.1.0",
       "status" : "active",
@@ -117,16 +116,16 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes",
+      "ValueSet-lrc-onco-result-codes.html" : "Lrc Onco Result Codes",
+      "http://hl7.org/fhir/R4/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
+      "ValueSet-lrc-onco-referral-codes.html" : "Lrc Oncology Related referral Codes",
+      "ValueSet-lrc-panel-result-codes.html" : "Lrc Panel Result Codes",
       "ValueSet-lrc-onco-panel-result-codes.html" : "Lrc Onco Panel Result Codes",
+      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-procedure-code" : "IL Core procedure Codes",
+      "ValueSet-lrc-referral-codes.html" : "Lrc Referral Codes",
       "ValueSet-lrc-result-codes.html" : "Lrc Result Codes",
       "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-code" : "IL Core Observation Codes",
-      "ValueSet-lrc-onco-referral-codes.html" : "Lrc Oncology Related referral Codes",
-      "ValueSet-lrc-onco-result-codes.html" : "Lrc Onco Result Codes",
-      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-value" : "IL Core Observation Value Codes",
-      "http://hl7.org/fhir/R4/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
-      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-procedure-code" : "IL Core procedure Codes",
-      "ValueSet-lrc-panel-result-codes.html" : "Lrc Panel Result Codes"
+      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-value" : "IL Core Observation Value Codes"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -138,17 +137,17 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-code" : "IL Core Observation Codes",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
-      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-value" : "IL Core Observation Value Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-service-category" : "IL Core ServiceCategory",
       "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-procedure-code" : "IL Core procedure Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes"
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-code" : "IL Core Observation Codes",
+      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-observation-value" : "IL Core Observation Value Codes",
+      "https://simplifier.net/resolve?scope=il.core.fhir.r4@0.13.2&canonical=http://fhir.health.gov.il/ValueSet/il-core-service-category" : "IL Core ServiceCategory"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",

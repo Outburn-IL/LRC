@@ -14,9 +14,6 @@
      fhir:profile ( [
        fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"^^xsd:anyURI ;
        fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral>
-     ] [
-       fhir:v "http://fhir.health.gov.il/StructureDefinition/lrc-referral"^^xsd:anyURI ;
-       fhir:link <http://fhir.health.gov.il/StructureDefinition/lrc-referral>
      ] )
   ] ; # 
   fhir:text [
@@ -53,8 +50,8 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
-     fhir:reference [ fhir:v "Patient/90" ] ;
+     fhir:link <http://hapi-fhir.outburn.co.il/fhir/Patient/90> ;
+     fhir:reference [ fhir:v "http://hapi-fhir.outburn.co.il/fhir/Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [
        fhir:system [ fhir:v "http://fhir.health.gov.il/identifier/il-national-id"^^xsd:anyURI ] ;

@@ -3,18 +3,18 @@ InstanceOf: lrc-lab-report
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">דוח מסכם של תוצאות המעבדה של מטופל</div>"
-* meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"
+* meta.profile = $lrc-lab-report
 * extension.url = "http://fhir.health.gov.il/StructureDefinition/ext-diagnostic-report-note"
 * extension.valueAnnotation.text = "טקסט שהוזן בכותרת המדבקה"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1c645996-698c-4dd6-8a56-8eba4810e6f7"
-* basedOn = Reference(ServiceRequest/3909)
+* basedOn = Reference(ServiceRequest/lrc-referral-group-example)
 * basedOn.identifier.system = "urn:ietf:rfc:3986"
 * basedOn.identifier.value = "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
 * status = #final
 * category[hl7-lab] = $hl7-diag-category-cs#LAB "Laboratory"
 * code = $loinc#11502-2 "Laboratory report"
-* subject = Reference(Patient/90)
+* subject = Reference(http://hapi-fhir.outburn.co.il/fhir/Patient/90)
 * subject.type = "Patient"
 * subject.identifier.system = "http://fhir.health.gov.il/identifier/il-national-id"
 * subject.identifier.value = "000000018"

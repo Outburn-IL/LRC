@@ -231,9 +231,7 @@
   <a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral&gt;     ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://fhir.health.gov.il/StructureDefinition/lrc-referral&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://fhir.health.gov.il/StructureDefinition/lrc-referral&gt;     ] )
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral&gt;     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
@@ -267,7 +265,8 @@ a loinc:2345-7 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Glucose [Mass/volume] in Serum or Plasma&quot; ]     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/90&quot; ] ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hapi-fhir.outburn.co.il/fhir/Patient/90&gt; ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://hapi-fhir.outburn.co.il/fhir/Patient/90&quot; ] ;
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;Patient&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.health.gov.il/identifier/il-national-id&quot;^^xsd:anyURI ] ;
@@ -316,7 +315,7 @@ a loinc:2345-7 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://outburn.co.il">Outburn LTD.</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Mar 3, 2024 10:40+0200">2024-03-03</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ig.fhir-il-community.org">FHIR-il community</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 4, 2024 15:01+0200">2024-03-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

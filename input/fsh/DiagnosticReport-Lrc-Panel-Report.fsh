@@ -27,7 +27,7 @@ Description: "דוח מסכם עבור תוצאות הפניה מרכזת."
 * code.coding ^slicing.ordered = false
 * code.coding contains loinc-lab 1..1
 * code.coding[loinc-lab] 1..1
-* code.coding[loinc-lab] ^patternCoding.system = $loinc-vs
+* code.coding[loinc-lab] ^patternCoding.system = $loinc
 * code.coding[loinc-lab] ^patternCoding.code = #11502-2
   // * code[loinc-lab] ^patternCoding.code = #11502-2
 * subject 1..1

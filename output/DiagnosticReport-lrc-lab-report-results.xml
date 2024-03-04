@@ -4,7 +4,6 @@
   <id value="lrc-lab-report-results"/>
   <meta>
     <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report"/>
-    <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">דוח מסכם של תוצאות המעבדה של מטופל</div>
@@ -19,7 +18,7 @@
     <value value="urn:uuid:1c645996-698c-4dd6-8a56-8eba4810e6f7"/>
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/3909"/>
+    <reference value="ServiceRequest/lrc-referral-group-example"/>
     <identifier>
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"/>
@@ -35,17 +34,13 @@
   </category>
   <code>
     <coding>
-      <system value="http://hl7.org/fhir/ValueSet/observation-codes"/>
-      <code value="11502-2"/>
-    </coding>
-    <coding>
       <system value="http://loinc.org"/>
       <code value="11502-2"/>
       <display value="Laboratory report"/>
     </coding>
   </code>
   <subject>
-    <reference value="Patient/90"/>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
     <type value="Patient"/>
     <identifier>
       <system value="http://fhir.health.gov.il/identifier/il-national-id"/>

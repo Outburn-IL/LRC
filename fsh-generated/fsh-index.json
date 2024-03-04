@@ -61,7 +61,7 @@
     "fshType": "Instance",
     "fshFile": "Examples\\lrc-referral-group-example.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 24
   },
   {
     "outputFile": "ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json",

@@ -1,6 +1,6 @@
 <div id="intro" dir="rtl" markdown="1">
 
-הדוגמאות הבאות מפובלשות כחלק מהמדריך, והן ניתנות להורדה [כאן](downloads.html#examples).
+הדוגמאות הבאות מפובלשות כחלק מהמדריך, והן ניתנות להורדה [כאן](downloads.html).
 
 {% include nonnormative-example-boilerplate.md %}
 

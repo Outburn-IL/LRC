@@ -2,8 +2,7 @@
   "resourceType" : "DiagnosticReport",
   "id" : "lrc-lab-report-results",
   "meta" : {
-    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report",
-    "http://fhir.health.gov.il/StructureDefinition/lrc-panel-report"]
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report"]
   },
   "text" : {
     "status" : "generated",
@@ -20,7 +19,7 @@
     "value" : "urn:uuid:1c645996-698c-4dd6-8a56-8eba4810e6f7"
   }],
   "basedOn" : [{
-    "reference" : "ServiceRequest/3909",
+    "reference" : "ServiceRequest/lrc-referral-group-example",
     "identifier" : {
       "system" : "urn:ietf:rfc:3986",
       "value" : "urn:uuid:509dd6aa-27ce-48a3-ba4d-b675eab7213c"
@@ -36,17 +35,13 @@
   }],
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/ValueSet/observation-codes",
-      "code" : "11502-2"
-    },
-    {
       "system" : "http://loinc.org",
       "code" : "11502-2",
       "display" : "Laboratory report"
     }]
   },
   "subject" : {
-    "reference" : "Patient/90",
+    "reference" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type" : "Patient",
     "identifier" : {
       "system" : "http://fhir.health.gov.il/identifier/il-national-id",

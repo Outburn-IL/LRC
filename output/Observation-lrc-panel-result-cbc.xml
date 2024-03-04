@@ -3,8 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="lrc-panel-result-cbc"/>
   <meta>
-    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result"/>
-    <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"/>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">תוצאות מעבדה מאגדת של פאנל CBC של מטופל עבור אשפוז יום אונקולוגי</div>
@@ -14,7 +13,7 @@
     <value value="1304421043-20230517-600-3231"/>
   </identifier>
   <basedOn>
-    <reference value="ServiceRequest/4014"/>
+    <reference value="ServiceRequest/lrc-referral-group-example"/>
     <type value="ServiceRequest"/>
   </basedOn>
   <status value="final"/>
@@ -32,14 +31,14 @@
       <display value="CBC W Auto Differential panel - Blood"/>
     </coding>
     <coding>
-      <system value="http://fhir.meuhedet.co.il/code/lab-result"/>
+      <system value="http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code"/>
       <code value="600"/>
       <display value="CBC"/>
     </coding>
     <text value="CBC"/>
   </code>
   <subject>
-    <reference value="Patient/90"/>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
     <type value="Patient"/>
     <identifier>
       <system value="http://fhir.health.gov.il/identifier/il-national-id"/>

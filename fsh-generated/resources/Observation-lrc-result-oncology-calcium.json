@@ -3,8 +3,7 @@
   "id": "lrc-result-oncology-calcium",
   "meta": {
     "profile": [
-      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
-      "http://fhir.health.gov.il/StructureDefinition/lrc-result"
+      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"
     ]
   },
   "text": {
@@ -48,7 +47,7 @@
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
       "value": "000000018"
     },
-    "reference": "Patient/90",
+    "reference": "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type": "Patient"
   },
   "performer": [
@@ -65,12 +64,12 @@
     {
       "low": {
         "value": 8.8,
-        "code": "Mg/dl",
+        "code": "mg/dl",
         "system": "http://unitsofmeasure.org"
       },
       "high": {
         "value": 10.4,
-        "code": "Mg/dl",
+        "code": "mg/dl",
         "system": "http://unitsofmeasure.org"
       }
     }
@@ -80,7 +79,7 @@
   "issued": "2023-04-03T11:37:58.54+03:00",
   "valueQuantity": {
     "value": 9,
-    "code": "Mg/dl",
+    "code": "mg/dl",
     "system": "http://unitsofmeasure.org",
     "unit": "MG/DL"
   }

@@ -28,7 +28,7 @@ Description: "תוצאת בדיקת מעבדה בודדת."
   * ^patternCoding.display = "Laboratory"
 * code from $vs-lrc-result-codes (extensible)
 * code ^binding.extension.url = $maxValueSet
-* code ^binding.extension.valueCanonical = $loinc
+* code ^binding.extension.valueCanonical = $loinc-vs
 * code.coding 1..*
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"

@@ -4,7 +4,6 @@
   <id value="lrc-referral-glucose"/>
   <meta>
     <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"/>
-    <profile value="http://fhir.health.gov.il/StructureDefinition/lrc-referral"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">הפניה אוטומטית משיבא עבור טיפול באשפוז יום אונקולוגי</div>
@@ -38,7 +37,7 @@
     </coding>
   </code>
   <subject>
-    <reference value="Patient/90"/>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
     <type value="Patient"/>
     <identifier>
       <system value="http://fhir.health.gov.il/identifier/il-national-id"/>

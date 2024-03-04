@@ -1,12 +1,12 @@
 {
   "resourceType": "CodeSystem",
   "status": "draft",
-  "content": "fragment",
+  "content": "complete",
   "name": "MeuhedetLabResultCode",
   "id": "meuhedet-lab-result-code",
   "title": "Meuhedet Lab Result Code",
   "description": "List of Lab result codes for Meuhadet HMO",
-  "url": "http://fhir.meuhedet.co.il/code/lab-result",
+  "url": "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
   "concept": [
     {
       "code": "600",

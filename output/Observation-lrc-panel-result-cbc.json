@@ -2,8 +2,7 @@
   "resourceType" : "Observation",
   "id" : "lrc-panel-result-cbc",
   "meta" : {
-    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
-    "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"]
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"]
   },
   "text" : {
     "status" : "generated",
@@ -14,7 +13,7 @@
     "value" : "1304421043-20230517-600-3231"
   }],
   "basedOn" : [{
-    "reference" : "ServiceRequest/4014",
+    "reference" : "ServiceRequest/lrc-referral-group-example",
     "type" : "ServiceRequest"
   }],
   "status" : "final",
@@ -32,14 +31,14 @@
       "display" : "CBC W Auto Differential panel - Blood"
     },
     {
-      "system" : "http://fhir.meuhedet.co.il/code/lab-result",
+      "system" : "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
       "code" : "600",
       "display" : "CBC"
     }],
     "text" : "CBC"
   },
   "subject" : {
-    "reference" : "Patient/90",
+    "reference" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type" : "Patient",
     "identifier" : {
       "system" : "http://fhir.health.gov.il/identifier/il-national-id",

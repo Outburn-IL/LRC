@@ -2,8 +2,7 @@
   "resourceType" : "ServiceRequest",
   "id" : "lrc-referral-glucose",
   "meta" : {
-    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
-    "http://fhir.health.gov.il/StructureDefinition/lrc-referral"]
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"]
   },
   "text" : {
     "status" : "generated",
@@ -38,7 +37,7 @@
     }]
   },
   "subject" : {
-    "reference" : "Patient/90",
+    "reference" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type" : "Patient",
     "identifier" : {
       "system" : "http://fhir.health.gov.il/identifier/il-national-id",

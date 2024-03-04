@@ -3,8 +3,7 @@
   "id": "lrc-panel-result-cbc",
   "meta": {
     "profile": [
-      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
-      "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"
+      "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"
     ]
   },
   "text": {
@@ -19,7 +18,7 @@
   ],
   "basedOn": [
     {
-      "reference": "ServiceRequest/4014",
+      "reference": "ServiceRequest/lrc-referral-group-example",
       "type": "ServiceRequest"
     }
   ],
@@ -43,7 +42,7 @@
       },
       {
         "code": "600",
-        "system": "http://fhir.meuhedet.co.il/code/lab-result",
+        "system": "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
         "display": "CBC"
       }
     ],
@@ -54,7 +53,7 @@
       "system": "http://fhir.health.gov.il/identifier/il-national-id",
       "value": "000000018"
     },
-    "reference": "Patient/90",
+    "reference": "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "type": "Patient"
   },
   "performer": [

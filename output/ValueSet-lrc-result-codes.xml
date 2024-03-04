@@ -11,13 +11,13 @@
   <title value="Lrc Result Codes"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2024-03-03T10:40:33+02:00"/>
-  <publisher value="Outburn LTD."/>
+  <date value="2024-03-04T15:01:53+02:00"/>
+  <publisher value="FHIR-il community"/>
   <contact>
-    <name value="Outburn LTD."/>
+    <name value="FHIR-il community"/>
     <telecom>
       <system value="url"/>
-      <value value="http://outburn.co.il"/>
+      <value value="http://ig.fhir-il-community.org"/>
     </telecom>
   </contact>
   <description value="רשימת קודי Loinc לייצוג קודי התוצאות."/>

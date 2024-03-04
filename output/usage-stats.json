@@ -12,12 +12,8 @@
     ],
     "Observation": [
       {
-        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
+        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result",
         "title": "Lrc Test Result"
-      },
-      {
-        "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
-        "title": "Lrc Panel Lab Test Result"
       }
     ],
     "ServiceRequest": [

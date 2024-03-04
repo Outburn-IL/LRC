@@ -10,13 +10,13 @@
   "name" : "LrcReferralGroup",
   "title" : "Lrc Lab Test Referral Group",
   "status" : "active",
-  "date" : "2024-03-03T10:40:33+02:00",
-  "publisher" : "Outburn LTD.",
+  "date" : "2024-03-04T15:01:53+02:00",
+  "publisher" : "FHIR-il community",
   "contact" : [{
-    "name" : "Outburn LTD.",
+    "name" : "FHIR-il community",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://outburn.co.il"
+      "value" : "http://ig.fhir-il-community.org"
     }]
   }],
   "description" : "הפניה מרכזת. להפניה הזו אין קוד בדיקה, אלא היא כוללת קישורים לכל הבדיקות הספציפיות שיש לבצע.\r\nפרופיל זה מהווה טריגר לתחילת הטיפול בתהליך מצד הארגון המבצע.",

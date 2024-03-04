@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 35, warn = 21, info = 12-->
+<!-- broken links = 0, errors = 16, warn = 12, info = 10-->
 <head>
   <title>LabReferralCycle : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,9 +36,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for LabReferralCycle</h1>
- <p>Generated Sun Mar 03 10:45:34 IST 2024, FHIR version 4.0.1 for ig.fhir-il-community.org.lrc#1.0.0 (canonical = <a href="http://ig.fhir-il-community.org/LRC">http://ig.fhir-il-community.org/LRC</a> (<a href="http://ig.fhir-il-community.org/LRC/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Mon Mar 04 15:04:49 IST 2024, FHIR version 4.0.1 for ig.fhir-il-community.org.lrc#1.0.0 (canonical = <a href="http://ig.fhir-il-community.org/LRC">http://ig.fhir-il-community.org/LRC</a> (<a href="http://ig.fhir-il-community.org/LRC/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.5.16, which is out of date. The current version is v1.6.0 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.0</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ig.fhir-il-community.org.lrc, Canonical = http://ig.fhir-il-community.org/LRC</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><table class="grid">
@@ -47,6 +47,7 @@
  <tr><td>path</d><td>http://ig.fhir-il-community.org/LRC/1.0.0</td></tr>
  <tr><td>Pub-Mode</d><td>milestone</td></tr>
  <tr><td>status</d><td>draft</td></tr>
+ <tr><td>Release-Label</d><td>ci-build</td></tr>
  <tr><td>sequence</d><td>draft-1</td></tr>
  <tr><td>desc</d><td>This is the implementation guide (IG) for the Lab Repoting cycle (LRC) project</td></tr>
  <tr><td>first</d><td>true</td></tr>
@@ -85,8 +86,7 @@
  <tr><td>Draft Dependencies:</td><td><ul>
   <li>
 hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
- (15 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-codes.html">LOINCCodes</a>
- (5 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bestpractice.html">bestpractice</a>
+ (15 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bestpractice.html">bestpractice</a>
  (5 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bestpractice-explanation.html">bestpractice-explanation</a>
  (5 uses),     <code>fhir-type</code>
  (62 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">maxValueSet</a>
@@ -124,7 +124,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (2 uses),     <a href="http://hl7.org/fhir/R4/claimresponse.html">ClaimResponse</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-common.html">Common UCUM units</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-codes.html">LOINCCodes</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-common.html">Common UCUM units</a>
  (4 uses)
   </li>
   <li>
@@ -176,50 +177,38 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://ig.fhir-il-community.org/LRC (Problem #1 with package-list.json at http://ig.fhir-il-community.org/LRC: ig.fhir-il-community.org)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 35, warn = 21, info = 12, broken links = 1</td></tr>
+ <tr><td>Summary:</td><td> errors = 16, warn = 12, info = 10, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>12</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>12</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_CodeSystem-meuhedet-lab-result-code"><b>C:\Project-IGs\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_DiagnosticReport-lrc-lab-report-results"><b>C:\Project-IGs\LRC\fsh-generated\resources\DiagnosticReport-lrc-lab-report-results</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_DiagnosticReport-lrc-lab-report-results"><b>C:\Project-IGs\LRC\fsh-generated\resources\DiagnosticReport-lrc-lab-report-results</b></a></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-panel-result-cbc"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-panel-result-cbc</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-panel-result-cbc"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-panel-result-cbc</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-calcium"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-result-oncology-calcium</b></a></td><td><b>5</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-calcium"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-result-oncology-calcium</b></a></td><td><b>5</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-urea"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-result-oncology-urea</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-urea"><b>C:\Project-IGs\LRC\fsh-generated\resources\Observation-lrc-result-oncology-urea</b></a></td><td><b>5</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-automated-crc"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-automated-crc"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-glucose"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-glucose</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-glucose"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-glucose</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-group-example"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-group-example</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-group-example"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrc-referral-group-example</b></a></td><td><b>5</b></td><td><b>1</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrec-referral-sheba-to-ambulatory-care"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-lab-report"><b>C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-lab-report</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-panel-result"><b>C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>2</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-result"><b>C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-result</b></a></td><td><b>5</b></td><td><b>0</b></td><td><b>2</b></td>
+     <td><a href="#C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrec-referral-sheba-to-ambulatory-care"><b>C:\Project-IGs\LRC\fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -251,9 +240,6 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/lrec-referral-sheba-to-ambulatory-care.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="examples.html#l330">output\examples&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 193, column 63</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html#examples' for &quot;כאן&quot; cannot be resolved (valid targets: [section-2, section-1, segment-header, publish-box, bottom, markdown-toc-section-1, segment-post-footer, markdown-toc-section-2, section, עותק-להורדה-של-המדריך-כולו, ig-status, הורדות, markdown-toc, דוגמאות, top, קובץ-חבילה, intro, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, markdown-toc-section])</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
    </tr>
@@ -268,77 +254,65 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
    </tr>
 </table>
 <hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_CodeSystem-meuhedet-lab-result-code"> </a>
-<h2><a href="CodeSystem-meuhedet-lab-result-code.html">fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>CodeSystem&#8203;.where(url = 'http:&#8203;/&#8203;/fhir&#8203;.meuhedet&#8203;.co&#8203;.il&#8203;/code&#8203;/lab-result')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json - the canonical URL (http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code) does not match the URL (http://fhir.meuhedet.co.il/code/lab-result)</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem.count (l1/c1073)</b></td><td><b>warning</b></td><td title=""><b>The code system is a fragment/example, but the number of concepts (2) exceeds or matches the stated total number (2)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\CodeSystem-meuhedet-lab-result-code</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code vs http://fhir.meuhedet.co.il/code/lab-result</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="C__Project-IGs_LRC_fsh-generated_resources_DiagnosticReport-lrc-lab-report-results"> </a>
-<h2><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>DiagnosticReport: Validated against <i>this.</i><a href="StructureDefinition-lrc-lab-report.html">Lrc Lab Test Report</a></li></ul>
+<h2><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>DiagnosticReport: Validated against <i>this.</i><a href="StructureDefinition-lrc-lab-report.html">Lrc Lab Test Report</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>DiagnosticReport.basedOn[0] (l29/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3909'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>DiagnosticReport&#8203;.code&#8203;.coding[0]&#8203;.system (l125&#8203;/c4)</b></td><td><b>error</b></td><td><b>The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">DiagnosticReport&#8203;.code&#8203;.coding[1] (l131&#8203;/c8)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl18" class="flip" onclick="flip('l18')">Show Reasoning</span><div id="l18" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>DiagnosticReport.code.coding[1]: discriminator = true and $this.where((system = 'http://hl7.org/fhir/ValueSet/observation-codes') and (code = '11502-2')).exists()</li></ul></div></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>DiagnosticReport.subject (l48/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>DiagnosticReport&#8203;.meta&#8203;.profile[1] (l1&#8203;/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-report' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><b>DiagnosticReport.subject (l47/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <hr/>
 <a name="C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-panel-result-cbc"> </a>
-<h2><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-lrc-panel-result.html">Lrc Panel Lab Test Result</a></li></ul>
+<h2><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-lrc-panel-result.html">Lrc Panel Lab Test Result</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Observation.code.coding[1] (l43/c8)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl13" class="flip" onclick="flip('l13')">Show Reasoning</span><div id="l13" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.code.coding[1]: discriminator = true and ($this memberOf 'http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes')</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation.subject (l51/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-calcium"> </a>
+<h2><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-lrc-result.html">Lrc Test Result</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation.basedOn[0] (l21/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/4014'</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Observation&#8203;.code&#8203;.coding[1]&#8203;.system (l37&#8203;/c4)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://fhir.meuhedet.co.il/code/lab-result' could not be found, so the code cannot be validated</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.code.coding[1] (l44/c8)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl23" class="flip" onclick="flip('l23')">Show Reasoning</span><div id="l23" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.code.coding[1]: discriminator = true and ($this memberOf 'http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes')</li></ul></div></td>
+     <td><b>Observation.basedOn[0] (l20/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3908'</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation.subject (l52/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><b>Observation.code.coding[0] (l37/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
    </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.code (l35/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation.subject (l45/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation&#8203;.referenceRange[0]&#8203;.low (l65&#8203;/c8)</b></td><td><b>error</b></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b> (from <a href="qa-txsrvr.html#"></ta>, see <a href="qa-tx.html#l27">log</a>)</td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation&#8203;.referenceRange[0]&#8203;.high (l70&#8203;/c8)</b></td><td><b>error</b></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b> (from <a href="qa-txsrvr.html#"></ta>, see <a href="qa-tx.html#l27">log</a>)</td>
    </tr>
 </table>
 <hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-calcium"> </a>
-<h2><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+<a name="C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-urea"> </a>
+<h2><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-lrc-result.html">Lrc Test Result</a></li></ul>
 </div>
  <table class="grid">
@@ -346,61 +320,37 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation.basedOn[0] (l21/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3908'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.code.coding[0] (l38/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
+     <td><b>Observation.code.coding[0] (l37/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Observation.code (l36/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0)</b></td>
+     <td><b>Observation.code (l35/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation.subject (l46/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><b>Observation.subject (l45/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.referenceRange[0]&#8203;.low (l66&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_Confirm_4a"><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
+     <td><b>Observation&#8203;.referenceRange[0]&#8203;.low (l65&#8203;/c8)</b></td><td><b>error</b></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b> (from <a href="qa-txsrvr.html#"></ta>, see <a href="qa-tx.html#l27">log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.referenceRange[0]&#8203;.high (l71&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_Confirm_4a"><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><b>Observation&#8203;.referenceRange[0]&#8203;.high (l70&#8203;/c8)</b></td><td><b>error</b></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b> (from <a href="qa-txsrvr.html#"></ta>, see <a href="qa-tx.html#l27">log</a>)</td>
    </tr>
 </table>
 <hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_Observation-lrc-result-oncology-urea"> </a>
-<h2><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-lrc-result.html">Lrc Test Result</a></li></ul>
+<a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-automated-crc"> </a>
+<h2><a href="ServiceRequest-lrc-referral-automated-crc.html">fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral.html">Lrc Lab Test Referral</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation.basedOn[0] (l21/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3907'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.code.coding[0] (l38/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Observation.code (l36/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.subject (l46/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.referenceRange[0]&#8203;.low (l66&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_Confirm_4a"><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.referenceRange[0]&#8203;.high (l71&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_Confirm_4a"><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><b>ServiceRequest.subject (l33/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-automated-crc"> </a>
-<h2><a href="ServiceRequest-lrc-referral-automated-crc.html">fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+<a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-glucose"> </a>
+<h2><a href="ServiceRequest-lrc-referral-glucose.html">fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral.html">Lrc Lab Test Referral</a></li></ul>
 </div>
  <table class="grid">
@@ -408,145 +358,39 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.subject (l34/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ServiceRequest.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-glucose"> </a>
-<h2><a href="ServiceRequest-lrc-referral-glucose.html">fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral.html">Lrc Lab Test Referral</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.subject (l38/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ServiceRequest.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><b>ServiceRequest.subject (l37/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <hr/>
 <a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrc-referral-group-example"> </a>
-<h2><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral-group.html">Lrc Lab Test Referral Group</a></li></ul>
+<h2><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral-group.html">Lrc Lab Test Referral Group</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.basedOn[0] (l17/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3906'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.basedOn[1] (l20/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3907'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.basedOn[2] (l23/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'ServiceRequest/3908'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.code.coding[0] (l66/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile ServiceRequest.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0 does not have fixed value, binding or existence assertions</b></td>
+     <td><b>ServiceRequest.code.coding[0] (l62/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile ServiceRequest.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0 does not have fixed value, binding or existence assertions</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>ServiceRequest.code (l64/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>ServiceRequest.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (ServiceRequest.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0)</b></td>
+     <td><b>ServiceRequest.code (l60/c4)</b></td><td><b>information</b></td><td title="Validation_VAL_Profile_NoCheckMin"><b>ServiceRequest.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (ServiceRequest.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.subject (l41/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ServiceRequest.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral-group' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><b>ServiceRequest.subject (l37/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <hr/>
 <a name="C__Project-IGs_LRC_fsh-generated_resources_ServiceRequest-lrec-referral-sheba-to-ambulatory-care"> </a>
-<h2><a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html">fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral.html">Lrc Lab Test Referral</a></li></ul>
+<h2><a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html">fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-lrc-referral.html">Lrc Lab Test Referral</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>ServiceRequest.subject (l38/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ServiceRequest.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td title="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-lab-report"> </a>
-<h2><a href="StructureDefinition-lrc-lab-report.html">fsh-generated\resources\StructureDefinition-lrc-lab-report.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[33]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c90092)</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[11]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c116561)</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-panel-result"> </a>
-<h2><a href="StructureDefinition-lrc-panel-result.html">fsh-generated\resources\StructureDefinition-lrc-panel-result.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/ig&#8203;.fhir-il-community&#8203;.org&#8203;/LRC&#8203;/StructureDefinition&#8203;/lrc-panel-lab-test-result')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result.json - the canonical URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result) does not match the URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: lrc-panel-result/http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[32]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c94515)</b></td><td><b>information</b></td><td title=""><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[9]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c212602)</b></td><td><b>information</b></td><td title=""><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-lrc-panel-result</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result vs http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__Project-IGs_LRC_fsh-generated_resources_StructureDefinition-lrc-result"> </a>
-<h2><a href="StructureDefinition-lrc-result.html">fsh-generated\resources\StructureDefinition-lrc-result.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/ig&#8203;.fhir-il-community&#8203;.org&#8203;/LRC&#8203;/StructureDefinition&#8203;/lrc-onco-result')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-result.json - the canonical URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result) does not match the URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: lrc-result/http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[26]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c136158)</b></td><td><b>information</b></td><td title=""><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[35]&#8203;.binding&#8203;.extension[0]&#8203;.value&#8203;.ofType(canonical) (l1&#8203;/c147805)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.pattern&#8203;.ofType(Coding) (l1&#8203;/c402505)</b></td><td><b>information</b></td><td title=""><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[11]&#8203;.binding&#8203;.extension[0]&#8203;.value&#8203;.ofType(canonical) (l1&#8203;/c402908)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-lrc-result</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result vs http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result</b></td>
+     <td><b>ServiceRequest.subject (l37/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -554,78 +398,35 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
-<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
-<h2>RESOURCE_CANONICAL_MISMATCH</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="CodeSystem-meuhedet-lab-result-code.html">fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json</a></td><td><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\CodeSystem-meuhedet-lab-result-code.json - the canonical URL (http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code) does not match the URL (http://fhir.meuhedet.co.il/code/lab-result)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-panel-result.html">fsh-generated\resources\StructureDefinition-lrc-panel-result.json</a></td><td><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-panel-result.json - the canonical URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result) does not match the URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-result.html">fsh-generated\resources\StructureDefinition-lrc-result.json</a></td><td><b>Conformance resource C:\Project-IGs\LRC\fsh-generated\resources\StructureDefinition-lrc-result.json - the canonical URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result) does not match the URL (http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="RESOURCE_ID_MISMATCH"> </a>
-<h2>RESOURCE_ID_MISMATCH</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-panel-result.html">fsh-generated\resources\StructureDefinition-lrc-panel-result.json</a></td><td><b>Resource id/url mismatch: lrc-panel-result/http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-result.html">fsh-generated\resources\StructureDefinition-lrc-result.json</a></td><td><b>Resource id/url mismatch: lrc-result/http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="Reference_REF_CantResolve"> </a>
 <h2>Reference_REF_CantResolve</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3909'</b></td>
+     <td><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/4014'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3908'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3907'</b></td>
+     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="ServiceRequest-lrc-referral-automated-crc.html">fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-automated-crc.html">fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="ServiceRequest-lrc-referral-glucose.html">fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-glucose.html">fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3906'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3907'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Unable to resolve resource with reference 'ServiceRequest/3908'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html">fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json</a></td><td><b>Unable to resolve resource with reference 'Patient/90'</b></td>
+     <td><a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html">fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json</a></td><td><b>Unable to resolve resource with reference 'http://hapi-fhir.outburn.co.il/fhir/Patient/90'</b></td>
    </tr>
 </table>
 <hr/>
@@ -633,24 +434,13 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
 <h2>SLICING_CANNOT_BE_EVALUATED</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
+     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
+     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile Observation.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0 does not have fixed value, binding or existence assertions</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Slicing cannot be evaluated: Could not match discriminator (1) for slice [$this] in profile ServiceRequest.code.coding:loinc-lab - the discriminator http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0 does not have fixed value, binding or existence assertions</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"> </a>
-<h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-result.html">fsh-generated\resources\StructureDefinition-lrc-result.json</a></td><td><b>Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-result.html">fsh-generated\resources\StructureDefinition-lrc-result.json</a></td><td><b>Canonical URL 'http://loinc.org' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
    </tr>
 </table>
 <hr/>
@@ -658,56 +448,16 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
 <h2>Terminology_TX_Confirm_4a</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
+     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
+     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
+     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>The code provided (http://unitsofmeasure.org#Mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Terminology_TX_System_ValueSet2"> </a>
-<h2>Terminology_TX_System_ValueSet2</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-lab-report.html">fsh-generated\resources\StructureDefinition-lrc-lab-report.json</a></td><td><b>The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-lrc-lab-report.html">fsh-generated\resources\StructureDefinition-lrc-lab-report.json</a></td><td><b>The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-codes')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"> </a>
-<h2>VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="DiagnosticReport-lrc-lab-report-results.html">fsh-generated\resources\DiagnosticReport-lrc-lab-report-results.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-report' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-lrc-panel-result-cbc.html">fsh-generated\resources\Observation-lrc-panel-result-cbc.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-panel-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="ServiceRequest-lrc-referral-automated-crc.html">fsh-generated\resources\ServiceRequest-lrc-referral-automated-crc.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="ServiceRequest-lrc-referral-glucose.html">fsh-generated\resources\ServiceRequest-lrc-referral-glucose.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral-group' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="ServiceRequest-lrec-referral-sheba-to-ambulatory-care.html">fsh-generated\resources\ServiceRequest-lrec-referral-sheba-to-ambulatory-care.json</a></td><td><b>Profile reference 'http://fhir.health.gov.il/StructureDefinition/lrc-referral' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
+     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>The code provided (http://unitsofmeasure.org#mg/dl) was not found in the value set 'Common UCUM units' (http://hl7.org/fhir/ValueSet/ucum-common|4.0.1), and a code from this value set is required: The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'</b></td>
    </tr>
 </table>
 <hr/>
@@ -715,10 +465,10 @@ il.core.fhir.r4#0.13.2:     <a href="https://simplifier.net/resolve?scope=il.cor
 <h2>Validation_VAL_Profile_NoCheckMin</h2>
  <table class="grid">
    <tr style="background-color: #fffff2">
-     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0)</b></td>
+     <td><a href="Observation-lrc-result-oncology-calcium.html">fsh-generated\resources\Observation-lrc-result-oncology-calcium.json</a></td><td><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0)</b></td>
    </tr>
    <tr style="background-color: #fffff2">
-     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result|1.0.0)</b></td>
+     <td><a href="Observation-lrc-result-oncology-urea.html">fsh-generated\resources\Observation-lrc-result-oncology-urea.json</a></td><td><b>Observation.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result|1.0.0)</b></td>
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="ServiceRequest-lrc-referral-group-example.html">fsh-generated\resources\ServiceRequest-lrc-referral-group-example.json</a></td><td><b>ServiceRequest.code.coding:loinc-lab: Found 0 matches, but unable to check minimum required (ServiceRequest.code.coding) due to lack of slicing validation (from http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group|1.0.0)</b></td>

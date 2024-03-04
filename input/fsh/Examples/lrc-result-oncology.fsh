@@ -1,7 +1,7 @@
 Instance: lrc-result-oncology-calcium
 InstanceOf: lrc-result
 Usage: #example
-* meta.profile = "http://fhir.health.gov.il/StructureDefinition/lrc-result"
+* meta.profile = $lrc-result
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות בדיקת סידן בסרום של מטופל עבור אשפוז יום אונקולוגי</div>"
 * identifier.system = "http://fhir.meuhedet.co.il/identifier/lab-result"
@@ -11,7 +11,7 @@ Usage: #example
 * category[hl7-lab] = $hl7-obs-category-cs#laboratory "Laboratory"
 * code = $loinc#17861-6 "Calcium [Mass/volume] in Serum or Plasma"
 * code.text = "Calcium-SERUM"
-* subject = Reference(Patient/90)
+* subject = Reference(http://hapi-fhir.outburn.co.il/fhir/Patient/90)
 * subject.type = "Patient"
 * subject.identifier.system = "http://fhir.health.gov.il/identifier/il-national-id"
 * subject.identifier.value = "000000018"
@@ -21,6 +21,6 @@ Usage: #example
 * performer.identifier.system = "http://fhir.meuhedet.co.il/laboratories"
 * performer.identifier.value = "73D01"
 * performer.display = "קופת חולים מאוחדת"
-* valueQuantity = 9 'Mg/dl' "MG/DL"
-* referenceRange.low = 8.8 'Mg/dl'
-* referenceRange.high = 10.4 'Mg/dl'
+* valueQuantity = 9 'mg/dl' "MG/DL"
+* referenceRange.low = 8.8 'mg/dl'
+* referenceRange.high = 10.4 'mg/dl'

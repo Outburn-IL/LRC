@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "lrc-result",
-  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
+  "url": "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result",
   "name": "LrcResult",
   "title": "Lrc Test Result",
   "status": "active",
@@ -142,7 +142,7 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",
-              "valueCanonical": "http://loinc.org"
+              "valueCanonical": "http://hl7.org/fhir/ValueSet/observation-codes"
             }
           ]
         }

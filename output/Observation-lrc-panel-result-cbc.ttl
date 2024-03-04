@@ -11,11 +11,8 @@
   fhir:id [ fhir:v "lrc-panel-result-cbc"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result"^^xsd:anyURI ;
-       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result>
-     ] [
-       fhir:v "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"^^xsd:anyURI ;
-       fhir:link <http://fhir.health.gov.il/StructureDefinition/lrc-panel-result>
+       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"^^xsd:anyURI ;
+       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result>
      ] )
   ] ; # 
   fhir:text [
@@ -27,8 +24,8 @@
      fhir:value [ fhir:v "1304421043-20230517-600-3231" ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/4014> ;
-     fhir:reference [ fhir:v "ServiceRequest/4014" ] ;
+     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-group-example> ;
+     fhir:reference [ fhir:v "ServiceRequest/lrc-referral-group-example" ] ;
      fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -46,15 +43,15 @@
        fhir:code [ fhir:v "57021-8" ] ;
        fhir:display [ fhir:v "CBC W Auto Differential panel - Blood" ]
      ] [
-       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/code/lab-result"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "600" ] ;
        fhir:display [ fhir:v "CBC" ]
      ] ) ;
      fhir:text [ fhir:v "CBC" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://ig.fhir-il-community.org/LRC/Patient/90> ;
-     fhir:reference [ fhir:v "Patient/90" ] ;
+     fhir:link <http://hapi-fhir.outburn.co.il/fhir/Patient/90> ;
+     fhir:reference [ fhir:v "http://hapi-fhir.outburn.co.il/fhir/Patient/90" ] ;
      fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
      fhir:identifier [
        fhir:system [ fhir:v "http://fhir.health.gov.il/identifier/il-national-id"^^xsd:anyURI ] ;

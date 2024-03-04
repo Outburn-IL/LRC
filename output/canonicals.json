@@ -2,7 +2,7 @@
   {
     "id" : "meuhedet-lab-result-code",
     "type" : "CodeSystem",
-    "url" : "http://fhir.meuhedet.co.il/code/lab-result",
+    "url" : "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
     "version" : "1.0.0",
     "name" : "MeuhedetLabResultCode"
   },
@@ -21,16 +21,9 @@
     "name" : "LrcLabReport"
   },
   {
-    "id" : "lrc-result",
-    "type" : "StructureDefinition",
-    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-onco-result",
-    "version" : "1.0.0",
-    "name" : "LrcResult"
-  },
-  {
     "id" : "lrc-panel-result",
     "type" : "StructureDefinition",
-    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result",
     "version" : "1.0.0",
     "name" : "LrcPanelResult"
   },
@@ -47,6 +40,13 @@
     "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
     "version" : "1.0.0",
     "name" : "LrcReferralGroup"
+  },
+  {
+    "id" : "lrc-result",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result",
+    "version" : "1.0.0",
+    "name" : "LrcResult"
   },
   {
     "id" : "lrc-onco-panel-result-codes",

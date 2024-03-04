@@ -221,8 +221,7 @@
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a>" : "lrc-panel-result-cbc",
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="StructureDefinition-lrc-panel-result.html" style="color: Maroon">&#x1F517;</a> "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-lab-test-result",
-      "http://fhir.health.gov.il/StructureDefinition/lrc-panel-result"
+      <a href="StructureDefinition-lrc-panel-result.html" style="color: Maroon">&#x1F517;</a> "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"
     ]
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
@@ -237,7 +236,7 @@
   ],
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.basedOn">basedOn</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "ServiceRequest/4014",
+      <a href="ServiceRequest-lrc-referral-group-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "ServiceRequest/lrc-referral-group-example",
       "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "ServiceRequest"
     }
   ],
@@ -261,7 +260,7 @@
         "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "CBC W Auto Differential panel - Blood"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://fhir.meuhedet.co.il/code/lab-result",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "600",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "CBC"
       }
@@ -269,7 +268,7 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "CBC"
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>" : {
-    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/90",
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
     "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.type">type</a>" : "Patient",
     "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fhir.health.gov.il/identifier/il-national-id",
@@ -348,7 +347,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://outburn.co.il">Outburn LTD.</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Mar 3, 2024 10:40+0200">2024-03-03</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ig.fhir-il-community.org">FHIR-il community</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 4, 2024 15:01+0200">2024-03-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
