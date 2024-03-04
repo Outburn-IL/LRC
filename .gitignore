@@ -4,7 +4,7 @@ temp
 LRC/publisher.jar
 publisher.jar
 input-cache
-LRC/template
+template
 *.db
 full-ig.zip
 # .index.json
