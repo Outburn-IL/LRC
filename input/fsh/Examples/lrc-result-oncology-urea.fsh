@@ -21,6 +21,6 @@ Usage: #example
 * performer.identifier.system = "http://fhir.meuhedet.co.il/laboratories"
 * performer.identifier.value = "73D01"
 * performer.display = "קופת חולים מאוחדת"
-* valueQuantity = 92 'mg/dl' "MG/DL"
-* referenceRange.low = 8 'mg/dl'
-* referenceRange.high = 23.5 'mg/dl'
+* valueQuantity = 92 'mg/dL' "MG/DL"
+* referenceRange.low = 8 'mg/dL'
+* referenceRange.high = 23.5 'mg/dL'
