@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "Mg/dl"
+  "code" : "mg/dl"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
@@ -10,8 +10,8 @@
   }]
 }}####
 v: {
-  "display" : "Mg/dl",
-  "code" : "Mg/dl",
+  "display" : "mg/dl",
+  "code" : "mg/dl",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
   "server" : "http://tx.fhir.org/r4",
@@ -24,7 +24,7 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "Mg/dl"
+  "code" : "mg/dl"
 }, "url": "http://hl7.org/fhir/ValueSet/ucum-common", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
@@ -33,10 +33,10 @@ v: {
   }]
 }}####
 v: {
-  "display" : "Mg/dl",
-  "code" : "Mg/dl",
+  "display" : "mg/dl",
+  "code" : "mg/dl",
   "severity" : "error",
-  "error" : "The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'",
+  "error" : "The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
@@ -54,7 +54,7 @@ v: {
         "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
         "code" : "not-in-vs"
       }],
-      "text" : "The provided code 'http://unitsofmeasure.org#Mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'"
+      "text" : "The provided code 'http://unitsofmeasure.org#mg/dl' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-common|4.0.1'"
     },
     "location" : ["Coding.code"],
     "expression" : ["Coding.code"]

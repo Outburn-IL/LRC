@@ -1,6 +1,34 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/pdf"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
 }, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
@@ -35,7 +63,7 @@ v: {
   "display" : "CBC W Auto Differential panel - Blood",
   "code" : "57021-8",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -59,7 +87,7 @@ v: {
   "display" : "Laboratory report",
   "code" : "11502-2",
   "system" : "http://loinc.org",
-  "version" : "2.74",
+  "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {

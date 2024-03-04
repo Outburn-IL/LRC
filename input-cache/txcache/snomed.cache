@@ -14,7 +14,7 @@ v: {
   "display" : "Laboratory procedure",
   "code" : "108252007",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -37,7 +37,7 @@ v: {
   "display" : "Laboratory procedure",
   "code" : "108252007",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -61,7 +61,7 @@ v: {
   "display" : "Laboratory procedure",
   "code" : "108252007",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -84,7 +84,7 @@ v: {
   "display" : "Text value",
   "code" : "117444000",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -107,7 +107,7 @@ v: {
   "display" : "Nominal value",
   "code" : "117362005",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
   "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
