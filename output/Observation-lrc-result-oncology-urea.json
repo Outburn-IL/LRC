@@ -53,18 +53,18 @@
     "value" : 92,
     "unit" : "MG/DL",
     "system" : "http://unitsofmeasure.org",
-    "code" : "mg/dl"
+    "code" : "mg/dL"
   },
   "referenceRange" : [{
     "low" : {
       "value" : 8,
       "system" : "http://unitsofmeasure.org",
-      "code" : "mg/dl"
+      "code" : "mg/dL"
     },
     "high" : {
       "value" : 23.5,
       "system" : "http://unitsofmeasure.org",
-      "code" : "mg/dl"
+      "code" : "mg/dL"
     }
   }]
 }

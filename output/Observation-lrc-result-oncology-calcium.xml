@@ -53,18 +53,18 @@
     <value value="9"/>
     <unit value="MG/DL"/>
     <system value="http://unitsofmeasure.org"/>
-    <code value="mg/dl"/>
+    <code value="mg/dL"/>
   </valueQuantity>
   <referenceRange>
     <low>
       <value value="8.8"/>
       <system value="http://unitsofmeasure.org"/>
-      <code value="mg/dl"/>
+      <code value="mg/dL"/>
     </low>
     <high>
       <value value="10.4"/>
       <system value="http://unitsofmeasure.org"/>
-      <code value="mg/dl"/>
+      <code value="mg/dL"/>
     </high>
   </referenceRange>
 </Observation>

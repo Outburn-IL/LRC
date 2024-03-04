@@ -68,18 +68,18 @@
      fhir:value [ fhir:v "92"^^xsd:decimal ] ;
      fhir:unit [ fhir:v "MG/DL" ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-     fhir:code [ fhir:v "mg/dl" ]
+     fhir:code [ fhir:v "mg/dL" ]
   ] ; # 
   fhir:referenceRange ( [
      fhir:low [
        fhir:value [ fhir:v "8"^^xsd:decimal ] ;
        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "mg/dl" ]
+       fhir:code [ fhir:v "mg/dL" ]
      ] ;
      fhir:high [
        fhir:value [ fhir:v "23.5"^^xsd:decimal ] ;
        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "mg/dl" ]
+       fhir:code [ fhir:v "mg/dL" ]
      ]
   ] ) . # 
 
