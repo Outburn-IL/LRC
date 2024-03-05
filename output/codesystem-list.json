@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "MeuhedetLabResultCode",
+      "title" : "Meuhedet Lab Result Code",
+      "description" : "List of Lab result codes for Meuhadet HMO"
+    }
+  ]
+}

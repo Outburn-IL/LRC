@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lrc-onco-panel-result-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/57021-8/\">57021-8</a></td><td>CBC W Auto Differential panel - Blood</td></tr><tr><td><a href=\"https://loinc.org/5894-1/\">5894-1</a></td><td>Prothrombin time (PT) actual/Normal</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "LrcOncoPanelResultCodes"] ; # 
+  fhir:title [ fhir:v "Lrc Onco Panel Result Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-04T15:39:14+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR-il community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR-il community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ig.fhir-il-community.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "רשימת קודי Loinc לייצוג קודי פאנל, עבור תוצאות, במסגרת טיפול אונקולוגי."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "57021-8" ] ;
+         fhir:display [ fhir:v "CBC W Auto Differential panel - Blood" ]
+       ] [
+         fhir:code [ fhir:v "5894-1" ] ;
+         fhir:display [ fhir:v "Prothrombin time (PT) actual/Normal" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

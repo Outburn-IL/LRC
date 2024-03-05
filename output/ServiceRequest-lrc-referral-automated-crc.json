@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "lrc-referral-automated-crc",
+  "meta" : {
+    "profile" : ["http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">הפניה אוטומטית לפאנל ספירת דם CBC משיבא עבור טיפול באשפוז יום אונקולוגי</div>"
+  },
+  "identifier" : [{
+    "system" : "http://fhir.meuhedet.co.il/identifier/referral-id",
+    "value" : "733-201"
+  }],
+  "requisition" : {
+    "value" : "21e40433-dec3-43d2-8183-c0badc5d2116"
+  },
+  "status" : "active",
+  "intent" : "order",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "108252007",
+      "display" : "Laboratory procedure"
+    }]
+  }],
+  "priority" : "urgent",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "57021-8",
+      "display" : "CBC W Auto Differential panel - Blood"
+    }]
+  },
+  "subject" : {
+    "reference" : "http://hapi-fhir.outburn.co.il/fhir/Patient/90",
+    "type" : "Patient",
+    "identifier" : {
+      "system" : "http://fhir.health.gov.il/identifier/il-national-id",
+      "value" : "000000018"
+    }
+  },
+  "authoredOn" : "2023-04-03T11:32:38+03:00",
+  "requester" : {
+    "type" : "Organization",
+    "identifier" : {
+      "system" : "http://institutions.health.gov.il/Institutions",
+      "value" : "01101"
+    },
+    "display" : "מרכז רפואי ע\"ש ד\"ר ח. שיבא, תל-השומר"
+  },
+  "note" : [{
+    "text" : "הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"
+  }]
+}

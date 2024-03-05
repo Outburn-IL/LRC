@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="lrc-referral-automated-crc"/>
+  <meta>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">הפניה אוטומטית לפאנל ספירת דם CBC משיבא עבור טיפול באשפוז יום אונקולוגי</div>
+  </text>
+  <identifier>
+    <system value="http://fhir.meuhedet.co.il/identifier/referral-id"/>
+    <value value="733-201"/>
+  </identifier>
+  <requisition>
+    <value value="21e40433-dec3-43d2-8183-c0badc5d2116"/>
+  </requisition>
+  <status value="active"/>
+  <intent value="order"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="108252007"/>
+      <display value="Laboratory procedure"/>
+    </coding>
+  </category>
+  <priority value="urgent"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="57021-8"/>
+      <display value="CBC W Auto Differential panel - Blood"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
+    <type value="Patient"/>
+    <identifier>
+      <system value="http://fhir.health.gov.il/identifier/il-national-id"/>
+      <value value="000000018"/>
+    </identifier>
+  </subject>
+  <authoredOn value="2023-04-03T11:32:38+03:00"/>
+  <requester>
+    <type value="Organization"/>
+    <identifier>
+      <system value="http://institutions.health.gov.il/Institutions"/>
+      <value value="01101"/>
+    </identifier>
+    <display value="מרכז רפואי ע&quot;ש ד&quot;ר ח. שיבא, תל-השומר"/>
+  </requester>
+  <note>
+    <text value="הפניה אוטומטית משיבא לצורך טיפול באשפוז יום אונקולוגי"/>
+  </note>
+</ServiceRequest>

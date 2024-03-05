@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="lrc-panel-result-cbc"/>
+  <meta>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">תוצאות מעבדה מאגדת של פאנל CBC של מטופל עבור אשפוז יום אונקולוגי</div>
+  </text>
+  <identifier>
+    <system value="http://fhir.meuhedet.co.il/identifier/profile-lab-result"/>
+    <value value="1304421043-20230517-600-3231"/>
+  </identifier>
+  <basedOn>
+    <reference value="ServiceRequest/lrc-referral-group-example"/>
+    <type value="ServiceRequest"/>
+  </basedOn>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+      <display value="Laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="57021-8"/>
+      <display value="CBC W Auto Differential panel - Blood"/>
+    </coding>
+    <coding>
+      <system value="http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code"/>
+      <code value="600"/>
+      <display value="CBC"/>
+    </coding>
+    <text value="CBC"/>
+  </code>
+  <subject>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
+    <type value="Patient"/>
+    <identifier>
+      <system value="http://fhir.health.gov.il/identifier/il-national-id"/>
+      <value value="000000018"/>
+    </identifier>
+  </subject>
+  <effectiveDateTime value="2023-08-02T13:15:32+03:00"/>
+  <issued value="2023-05-17T09:31:19.773+03:00"/>
+  <performer>
+    <type value="Organization"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/laboratories"/>
+      <value value="73D01"/>
+    </identifier>
+    <display value="קופת חולים מאוחדת"/>
+  </performer>
+  <hasMember>
+    <type value="Observation"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/identifier/lab-result"/>
+      <value value="CBC-1001"/>
+    </identifier>
+  </hasMember>
+  <hasMember>
+    <type value="Observation"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/identifier/lab-result"/>
+      <value value="CBC-1002"/>
+    </identifier>
+  </hasMember>
+  <hasMember>
+    <type value="Observation"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/identifier/lab-result"/>
+      <value value="CBC-1003"/>
+    </identifier>
+  </hasMember>
+  <hasMember>
+    <type value="Observation"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/identifier/lab-result"/>
+      <value value="CBC-1004"/>
+    </identifier>
+  </hasMember>
+</Observation>

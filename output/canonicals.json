@@ -1,0 +1,93 @@
+[
+  {
+    "id" : "meuhedet-lab-result-code",
+    "type" : "CodeSystem",
+    "url" : "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code",
+    "version" : "1.0.0",
+    "name" : "MeuhedetLabResultCode"
+  },
+  {
+    "id" : "ig.fhir-il-community.org.lrc",
+    "type" : "ImplementationGuide",
+    "url" : "http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc",
+    "version" : "1.0.0",
+    "name" : "LabReferralCycle"
+  },
+  {
+    "id" : "lrc-lab-report",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-lab-report",
+    "version" : "1.0.0",
+    "name" : "LrcLabReport"
+  },
+  {
+    "id" : "lrc-panel-result",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result",
+    "version" : "1.0.0",
+    "name" : "LrcPanelResult"
+  },
+  {
+    "id" : "lrc-referral",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral",
+    "version" : "1.0.0",
+    "name" : "LrcReferral"
+  },
+  {
+    "id" : "lrc-referral-group",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-referral-group",
+    "version" : "1.0.0",
+    "name" : "LrcReferralGroup"
+  },
+  {
+    "id" : "lrc-result",
+    "type" : "StructureDefinition",
+    "url" : "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result",
+    "version" : "1.0.0",
+    "name" : "LrcResult"
+  },
+  {
+    "id" : "lrc-onco-panel-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-panel-result-codes",
+    "version" : "1.0.0",
+    "name" : "LrcOncoPanelResultCodes"
+  },
+  {
+    "id" : "lrc-onco-referral-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-referral-codes",
+    "version" : "1.0.0",
+    "name" : "LrcOncoReferralCodes"
+  },
+  {
+    "id" : "lrc-onco-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-onco-result-codes",
+    "version" : "1.0.0",
+    "name" : "LrcOncoResultCodes"
+  },
+  {
+    "id" : "lrc-panel-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-panel-result-codes",
+    "version" : "1.0.0",
+    "name" : "LrcPanelResultCodes"
+  },
+  {
+    "id" : "lrc-referral-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-referral-codes",
+    "version" : "1.0.0",
+    "name" : "LrcReferralCodes"
+  },
+  {
+    "id" : "lrc-result-codes",
+    "type" : "ValueSet",
+    "url" : "http://ig.fhir-il-community.org/LRC/ValueSet/lrc-result-codes",
+    "version" : "1.0.0",
+    "name" : "LrcResultCodes"
+  }
+]

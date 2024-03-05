@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>אודות הפרויקט - Hospital-Community Lab Referral Cycle v1.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/rtl-fixes.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Hospital-Community Lab Referral Cycle</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">קישורים נוספים
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://en.fhir-il-community.org/fhir-israel-core">Israel LCore</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="downloads.html">הורדות</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">משאבי FHIR
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles-and-extensions.html">פרופילים והרחבות</a>
+      </li>
+      <li>
+        <a href="examples.html">דוגמאות</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">הנחיות
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="search-interactions.html">חיפושים ואינטראקציות</a>
+      </li>
+      <li>
+        <a href="server-community.html">server - קהילה</a>
+      </li>
+      <li>
+        <a href="server-hospital.html">server - בית החולים</a>
+      </li>
+      <li>
+        <a href="client-hospital.html">client - בית החולים</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="data-flow.html">Dataflow</a>
+  </li>
+  <li>
+    <a href="index.html">בית</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>אודות הפרויקט</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Hospital-Community Lab Referral Cycle - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://ig.fhir-il-community.org/LRC/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>אודות הפרויקט</h2>
+  
+
+
+
+
+
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://ig.fhir-il-community.org/LRC/ImplementationGuide/ig.fhir-il-community.org.lrc|1.0.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2024-03-04
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">LabReferralCycle</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">הקדמה</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">סקירת פרוייקט</a></li>
+</ul>
+
+</div>
+<div id="intro" dir="rtl">
+
+  <h3 id="section">הקדמה</h3>
+
+  <p>מטופלים רבים מקבלים טיפול רפואי במסגרת ארגון רפואי אחד, ומבצעים את הבדיקות הנדרשות במסגרת ארגון רפואי אחר, למשל קבלת טיפול בביה”ח ובדיקות מקדימות לטיפול בקופת החולים. במקרים רבים על המטופל מוטלת האחריות לתווך בין שני הארגונים השונים, כלומר להיות “שליח” ולהעביר ביניהם את המידע רלוונטי בכדי שהטיפול יתאפשר.
+מטרת התהליך עבורו הוגדר ה- IG (ImplementationGuide) של “Hospital-Community Lab Referral Cycle” הינה ליצור תהליך שרובו אוטומטי ללא תלות במטופל, בהתאם לתקן FHIR, ובכך מתבסס על סטנדרטיזציה וטרמינולוגיה בינלאומית.
+יתרונות נוספים: צמצום בירוקרטיה מצד המטופל, צמצום משאבי כח אדם מצד שני הארגונים, צמצום טעויות אנוש (המידע עובר ישירות בין המערכות של שני הצדדים), אפשרות לצפייה בתוצאות ע”י הארגון המטפל ברגע קבלתן, ואפשרות להיערך מראש לטיפול מותאם על פי התוצאות שנצפו מראש.</p>
+
+  <h3 id="section-1">סקירת פרוייקט</h3>
+
+  <h4 id="section-2">תיאור התהליך העסקי</h4>
+
+  <p>להלן תרשים המתאר את התהליך העסקי, בהתייחס לשלושת הגורמים המעורבים: המטופל, הארגון המטפל והארגון הבודק בו מתבצעות הבדיקות.</p>
+
+  <p>ניתן לראות את השלבים, מי אחראי על אילו שלבים ואיזה מידע מועבר בין הגורמים.</p>
+
+  <p>נקודה חשובה בתהליך- המטופל יוזם שתי פעולות בלבד: הגעה לביקור במסגרתו הוא מקבל את ההפניה וביצוע הבדיקות. יתר השלבים בהם עובר מידע מבוצעים אוטומטית ע”י ארגוני הבריאות.</p>
+
+  <p><img src="./LRC_Business_Flow.jpg" alt="תרשים העברת הפניות מארגון מטפל לארגון בודק וקבלת התוצאות בחזרה" /></p>
+
+  <p>התרשים מציג את הפעולות באופן כרונולוגי, עם פערי זמן קבועים. בפועל, בכל תהליך יוגדרו טווחי הזמן הרלוונטיים עבורו. בנוסף, יתכן שחלק מהפעולות יבוצעו סינכרונית, למשל שליחת התוצאות לארגון המטפל בו בזמן שהן מתקבלות במעבדה של הארגון הבודק.</p>
+
+  <h4 id="lab-referral-cycle">Lab-Referral-Cycle</h4>
+
+  <p>ImplementationGuide זה מתייחס לתהליך העברת הפניות לבדיקות מעבדה מארגון אחד (ארגון יוזם) לארגון אחר (ארגון מבצע), וקבלת התוצאות עבור ההפניות הללו בחזרה, באופן אוטומטי.
+התהליך נקרא: <strong>Lab-Referral-Cycle</strong> ובקצרה: <strong>LRC</strong>.
+הארגון היוזם שולח הפניות עבור הבדיקות הנדרשות (ServiceRequest). שליחת הפנייה עבור כל בדיקה בודדת עם קוד הבדיקה שלה, או במקרה של סוללה (פאנל בדיקות), שליחת הפניה עבור הסוללה עם קוד בדיקה אחד שמייצג את כל הבדיקות הכלולות בה. שלב זה מיוצג בפרופיל LrcReferral.
+בסיום שליחת כל ההפניות הרלוונטיות למקבץ שנשלח, נשלחת הפניה מאגדת (ServiceRequest) שהיא הטריגר ליצירת ההפניות בארגון המבצע. ההפניה המאגדת כוללת קישורים (references) לכל ההפניות שנשלחו. שלב זה מיוצג בפרופיל LrcReferralGroup.
+עם היווצר ההפניה המאגדת, הארגון המבצע שולח לארגון היוזם משאב מסוג דוח מסכם, עם סטאטוס ראשוני של registered. הדוח מקושר רק להפניה המאגדת ובהמשך, לאחר שיגיעו תוצאות הבדיקות, הוא יכלול קישורים (references) גם אליהן. שלב זה מיוצג בפרופיל LrcLabReport.
+לאחר ביצוע הבדיקות, הארגון המבצע שולח את תוצאות הבדיקות (Observation) חזרה לארגון היוזם. שלב זה מיוצג בפרופיל LrcResult.
+במידה ובתהליך נכללה גם סוללת בדיקות (פאנל) תישלח מהארגון המבצע גם תוצאה מאגדת (Observation) אשר כוללת קישורים (references) לתוצאות הסוללה שהתקבלו. שלב זה מיוצג בפרופיל LrcPanelResult.</p>
+
+  <p>אפשרויות נוספות ליצירה/עדכון משאבים מהקהילה (Client) לביה”ח (Server):</p>
+
+  <ul>
+    <li>עדכון תוצאה</li>
+    <li>עדכון / יצירת הפניה (אטומית או מאגדת)</li>
+    <li>עדכון דוח מסכם</li>
+  </ul>
+
+  <h4 id="data-model">תרשים Data Model</h4>
+
+  <p><img src="./Visualizer_LAB_IG_Bundle.png" alt="תרשים Data Model" /></p>
+
+</div>
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ig.fhir-il-community.org">FHIR-il community</a>.  Package ig.fhir-il-community.org.lrc#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 4, 2024 15:39+0200">2024-03-04</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

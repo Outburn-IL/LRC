@@ -1,0 +1,98 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ig.fhir-il-community.org/LRC/Observation/lrc-panel-result-cbc> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lrc-panel-result-cbc"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result"^^xsd:anyURI ;
+       fhir:link <http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-panel-result>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">תוצאות מעבדה מאגדת של פאנל CBC של מטופל עבור אשפוז יום אונקולוגי</div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://fhir.meuhedet.co.il/identifier/profile-lab-result"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1304421043-20230517-600-3231" ]
+  ] ) ; # 
+  fhir:basedOn ( [
+     fhir:link <http://ig.fhir-il-community.org/LRC/ServiceRequest/lrc-referral-group-example> ;
+     fhir:reference [ fhir:v "ServiceRequest/lrc-referral-group-example" ] ;
+     fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "laboratory" ] ;
+       fhir:display [ fhir:v "Laboratory" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:57021-8 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "57021-8" ] ;
+       fhir:display [ fhir:v "CBC W Auto Differential panel - Blood" ]
+     ] [
+       fhir:system [ fhir:v "http://ig.fhir-il-community.org/LRC/CodeSystem/meuhedet-lab-result-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "600" ] ;
+       fhir:display [ fhir:v "CBC" ]
+     ] ) ;
+     fhir:text [ fhir:v "CBC" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hapi-fhir.outburn.co.il/fhir/Patient/90> ;
+     fhir:reference [ fhir:v "http://hapi-fhir.outburn.co.il/fhir/Patient/90" ] ;
+     fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.health.gov.il/identifier/il-national-id"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "000000018" ]
+     ]
+  ] ; # 
+  fhir:effective [ fhir:v "2023-08-02T13:15:32+03:00"^^xsd:dateTime] ; # 
+  fhir:issued [ fhir:v "2023-05-17T09:31:19.773+03:00"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:type [ fhir:v "Organization"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/laboratories"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "73D01" ]
+     ] ;
+     fhir:display [ fhir:v "קופת חולים מאוחדת" ]
+  ] ) ; # 
+  fhir:hasMember ( [
+     fhir:type [ fhir:v "Observation"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/identifier/lab-result"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "CBC-1001" ]
+     ]
+  ] [
+     fhir:type [ fhir:v "Observation"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/identifier/lab-result"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "CBC-1002" ]
+     ]
+  ] [
+     fhir:type [ fhir:v "Observation"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/identifier/lab-result"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "CBC-1003" ]
+     ]
+  ] [
+     fhir:type [ fhir:v "Observation"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://fhir.meuhedet.co.il/identifier/lab-result"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "CBC-1004" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

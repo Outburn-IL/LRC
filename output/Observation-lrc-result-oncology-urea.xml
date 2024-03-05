@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="lrc-result-oncology-urea"/>
+  <meta>
+    <profile value="http://ig.fhir-il-community.org/LRC/StructureDefinition/lrc-result"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">תוצאות בדיקת אוראה בסרום של מטופל עבור אשפוז יום אונקולוגי</div>
+  </text>
+  <identifier>
+    <system value="http://fhir.meuhedet.co.il/identifier/lab-result"/>
+    <value value="1304421043-20230802-1336-3231"/>
+  </identifier>
+  <basedOn>
+    <reference value="ServiceRequest/lrc-referral-glucose"/>
+  </basedOn>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+      <display value="Laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="3094-0"/>
+      <display value="Urea nitrogen [Mass/volume] in Serum or Plasma"/>
+    </coding>
+    <text value="Urea-blood (BUN)"/>
+  </code>
+  <subject>
+    <reference value="http://hapi-fhir.outburn.co.il/fhir/Patient/90"/>
+    <type value="Patient"/>
+    <identifier>
+      <system value="http://fhir.health.gov.il/identifier/il-national-id"/>
+      <value value="000000018"/>
+    </identifier>
+  </subject>
+  <effectiveDateTime value="2023-04-03T11:32:38+03:00"/>
+  <issued value="2023-04-03T11:37:58.54+03:00"/>
+  <performer>
+    <type value="Organization"/>
+    <identifier>
+      <system value="http://fhir.meuhedet.co.il/laboratories"/>
+      <value value="73D01"/>
+    </identifier>
+    <display value="קופת חולים מאוחדת"/>
+  </performer>
+  <valueQuantity>
+    <value value="92"/>
+    <unit value="MG/DL"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg/dL"/>
+  </valueQuantity>
+  <referenceRange>
+    <low>
+      <value value="8"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mg/dL"/>
+    </low>
+    <high>
+      <value value="23.5"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mg/dL"/>
+    </high>
+  </referenceRange>
+</Observation>
